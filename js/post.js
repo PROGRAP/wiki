@@ -29,7 +29,6 @@ document.addEventListener('scroll', function(){
   contentCoords = content.getBoundingClientRect();
   stickyCoords = sticky.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
-  console.log(postCoords.bottom);
   console.log(contentCoords);
 
   if (footerCoords.top - stickyCoords.bottom) {
