@@ -5,7 +5,7 @@ window.addEventListener('load', function(){
   panel.appendChild(toc);
   
   bar = document.getElementById("toc-panel");
-  if (bar.offsetHeight > 500 && !bar.className.includes('pre-scrollable')) {
+  if (bar.offsetHeight > window.innerHeight - 100 && !bar.className.includes('pre-scrollable')) {
     bar.className = bar.className + " pre-scrollable";
   };
 },true)
