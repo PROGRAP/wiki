@@ -41,7 +41,7 @@ document.addEventListener('scroll', function(){
     
       sticky.className = sticky.className.split(' post-end').join('');
       
-        if (contentCoords.top <= 0 && window.innerWidth > 990) {
+        if (contentCoords.bottom <= 0 && window.innerWidth > 990) {
           
           sticky.className = sticky.className.split(' affix').join('');
           sticky.className = sticky.className + " affix"; 
