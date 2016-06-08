@@ -38,6 +38,16 @@ footer{
   text-decoration:none;
 }
 
+#header-icon {
+  width: 100px;
+  vertical-align: bottom;
+}
+
+#header-icon svg{
+  color: white;
+  fill: white;
+}
+
 .panel-heading-core{
   font-size:24px;
 }
@@ -59,10 +69,7 @@ footer{
   list-style-type:none;
 }
 
-#header-icon {
-  width: 100px;
-  vertical-align: bottom;
-}
+
 
 .footer-content {
   margin:25px 0;
