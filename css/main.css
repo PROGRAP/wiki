@@ -81,3 +81,7 @@ footer{
   max-height:400px;
   overflow-y:scroll;
 }
+
+#footer-icon{
+  width:60;
+}
