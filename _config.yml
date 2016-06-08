@@ -1,5 +1,5 @@
 name: opaldes
 markdown: kramdown
-baseurl: /home/ 
+baseurl: home/ 
 url: http://zmbgmbh.github.io/wiki/
 encoding: UTF-8
