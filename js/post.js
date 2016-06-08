@@ -29,24 +29,33 @@ document.addEventListener('scroll', function(){
   postCoords = post.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
   console.log(postCoords.bottom);
+  console.log(contentCoords);
 
   if (postCoords.bottom >= 0) {
+    
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className.split(' post-end').join('');
     sticky.className = sticky.className + " post-end"; 
 
   }else {
+    
       sticky.className = sticky.className.split(' post-end').join('');
-      if (contentCoords.bottom <= 0 && window.innerWidth > 990) {
-        sticky.className = sticky.className.split(' affix').join('');
-        sticky.className = sticky.className + " affix"; 
-        sticky.style = "top:30px; width:" + widthToc + "px;";
-        console.log(contentCoords);
-      }else{
-        sticky.className = sticky.className.split(' affix').join('');
-        sticky.style = "";
-      };
-    }
+      
+        if (contentCoords.bottom <= 0 && window.innerWidth > 990) {
+          
+          sticky.className = sticky.className.split(' affix').join('');
+          sticky.className = sticky.className + " affix"; 
+          sticky.style = "top:30px; width:" + widthToc + "px;";
+          console.log(contentCoords);
+          
+        }else{
+          
+          sticky.className = sticky.className.split(' affix').join('');
+          sticky.style = "";
+          
+        };
+        
+    };
 
   
 },true) 
