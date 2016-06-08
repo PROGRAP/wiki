@@ -61,7 +61,6 @@ footer{
 }
 
 .header .h1 {
-  margin-top:13px;
   padding:none;
 }
 
@@ -69,7 +68,9 @@ footer{
   list-style-type:none;
 }
 
-
+.h1fix {
+  margin-top:13px;
+}
 
 .footer-content {
   margin:25px 0;
