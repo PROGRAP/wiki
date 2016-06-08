@@ -24,9 +24,9 @@ layout: default
        {% for post in site.posts reversed%}
        {% if post.tags == page.tags %}
        {% if post.url == page.url %}
-        <a href="{{post.url}}" class="list-group-item active">
+        <a href="{{site.baseurl}}{{post.url}}" class="list-group-item active">
         {% else %}
-        <a href="{{post.url}}" class="list-group-item">
+        <a href="{{site.baseurl}}{{post.url}}" class="list-group-item">
         {% endif %}
         {{post.title}}
         {% endif %}
