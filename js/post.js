@@ -28,9 +28,6 @@ document.addEventListener('scroll', function(){
   contentCoords = content.getBoundingClientRect();
   postCoords = post.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
-  console.log(window.innerWidth);
-  console.log(window.innerHeight);
-  console.log(content.offsetHeight);
   console.log(postCoords.bottom);
 
   if (postCoords.bottom >= 0) {
