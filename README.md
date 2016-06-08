@@ -1,3 +1,4 @@
-# opaldes.github.io
-My Jekyll sandbox <https://opaldes.github.io>
-#Title
+# Core Wiki
+
+Check our wiki at <http://zmbgmbh.github.io/wiki/>
+
