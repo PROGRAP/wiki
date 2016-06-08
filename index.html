@@ -28,7 +28,7 @@ title: Home
             <div class="panel-body">
                 {% for post in site.tags.marketing reversed%}
                 <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
             </div>
