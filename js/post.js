@@ -13,7 +13,7 @@ window.addEventListener('load', function(){
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("toc-panel");
-  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
+  if (bar.offsetHeight > 650 && !bar.className.includes('pre-scrollable')) {
     bar.className = bar.className + " pre-scrollable";
   }else if(window.innerHeight > 650) {
     bar.className = bar.className.split(' pre-scrollable').join('');
