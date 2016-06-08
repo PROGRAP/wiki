@@ -30,7 +30,9 @@ document.addEventListener('scroll', function(){
   widthToc = sticky.offsetWidth; 
   console.log(window.innerWidth);
   console.log(window.innerHeight);
-  console.log(content.offsetHeight)
+  console.log(content.offsetHeight);
+  console.log(postCoords.bottom);
+
   if (postCoords.bottom >= 0) {
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className.split(' post-end').join('');
