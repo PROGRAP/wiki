@@ -65,8 +65,7 @@ header .h1{
 }
 
 .header .h1 {
-  
-    padding: 0 15px;
+  padding:none;
 }
 
 .no-decorations li {
