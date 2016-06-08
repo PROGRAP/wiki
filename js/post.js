@@ -13,7 +13,7 @@ window.addEventListener('load', function(){
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("toc-panel");
-  if (bar.offsetHeight > 650 && !bar.className.includes('pre-scrollable')) {
+  if (bar.offsetHeight > 500 && !bar.className.includes('pre-scrollable')) {
     bar.className = bar.className + " pre-scrollable";
   }else if(window.innerHeight > 650) {
     bar.className = bar.className.split(' pre-scrollable').join('');
@@ -24,14 +24,14 @@ window.addEventListener('resize', function(){
 document.addEventListener('scroll', function(){
   sticky = document.getElementById("toc-panel");
   content = document.getElementById("topics");
-  post = document.getElementById("post");
+  footer = document.getElementById("footer");
   contentCoords = content.getBoundingClientRect();
-  postCoords = post.getBoundingClientRect();
+  stickyCoords = sticky.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
   console.log(postCoords.bottom);
   console.log(contentCoords);
 
-  if (postCoords.bottom <= 600) {
+  if (footerCoords.top - stickyCoords.bottom) {
     
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className.split(' post-end').join('');
