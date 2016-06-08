@@ -76,3 +76,8 @@ footer{
   box-shadow:none;
   background-color:#f3f3f3;
 }
+
+.pre-scrollable {
+  max-height:400px;
+  overflow-y:scroll;
+}
