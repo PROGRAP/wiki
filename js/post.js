@@ -31,7 +31,7 @@ document.addEventListener('scroll', function(){
   widthToc = sticky.offsetWidth; 
   console.log(contentCoords);
 
-  if (footerCoords.top - stickyCoords.bottom) {
+  if (footerCoords.top - stickyCoords.bottom <= 20) {
     
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className.split(' post-end').join('');
