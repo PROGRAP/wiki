@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
   panel = document.getElementById('insert-toc');
   panel.appendChild(toc);
   
-  bar = document.getElementById("custom-toc");
+  bar = document.getElementById("toc-panel");
   if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
     bar.className = bar.className + " pre-scrollable";
   };
@@ -12,7 +12,7 @@ window.addEventListener('load', function(){
 
 window.addEventListener('resize', function(){
   console.log('RESIZE')
-  bar = document.getElementById("custom-toc");
+  bar = document.getElementById("toc-panel");
   if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
     bar.className = bar.className + " pre-scrollable";
   }else if(bar.offsetHeight < window.innerHeight) {
