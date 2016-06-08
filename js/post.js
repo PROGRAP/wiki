@@ -25,6 +25,7 @@ document.addEventListener('scroll', function(){
   sticky = document.getElementById("toc-panel");
   content = document.getElementById("topics");
   footer = document.getElementById("footer");
+  footerCoords = footer.getBoundingClientRect();
   contentCoords = content.getBoundingClientRect();
   stickyCoords = sticky.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
