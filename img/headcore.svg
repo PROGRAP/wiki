@@ -10,7 +10,8 @@
    width="282"
    xml:space="preserve"
    version="1.1"
-   id="svg2"><defs
+   id="svg2"
+   style="fill:#ffffff;color:#ffffff;"><defs
      id="defs6" /><g
      transform="matrix(12.4136,0,0,-12.394757,-4878.1052,7198.6614)"
      id="g10"><g
@@ -61,7 +62,7 @@
            transform="translate(517.1976,535.0355)"
            id="g160"><path
              id="path162"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;color:white;"
+             style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none"
              d="m 0,-8 0,28.654 17.79,0 0,-2.737 -14.729,0 0,-10.101 12.554,0 0,-2.736 -12.554,0 0,-10.343 14.729,0 L 17.79,-8 0,-8 Z" /></g><g
            transform="translate(517.1976,535.0355)"
            id="g164"><path
