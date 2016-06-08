@@ -95,3 +95,7 @@ header .h1fix {
 #footer-icon{
   width:60px;
 }
+.post-end {
+  position:absolut;
+  bottom:90px;
+}
