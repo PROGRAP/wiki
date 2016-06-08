@@ -32,7 +32,7 @@ document.addEventListener('scroll', function(){
   if (coords.bottom <= 0 && window.innerWidth > 990) {
     sticky.className = sticky.className.split(' affix').join('');
     sticky.className = sticky.className + " affix" 
-    sticky.style = "top:38px; width:" + widthToc + "px;";
+    sticky.style = "top:30px; width:" + widthToc + "px;";
     console.log(coords)
   }else{
     sticky.className = sticky.className.split(' affix').join('');
