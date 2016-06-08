@@ -13,7 +13,7 @@ window.addEventListener('load', function(){
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("toc-panel");
-  if (bar.offsetHeight > 500 && !bar.className.includes('pre-scrollable')) {
+  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
     bar.className = bar.className + " pre-scrollable";
   }else if(window.innerHeight > 650) {
     bar.className = bar.className.split(' pre-scrollable').join('');
@@ -31,13 +31,7 @@ document.addEventListener('scroll', function(){
   widthToc = sticky.offsetWidth; 
   console.log(contentCoords);
 
-  if (footerCoords.top - stickyCoords.bottom <= 20) {
-    
-    sticky.className = sticky.className.split(' affix').join('');
-    sticky.className = sticky.className.split(' post-end').join('');
-    sticky.className = sticky.className + " post-end"; 
 
-  }else {
     
       sticky.className = sticky.className.split(' post-end').join('');
       
@@ -55,7 +49,7 @@ document.addEventListener('scroll', function(){
           
         };
         
-    };
+
 
   
 },true) 
