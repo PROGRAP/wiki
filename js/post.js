@@ -24,20 +24,30 @@ window.addEventListener('resize', function(){
 document.addEventListener('scroll', function(){
   sticky = document.getElementById("toc-panel");
   content = document.getElementById("topics");
-  post = document.getElementById("panel-post");
+  post = document.getElementById("post");
   contentCoords = content.getBoundingClientRect();
   postCoords = post.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
   console.log(window.innerWidth);
   console.log(window.innerHeight);
   console.log(content.offsetHeight)
-  if (contentCoords.bottom <= 0 && window.innerWidth > 990) {
+  if (postCoords.bottom >= 0) {
     sticky.className = sticky.className.split(' affix').join('');
-    sticky.className = sticky.className + " affix" 
-    sticky.style = "top:30px; width:" + widthToc + "px;";
-    console.log(contentCoords)
-  }else{
-    sticky.className = sticky.className.split(' affix').join('');
-    sticky.style = "";
-  };
+    sticky.className = sticky.className.split(' post-end').join('');
+    sticky.className = sticky.className + " post-end"; 
+
+  }else {
+      sticky.className = sticky.className.split(' post-end').join('');
+      if (contentCoords.bottom <= 0 && window.innerWidth > 990) {
+        sticky.className = sticky.className.split(' affix').join('');
+        sticky.className = sticky.className + " affix"; 
+        sticky.style = "top:30px; width:" + widthToc + "px;";
+        console.log(contentCoords);
+      }else{
+        sticky.className = sticky.className.split(' affix').join('');
+        sticky.style = "";
+      };
+    }
+
+  
 },true) 
