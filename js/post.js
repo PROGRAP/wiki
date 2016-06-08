@@ -24,7 +24,7 @@ window.addEventListener('resize', function(){
 document.addEventListener('scroll', function(){
   sticky = document.getElementById("toc-panel");
   content = document.getElementById("topics");
-  post = document.getElementById("post-panel");
+  post = document.getElementById("panel-post");
   contentCoords = content.getBoundingClientRect();
   postCoords = post.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
