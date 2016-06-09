@@ -5,18 +5,22 @@ window.addEventListener('load', function(){
   panel.appendChild(toc);
   
   bar = document.getElementById("toc-panel");
-  if (bar.offsetHeight > window.innerHeight - 100 && !bar.className.includes('pre-scrollable')) {
-    bar.className = bar.className + " pre-scrollable";
+  toc = document.getElementById("markdown-toc");
+
+  if (bar.offsetHeight > window.innerHeight - 100 && !toc.className.includes('pre-scrollable')) {
+    toc.className = toc.className + " pre-scrollable";
   };
 },true)
 
 window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("toc-panel");
-  if (bar.offsetHeight > window.innerHeight && !bar.className.includes('pre-scrollable')) {
-    bar.className = bar.className + " pre-scrollable";
+  toc = document.getElementById("markdown-toc");
+
+  if (bar.offsetHeight > window.innerHeight && !toc.className.includes('pre-scrollable')) {
+    toc.className = toc.className + " pre-scrollable";
   }else if(window.innerHeight > 650) {
-    bar.className = bar.className.split(' pre-scrollable').join('');
+    toc.className = toc.className.split(' pre-scrollable').join('');
   };
 }, true)
 
