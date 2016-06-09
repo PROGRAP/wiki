@@ -26,11 +26,13 @@ title: Home
         <div class="panel index-panel">
             <div class="panel-heading "><span class="panel-heading-core">Marketing</span></div>
             <div class="panel-body">
+                <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
                 <li>
                     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
+                </div>
             </div>
         </div>
         
