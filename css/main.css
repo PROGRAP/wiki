@@ -100,3 +100,7 @@ header .h1fix {
   position:absolute;
   bottom:90px;
 }
+
+.panel-index li {
+  font-size:16;
+}
