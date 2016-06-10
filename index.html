@@ -7,7 +7,7 @@ title: Home
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">How to get started</div>
+            <div class="panel-heading panel-heading-core">Erst-Benutzung</div>
             <div class="panel-body">
                 <ul class="no-decorations">
                     {% for post in site.tags.getstarted reversed%}
@@ -24,7 +24,7 @@ title: Home
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading "><span class="panel-heading-core">Marketing</span></div>
+            <div class="panel-heading "><span class="panel-heading-core">Artikel</span></div>
             <div class="panel-body">
                 <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
@@ -41,7 +41,7 @@ title: Home
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Customer</div>
+            <div class="panel-heading panel-heading-core">Kunden</div>
             <div class="panel-body">
                    <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
@@ -61,7 +61,7 @@ title: Home
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Customer</div>
+            <div class="panel-heading panel-heading-core">Bezahlmethoden/-einstellungen</div>
             <div class="panel-body">
                   <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
@@ -78,7 +78,7 @@ title: Home
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Customer</div>
+            <div class="panel-heading panel-heading-core">Bestellungen</div>
             <div class="panel-body">
                    <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
@@ -95,7 +95,61 @@ title: Home
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Customer</div>
+            <div class="panel-heading panel-heading-core">Marketing</div>
+            <div class="panel-body">
+                <ul class="no-decorations">
+                {% for post in site.tags.marketing reversed%}
+                   <li>
+                       <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                   </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+<div class="row">
+ 
+    <div class="col-md-4">
+     
+        <div class="panel index-panel">
+            <div class="panel-heading panel-heading-core">Oberfläche</div>
+            <div class="panel-body">
+                  <ul class="no-decorations">
+                {% for post in site.tags.marketing reversed%}
+                <li>
+                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="col-md-4">
+     
+        <div class="panel index-panel">
+            <div class="panel-heading panel-heading-core">Hilfestellungen</div>
+            <div class="panel-body">
+                   <ul class="no-decorations">
+                {% for post in site.tags.marketing reversed%}
+                <li>
+                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="col-md-4">
+     
+        <div class="panel index-panel">
+            <div class="panel-heading panel-heading-core">Marketing</div>
             <div class="panel-body">
                 <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
