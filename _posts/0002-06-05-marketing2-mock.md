@@ -16,6 +16,7 @@ ERFOLG: Der Laden wurde erfolgreich gespeichert.
 
 [logo]: http://g.recordit.co/IOhGP3a4GV.gif "Logo Title Text 2"
 
+[](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
 
 ## Shopeinstellungen
 Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
