@@ -12,11 +12,8 @@ Wichtiger Hinweis:
 Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.
 ERFOLG: Der Laden wurde erfolgreich gespeichert.
 
-![logo]
 
-[logo]: http://g.recordit.co/IOhGP3a4GV.gif "Logo Title Text 2"
-
-![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
+![](http://g.recordit.co/IOhGP3a4GV.gif)
 
 ## Shopeinstellungen
 Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
