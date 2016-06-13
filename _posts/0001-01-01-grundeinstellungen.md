@@ -98,14 +98,14 @@ Auf die Einstellungen unter Konfiguration gehen wir an anderer Stelle ein.
 Unter SEO oder auch ‘Search Engine Optimization’ finden Sie Einstellungen für Suchmachinen, damit Ihr Shop über diese gefunden wird.  
 Auf die SEO gehen wir unter Marketing mehr ein.
 
-[grundeinstellungen]:/wiki/img/grundeinstellungen.png
+[grundeinstellungen]:/wiki/img/grundeinstellungen/grundeinstellungen.png
 
-[shopeinstellungen1]: /wiki/img/shopeinstellungen1.png
+[shopeinstellungen1]: /wiki/img/grundeinstellungen/shopeinstellungen1.png
 
-[shopeinstellungen2]: /wiki/img/shopeinstellungen2.png
+[shopeinstellungen2]: /wiki/img/grundeinstellungen/shopeinstellungen2.png
 
-[firmaeinstellungen]: /wiki/img/firmaeinstellungen.png
+[firmaeinstellungen]: /wiki/img/grundeinstellungen/firmaeinstellungen.png
 
-[finanzeinstellungen]: /wiki/img/finanzeinstellungen.png
+[finanzeinstellungen]: /wiki/img/grundeinstellungen/finanzeinstellungen.png
 
-[emailgrundeinstellungen]: /wiki/img/emailgrundeinstellung.png
+[emailgrundeinstellungen]: /wiki/img/grundeinstellungen/emailgrundeinstellung.png
