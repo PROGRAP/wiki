@@ -23,6 +23,10 @@ footer{
   font-size:16px;
 }
 
+.content-area hr{
+  border-top: 3px solid #2196F3;
+}
+
 .content-area p img {
 border: 1px solid black;  
 }
