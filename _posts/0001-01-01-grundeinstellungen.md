@@ -20,8 +20,6 @@ Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werd
 
 Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
 
-![shopeinstellungen1]
-
 ![shopeinstellungen2]
 
 ### Aktiv
