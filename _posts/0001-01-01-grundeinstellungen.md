@@ -4,7 +4,7 @@ title: Grundeinstellungen
 tags: erstbenutzung
 ---
 
-+Index
++ Index
 {:toc}
 
 Änderungen der Grundeinstellungen, sowie der Stammdaten, können mit den Schaltflächen *Einstellungen --> Grundeinstellungen* vorgenommen werden.
