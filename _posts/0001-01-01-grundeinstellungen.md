@@ -9,8 +9,8 @@ tags: erstbenutzung
 
 Änderungen der Grundeinstellungen, sowie der Stammdaten, können mit den Schaltflächen *Einstellungen --> Grundeinstellungen* vorgenommen werden.
 
-Wichtiger Hinweis:
-Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.
+**Wichtiger Hinweis:
+Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.**
 
 ![grundeinstellungen]
 
