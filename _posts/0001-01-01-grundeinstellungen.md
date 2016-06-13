@@ -108,4 +108,4 @@ Auf die SEO gehen wir unter Marketing mehr ein.
 
 [finanzeinstellungen]: /wiki/img/grundeinstellungen/finanzeinstellungen.png
 
-[emailgrundeinstellungen]: /wiki/img/grundeinstellungen/emailgrundeinstellung.png
+[emailgrundeinstellungen]: /wiki/img/grundeinstellungen/emailgrundeinstellungen.png
