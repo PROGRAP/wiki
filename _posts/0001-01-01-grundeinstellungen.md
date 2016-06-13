@@ -11,15 +11,17 @@ tags: erstbenutzung
 
 Wichtiger Hinweis:
 Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.
-ERFOLG: Der Laden wurde erfolgreich gespeichert.
 
-
+![grundeinstellungen]
 
 ## Shopeinstellungen
 
 Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
 
-![shopeinstellungen]
+![shopeinstellungen1]
+
+![shopeinstellungen2]
+
 #### Aktiv
 
 Hier wird ihr Shop online/offline gesetzt.
@@ -96,10 +98,14 @@ Auf die Einstellungen unter Konfiguration gehen wir an anderer Stelle ein.
 Unter SEO oder auch ‘Search Engine Optimization’ finden Sie Einstellungen für Suchmachinen, damit Ihr Shop über diese gefunden wird.  
 Auf die SEO gehen wir unter Marketing mehr ein.
 
-[shopeinstellungen]: /wiki/img/Shopeinstellungen.png
+[grundeinstellungen]:/wiki/img/grundeinstellungen.png
 
-[firmaeinstellungen]: /wiki/img/Firmaeinstellungen.png
+[shopeinstellungen1]: /wiki/img/shopeinstellungen1.png
 
-[finanzeinstellungen]: /wiki/img/Finanzeinstellungen.png
+[shopeinstellungen2]: /wiki/img/shopeinstellungen2.png
 
-[emailgrundeinstellungen]: /wiki/img/Emailgrundeinstellung.png
+[firmaeinstellungen]: /wiki/img/firmaeinstellungen.png
+
+[finanzeinstellungen]: /wiki/img/finanzeinstellungen.png
+
+[emailgrundeinstellungen]: /wiki/img/emailgrundeinstellung.png
