@@ -14,6 +14,8 @@ Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werd
 
 ![grundeinstellungen]
 
+------
+
 ## Shopeinstellungen
 
 Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
@@ -54,17 +56,23 @@ Die E-Mail Adresse die für den Support angezeigt wird.
 
 Die Nummer für die erste Bestellung in Ihrem Shop.(Nummer  > 0)
 
+------
+
 ## Firmaeinstellungen
 
 Hier geben Sie die Informationen zu Ihrer Firma ein. Diese finden Kunden dann, unter Kontakt, im Footer.
 
 ![firmaeinstellungen]
 
+------
+
 ## Finanzeinstellungen
 
 Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen , ein.
 
 ![finanzeinstellungen]
+
+------
 
 ## Emailgrundeinstellungen
 
@@ -102,9 +110,13 @@ Betreff einer E-Mail in der das Passwort wiederhergestellt wird.
 
 Der angezeigte Betreff einer Versand-Mail.
 
+------
+
 ## Konfiguration
 Allgemeine Grundeinstellungen von Suchfunktionen, Lager, Artikeln, Kundenbestellungen und -Konten, sowie Möglichkeiten zur Bearbeitung der Netto- und Bruttopreisen.
 Auf die Einstellungen unter Konfiguration gehen wir an anderer Stelle ein.
+
+------
 
 ## SEO
 
