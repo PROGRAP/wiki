@@ -24,7 +24,9 @@ footer{
 }
 
 .content-area hr{
-  border-top: 3px solid #2196F3;
+  border:none;
+  height:3px;
+  background:linear-gradient(to right, #7EC2F8, #2196f3, #7EC2F8);
 }
 
 .content-area p img {
