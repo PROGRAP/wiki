@@ -22,34 +22,34 @@ Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
 
 ![shopeinstellungen2]
 
-#### Aktiv
+### Aktiv
 {:.no_toc}
 
 Hier wird ihr Shop online/offline gesetzt.
 
 Wenn der Regler inaktiv gesetzt ist wird jedem der Ihren Shop besucht nur gezeigt, dass dieser offline ist.
 
-#### Demo Shop Login
+### Demo Shop Login
 {:.no_toc}
 
 Wenn dieser Regler aktiv ist muss man sich, bevor man Ihren Shop besuchen kann, einloggen.
 
-#### Shopname
+### Shopname
 {:.no_toc}
 
 Hier wird der Shopname gewählt.
 
-#### Shop URL
+### Shop URL
 {:.no_toc}
 
 Setzen sie hier Ihre Url für den Shop ein.
 
-#### Info E-Mail
+### Info E-Mail
 {:.no_toc}
 
 Die E-Mail Adresse die für den Support angezeigt wird.
 
-#### Bestellstartnummer
+### Bestellstartnummer
 {:.no_toc}
 
 Die Nummer für die erste Bestellung in Ihrem Shop.(Nummer  > 0)
@@ -72,32 +72,32 @@ Hier werden E-Mail Adressen, sowie Betreffzeilen für Passwortänderungen, Regis
 
 ![emailgrundeinstellungen]
 
-#### Bestell E-Mail Reply
+### Bestell E-Mail Reply
 {:.no_toc}
 
 Eine Antwort auf eine Bestellung erfolgt über die hier eingetragene E-Mail Adresse.
 
-#### Bestellungen an
+### Bestellungen an
 {:.no_toc}
 
 Hier steht die E-Mail Adresse, an die Bestellungen gesendet werden.
 
-#### E-Mail Betreff bei Bestellung
+### E-Mail Betreff bei Bestellung
 {:.no_toc}
 
 Bei abgeschlossener Bestellung, erhält Ihr Kunde eine E-Mail mit entsprechender Betreffzeile.
 
-#### Registrier E-Mail Betreff
+### Registrier E-Mail Betreff
 {:.no_toc}
 
 Bei erfolgreicher Registrierung, erhält Ihr Kunde eine E-Mail mit entsprechender Betreffzeile.
 
-#### E-Mail Betreff "Passwort vergessen"
+### E-Mail Betreff "Passwort vergessen"
 {:.no_toc}
 
 Betreff einer E-Mail in der das Passwort wiederhergestellt wird.
 
-#### jetzt versendet E-Mail Betreff 
+### jetzt versendet E-Mail Betreff 
 {:.no_toc}
 
 Der angezeigte Betreff einer Versand-Mail.
