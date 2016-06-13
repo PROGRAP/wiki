@@ -22,6 +22,10 @@ footer{
   padding-top:40px;
 }
 
+.content-area p img {
+border: 1px solid black;  
+}
+
 .header small {
   color:#ffffff;
 }
