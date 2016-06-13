@@ -62,7 +62,7 @@ Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen 
 
 ## Emailgrundeinstellungen
 
-Hier werden Bestellbestätigungen, Betreffzeilen für Passwortänderungen und Registrier- und Versandbestätigungen eingestellt werden.
+Hier werden E-Mail Adressen, sowie Betreffzeilen für Passwortänderungen, Registrier- und Versandbestätigungen eingestellt.
 
 ![emailgrundeinstellungen]
 
