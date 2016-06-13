@@ -86,7 +86,7 @@ Bei erfolgreicher Registrierung, erhält Ihr Kunde eine E-Mail mit entsprechende
 Betreff einer E-Mail in der das Passwort wiederhergestellt wird.
 
 #### jetzt versendet E-Mail Betreff 
-{: no-toc}
+{:.no_toc}
 
 Der angezeigte Betreff einer Versand-Mail.
 
