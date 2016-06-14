@@ -2,6 +2,7 @@
 layout: post
 title: Artikeleditor
 tags: artikel
+permalink: /artikel/:title
 ---
 +Index
 {:.toc}
