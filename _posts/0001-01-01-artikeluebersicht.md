@@ -2,6 +2,7 @@
 layout: post
 title: Artikelübersicht
 tag: artikel
+permalink: /artikel/:title
 ---
 
 ## Übersicht
