@@ -104,7 +104,7 @@ Legen Sie den Ansprechpartner fest, an welchen die Kunden ihre Anfrage-E-Mails r
 ### YouTube URL
 
 Fügen sie hier die URL eines Youtube-Videos ein um es auf der Artikelseite anzeigen zu lassen.
-Vergessen sie nicht das Youtube eigene ![Nutzungsbedingungen] hat.
+Vergessen sie nicht das Youtube eigene [Nutzungsbedingungen] hat.
 
 
 
