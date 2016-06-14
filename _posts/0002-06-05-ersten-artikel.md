@@ -2,6 +2,7 @@
 layout: post
 title: Den ersten Artikel anlegen
 tags: erstbenutzung
+permalink: /gitgud/:title
 ---
 
 + Index
