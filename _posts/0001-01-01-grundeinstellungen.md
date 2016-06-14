@@ -2,6 +2,7 @@
 layout: post
 title: Grundeinstellungen
 tags: erstbenutzung
+permalink: /gitgud
 ---
 
 + Index
