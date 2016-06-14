@@ -41,10 +41,10 @@ title: getcore-Hilfecenter
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Kunden</div>
+            <div class="panel-heading panel-heading-core">Artikel</div>
             <div class="panel-body">
                    <ul class="no-decorations">
-                {% for post in site.tags.marketing reversed%}
+                {% for post in site.tags.artikel reversed%}
                 <li>
                     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 </li>
