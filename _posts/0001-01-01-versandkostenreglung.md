@@ -50,9 +50,9 @@ Das andere Symbol***(<=)*** steht für den Wert der nicht überschritten werden 
 Geben sie hier den absoluten oder den prozentualen Wert ein.
 Danach müssen die noch dem System sagen ob er den Wert als Prozentzahl oder Währung berechnen soll.
 
-|ABS|  = | absoluten Wert|
+|ABS| ---=--- | absoluten Wert|
 |                                      |
-|perc| = | Prozentwert     |  
+|perc| ---=--- | Prozentwert     |  
 |||
 
 #### Berechnungsregeln
