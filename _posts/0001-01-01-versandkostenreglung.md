@@ -50,9 +50,10 @@ Das andere Symbol***(<=)*** steht für den Wert der nicht überschritten werden 
 Geben sie hier den absoluten oder den prozentualen Wert ein.
 Danach müssen die noch dem System sagen ob er den Wert als Prozentzahl oder Währung berechnen soll.
 
-ABS|  = | absoluten Wert|
+|ABS|  = | absoluten Wert|
 |                                      |
 |perc| = | Prozentwert     |  
+|||
 
 #### Berechnungsregeln
 
@@ -100,7 +101,6 @@ Setzen Sie Häkchen für Länder die Sie verknüpfen wollen.
 
 **Vergessen Sie nicht zu Übernehmen!**
 
-![übernehmen]
 
 ---
 
@@ -130,4 +130,3 @@ Damit sind Sie hier fertig und können direkt mit den [Versandarten] loslegen.
 
 [Länder]: #Länder
 [Versandarten]: /wiki/versand/versandarten
-[übernehmen]: /wiki/img/versand/versandkostenre
