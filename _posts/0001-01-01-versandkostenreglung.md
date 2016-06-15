@@ -59,7 +59,7 @@ Danach müssen die noch dem System sagen ob er den Wert als Prozentzahl oder Wä
 
 Hier stellen Sie ein wie oft und in welchem Umfang die Regel greift.
 
-|Regel| Bedeutung|
+| ***Regel*** | ***Bedeutung***|
 |                             |
 |Einmal Pro Warenkorb                      | Diese Regel wird einmal auf den ganzen Warenkorb angewandt.|
 |                                                                                                                                                   |
@@ -128,5 +128,5 @@ Auch hier wird wieder unsere Auswahlliste benutzt wie bei Länder/Gruppen/Benutz
 
 Damit sind Sie hier fertig und können direkt mit den [Versandarten] loslegen.
 
-[Länder]: #Länder
+[Länder]: #Lnder
 [Versandarten]: /wiki/versand/versandarten
