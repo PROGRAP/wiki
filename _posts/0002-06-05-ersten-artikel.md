@@ -4,7 +4,7 @@ title: Den ersten Artikel anlegen
 tags: erstbenutzung
 ---
 
-+Index
++ Index
 {:toc}
 
 Bevor man den ersten Artikel erstellt muss man sich fragen was zu einem Artikel generell gehört.
