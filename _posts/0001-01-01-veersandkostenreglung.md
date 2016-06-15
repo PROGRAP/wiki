@@ -23,7 +23,8 @@ Hier editieren oder erstellen Sie neue Versandkostenregelungen.
 Damit Versandkostenregeln überhaupt greifen müssen diese mit Benutzergruppen, Versandarten und Länder gekoppelt werden.
 Sehen sie dafür [HIER][Versandarten].
 
-***Vergessen Sie nicht zu speichern! ***
+*** Vergessen Sie nicht zu speichern! ***
+
 ## Allgemein
 
 Hier können sie den Titel auswählen und auch die Versandart als aktiv einstellen.
@@ -97,8 +98,10 @@ Sie können aber Auch eine Liste mit allen Länder anzeigen lassen oder nur mit 
 
 Setzen Sie Häkchen für Länder die Sie verknüpfen wollen. 
 
-***Vergessen Sie nicht zu Übernehmen!***
+**Vergessen Sie nicht zu Übernehmen!**
+
 ![übernehmen]
+
 ---
 
 ## Gruppen
