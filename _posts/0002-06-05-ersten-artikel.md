@@ -34,7 +34,7 @@ Kunden aus ganz Europa können dann über die EAN das Produkt auch auf Ihrer Sei
 
 ---
 
- ## Preis 
+## Preis 
 
 Unter Artikelpreis können sie einen absoluten Betrag eingeben.
 Das System interpretiert das immer als Euro und errechnet basierend darauf die anderen Währungen für Ihr Shop.
