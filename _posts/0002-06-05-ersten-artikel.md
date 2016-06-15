@@ -2,256 +2,75 @@
 layout: post
 title: Den ersten Artikel anlegen
 tags: erstbenutzung
-permalink: /gitgud/:title
 ---
 
-+ Index
++Index
 {:toc}
 
-## Artikel
+Bevor man den ersten Artikel erstellt muss man sich fragen was zu einem Artikel generell gehört.
+Generell hat ein Artikel :
 
-Artikel finden sie über *Katalog → Artikel*.
+1. *eine Bezeichnung*
 
-Um einen Artikel anzulegen können sie bei den Artikeln oben auf Neu klicken , oder über das Zahnrad oben rechts unter *Neu → Artikel* oder *Wizards → Artikel mit/ohne Varianten*.
+2. *einen Preis*
 
----
+3. *einen Lagerbestand* 
 
-## Artikeleditor
+4. *ein Bild*
 
-Im Artikeleditor editieren und erstellen sie Artikel. Wenn Sie mit dem neuen Artikel fertig sind müssen Sie die Änderungen ***speichern***. Alle nicht gespeicherten Änderungen werden beim Verlassen verworfen.
+5. *eine Versandart*
 
----
+6. *eine Zahlungsart*
 
-## Allgemein
-
-Hier setzen sie die allgemeinen Informationen für den Artikel ein.
-
-### Artikelpreis
-{:.no_toc}
-
-
-Trennen Sie Euro und Cent mit Hilfe eines Dezimalpunktes (20.20€). Die Angabe der Währung ist nicht erforderlich. Wird sie dennoch eingetragen, wird diese nach Speichern des Artikeleditors, wieder entfernt (20.00€ = 20.00 ). Auch können sie die Nach-Kommer-Ziffern "00" bei vollen Beträgen weglassen (20 = 20.00).
-
-### Button- Aus der Preisberechnung ausschließen... 
-{:.no_toc}
-
-
-Bei Aktivierung dieser Funktion wird der Artikelpreis nicht im Filter im Frontend berücksichtigt. Preise von Muster- Artikeln oder Proben werden nicht angezeigt. Stattdessen werden Preise für die entsprechende Variante sichtbar.
-
-#### Label
-{:.no_toc}
-
-
-Sie können Ihren Artikeln ein Label hinzufügen um Bundles zu erstellen.
-Hierauf wird weiter unter Bundles eingegangen.
+Und bis auf die Bezeichnung und den Preis nimmt unser System ihnen die Aufgabe für die Auswahl des Versandes und der Zahlart ab. 
 
 ---
 
-## Kategorien
+## Bezeichnung 
 
-Hier wählen sie die Kategorien für den Artikel aus.Sie können mehr als eine Kategorie wählen.
-
-Wie man Kategorien erstellt wird ![HIER] erklärt.
-
----
-
-## Lieferungseinstellungen
-
-Wählen sie den Status der Lieferung sowie die Lieferzeit aus.
-
-### Lieferstatus 
-{:.no_toc}
-
-
-Sie können im hier bestimmen, aus welchem Lagern der Artikel bezogen wird beziehungsweise wie das System auf "ausverkaufte" Artikel reagieren soll.
-
-   | ***Status*** | ***Bedeutung*** |
-   ||
-   | **Fremdlager** | Ist der eigene Lagerbestand aufgebaucht, in einem Fremdlager jedoch ausreichend verfügbar, ist der Artikel trotz eines Lagerbestandes von kleiner gleich 0, im Shop bestellbar. | 
-   ||
-   | **Wenn ausverkauft offline** | sind die Mengen des Artikels im Lager komplett ausgeschöpft, ist dieser im Frontend des Online-Shops nicht mehr sichtbar.| 
-   ||
-   | **Wenn ausverkauft nicht bestellbar** | Ausverkaufte Produkte können vom Kunden eingesehen, jedoch nicht mehr bestellt werden.| 
-   ||
-   | **Wieder lieferbar am** | Geben Sie Ihren Kunden Auskunft, zu welchem Zeitpunkt das Produkt in Ihrem Shop wieder verfügbar sein wird. Sie können ein konkretes Datum oder eine bestimmte Zeitspanne wählen.
-   {:.border-table}
-
-### Konstante Menge im Warenkorb
-{:.no_toc}
-
-
-Wenn der Regler aktiv ist sind Mengen vom Artikel im Warenkorb nicht veränderbar. 
+Generell versteht man unter Bezeichnung den Name unter dem man den Artikel findet oder wie er umgangssprachlich genannt wird.
+Jedoch gehört zur Bezeichnung auch die systemeinterne Artikelnummer oder die europäische Artikelnummer (EAN).
+Kunden aus ganz Europa können dann über die EAN das Produkt auch auf Ihrer Seite finden.
 
 ---
 
-## Langbeschreibung 2
+ ## Preis 
 
-Ergänzende Informationen zum Beispiel zum Hersteller, Produkteigenschaften oder Kaufargumente können hier eingetragen werden.
+Unter Artikelpreis können sie einen absoluten Betrag eingeben.
+Das System interpretiert das immer als Euro und errechnet basierend darauf die anderen Währungen für Ihr Shop.
 
----
-
-## Variantenauswahl
-
-### Darstellung der Variantenauswahl
-{:.no_toc}
-
-
-Wählen sie wie die Variantenauswahl dargestellt wird.
-
-### Variantengruppe
-{:.no_toc}
-
-
-Für die einzelnen Variantengruppen können sie hier die Auswahl einstellen.
+Natürlich haben Sie noch viel mehr Optionen, die jedoch unseren Erst-Benutzungs Beitrag sprengen würde. Staffelpreis, Versandkosten, Konfigurierbare Artikel, Meterware, Kiloware nur um einige zu nennen.
 
 ---
 
-## Erweiterte Preisfunktionen
+## Lagerbestand
 
-Alternative Preise oder die Preise, die ein Produkt im Bundle erhält, sind hier einzutragen.
-
-### Alternativer Preis A-C
-{:.no_toc}
-
-
-Bestimmte Kundengruppen kann man diese alternativen Preise anzeigen lassen.
-
-### Produktbundle
-{:.no_toc}
-
-
-Hier können sie den Preis in einem Bundle für das Produkt bestimmen
-
-###  Alle neg. Nachlässe ignorieren.
-{:.no_toc}
-
-
-Dieses Produkt ist von jeglichen Rabatten und Preisnachlässen unberührt.
+Natürlich wollen Sie verhindern das mehr bestellt wird als vorhanden ist.
+Setzen Sie den Lagerbestand einfach unter Inventar ein.
+Sie können dann entscheiden wie das System auf fehlenden Bestand reagiert.
+Manche wollen dann den Artikel nichtmehr angezeigt haben andere wollen, dass der Artikel als “Zurzeit nicht Lieferbar” angezeigt wird.
+Egal für was Sie sich entscheiden den Lagerbestand müssen Sie angeben.
 
 ---
 
-## Mengeneinheiten und Dimensionen
+## Bild
 
-In diesem Bereich können sie die Größe und das Gewicht von dem Artikel bestimmen.
-
----
-
-## Staffelpreis
-
-Hier können Sie den Staffelpreis einstellen.
-Der Nachlass wird angewendet wenn die minimal Menge mindestens erreicht und die maximal Menge nicht überboten wurde.
+Setzen sie Bilder für Ihren Artikel ein, damit Kunden einen Eindruck vom gekauften Artikel bekommen.
+Individuelle Bilder eines kleinen Inventars suggerieren meist mehr Produkte als ein großes mit nur wenig Variationen in den Thumbnails.
 
 ---
 
-## Zusätzliche Optionen
+## Versandart
 
-### Definiert als Label-Bundle
-{:.no_toc}
+Wenn ihr neuer Artikel nicht eine besondere Versandart verlangt wird das System für Sie Standartversandarten auswählen.
 
-
-Aktivieren Sie die Box, damit der Artikel dem Label zugewiesen wird, den Sie im Artikelditor unter Allgemein ausgewählt haben. Möchten Sie dem Artikel keinen Label zuordnen, lassen Sie die Box einfach deaktiviert.
-
-### Nur dieser Artikel darf im Basket existieren!
-{:.no_toc}
-
-
-Über diese Einstellung können neben diesem Artikel keine weiteren Produkte in den Warenkorb gelegt werden. Wird vom Kunden jedoch ein weiteres Produkt hinzugefügt, wird der entsprechende Artikel aus dem Basket entfernt und folgender Hinweis erscheint:
-
-### Werbeportalfreigabe
-{:.no_toc}
-
-
-Einstellung ist standardmäßig aktiviert. Artikel können über Preissuchmaschinen gefunden und aufgerufen werden.
-
-### Zur Sitemap exportieren
-{:.no_toc}
-
-
-Die Sitemap ist eine Indexdatei, die alle wichtigen URL's und CMS pages enthält
-
-### Artikel wird in der Artikelübersicht angezeigt
-{:.no_toc}
-
-
-Diese Funktion sollte unbedingt aktiviert sein, damit der Artikel in der Übersicht im Frontend einsehbar ist.
-
-### Nicht via Dataunifier exportieren
-{:.no_toc}
-
-
-Über diese Datenschnittstelle kann alles importiert sowie exportiert werden. Gesamte Datenbanken wie alle Bestell-, Versand- sowie Userdaten können runtergeladen werden. Es können so vereinfacht lagerbestände abgeglichen.
-
-### Artikel ist indivualisierbar
-{:.no_toc}
-
-
-Aktivierung dieser Checkbox, können Sie später die Variablen festlegen, welche für die Produktanpassung im Shop entscheidend sind.
-Die Einstellungen finden sich im Artikeleditor --> Registerkarte: Konfigurierbare Preis/Mengeneinheiten wieder.
-
-### Anfrageprodukt
-{:.no_toc}
-
-
-Kein fester Preis und Angebot nur auf Anfrage.
-
-### Bedarfsrechner
-{:.no_toc}
-
-
-Mit diesem Rechner, können Produktmengen an Hand der Angaben der Raummaße (Höhe, Breite, Länge) berechnet werden.
-
-### Template
-{:.no_toc}
-
-
-Wählen sie ein Template für die Artikelseite.
-Für mehr Informationen und Hilfe über Templates sehen sie HIER
-
-### Versandkosten
-{:.no_toc}
-
-
-Es können abweichende Versandkosten für Artikel eingestellt werden.
-
-### Sumo Scout Artikelkategorie-Nummer
-{:.no_toc}
-
-
-Sie verkaufen Ihre Produkte auch auf der Sumo Scout Plattform, dann tragen Sie die entsprechende Nummer ein, um alle Bereich erfolgreich zu vernetzen.
-
-### Externe URL
-{:.no_toc}
-
-Der Link einer anderen Internetseite kann hier eingetragen werden. Sie können diese zum Beispiel nutzen, um auf die Website des Herstellers zu verweisen.
-
-### Zahlweisen für den jeweiligen Artikel festlegen
-{:.no_toc}
-
-
-Grenzen Sie die Zahlungsweisen für den Artikel ein, indem Sie die ungewünschten Zahlungsarten markieren. Im Frontend erscheint eine rot- hinterlegte Meldung mit dem Verweis auf die inaktive Zahlweise.
-
-### Video Datei auswählen
-{:.no_toc}
-
-
-Über das Feld *Datei auswählen* öffnet sich ein Fenster, welches den Zugriff auf die Computereigenen Dateien erlaubt. Sie können nun die gewünschte Datei hochladen.
-
-### Alternativer Ansprechpartner
-{:.no_toc}
-
-
-Legen Sie den Ansprechpartner fest, an welchen die Kunden ihre Anfrage-E-Mails richten können. Über einen direkten Ansprechpartner kann eine Beziehung zum Kunden aufgebaut werden. Gleichzeitig wird eine Art Firmentransparenz geschaffen, die das Vertrauen des Kunden positiv beeinflusst.
-
-### Geschenkgutschein-Artikel
-{:.no_toc}
-
-
-Es können auch Geschenkgutscheine im Artikeleditor erstellt werden. Sie können Ihren Geschenkgutschein im Artikeleditor wie gewohnt editieren. 
-Aktivieren Sie im ersten Schritt den Button Geschenkgutschein-Artikel.  Sie können die Position des Gutschein-Codes auf dem Bild in komma-separierten Pixelkoordinaten übermitteln.
-Legen Sie anschließend die Werte für Schriftfarbe, Type und Größe des Geschenkgutschein-Codes fest.
+Wie Sie eine Standartversandart einstellen zeigen wir Ihnen in “Die erste Versandart erstellen”. 
 
 ---
 
-## Konfigurierbare Preis-/Mengeneinheiten
+## Zahlungsarten
 
-Diese Einstellung ist Produkten vorbehalten, welche in ihrer Eigenschaft individualisierbar sind.
+Zahlungsarten werden meist Shopweit eingestellt.
+
+Wenn sie hier etwas ändern wollen können sie unter *Zahlung und Versand ⇒ Zahlungsarten*
+die Einstellungen verändern und bestimmte API-Unabhängige Zahlungsarten hinzufügen.
