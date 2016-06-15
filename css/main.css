@@ -31,6 +31,10 @@ footer{
 border: 1px solid black;  
 }
 
+.content-area h3 {
+  border-bottom:1px solid #7EC2F8;
+}
+
 .header small {
   color:#ffffff;
 }
