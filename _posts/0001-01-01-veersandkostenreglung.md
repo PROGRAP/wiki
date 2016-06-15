@@ -23,7 +23,7 @@ Hier editieren oder erstellen Sie neue Versandkostenregelungen.
 Damit Versandkostenregeln überhaupt greifen müssen diese mit Benutzergruppen, Versandarten und Länder gekoppelt werden.
 Sehen sie dafür [HIER][Versandarten].
 
-*** Vergessen Sie nicht zu speichern! ***
+***Vergessen Sie nicht zu speichern!***
 
 ## Allgemein
 
