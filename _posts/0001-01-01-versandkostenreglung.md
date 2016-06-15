@@ -55,7 +55,7 @@ Danach müssen die noch dem System sagen ob er den Wert als Prozentzahl oder Wä
 |perc| ---=--- | Prozentwert     |  
 |||
 
-#### Berechnungsregeln
+### Berechnungsregeln
 
 Hier stellen Sie ein wie oft und in welchem Umfang die Regel greift.
 
@@ -67,7 +67,7 @@ Hier stellen Sie ein wie oft und in welchem Umfang die Regel greift.
 |                                                               							|
 |Für jeden Artikel| Jeder Artikel im Warenkorb wird, egal wie oft er bestellt wurde,  in die Berechnung der Versandkosten eingehen.  |
 
-#### Keine weitere Berechnung
+### Keine weitere Berechnung
 
 Bei aktivem Regler wird, wenn diese Regel greift, ***keine*** weitere Regel zur Berechnung der Versandkosten verwendet.
 
