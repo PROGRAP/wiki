@@ -2,7 +2,7 @@
 layout: post
 title: Versandarten
 tags: versand_zahlung
-permalink: /:tags/:title
+permalink: /versand-zahlung/:title
 ---
 
 + Index
