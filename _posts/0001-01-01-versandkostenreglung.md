@@ -129,4 +129,4 @@ Auch hier wird wieder unsere Auswahlliste benutzt wie bei Länder/Gruppen/Benutz
 Damit sind Sie hier fertig und können direkt mit den [Versandarten] loslegen.
 
 [Länder]: #lnder
-[Versandarten]: /wiki/versand/versandarten
+[Versandarten]: /wiki/versand-zahlung/versandarten
