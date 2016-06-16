@@ -2,6 +2,7 @@
 layout: post
 title: Die erste Versandart
 tags: erstbenutzung
+permalink: /erstbenutzung/:title
 ---
 
 + Index
