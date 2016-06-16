@@ -44,9 +44,13 @@ In der Beschreibung hinterlassen Sie für den Kunden Informationen für die Vers
 
 Der Zeitraum inder diese Versandart für den Kunden auswählbar ist.
 
+---
+
 ## Bilder 
 
 Falls es ein Logo für diese Versandart gibt, kann man hier das Logo hochladen damit es dem Kunden angezeigt wird.
+
+---
 
 ## Versandreglung
 
@@ -58,17 +62,23 @@ Verknüpft wird durch das Setzen von Häkchen links von der Versandregel.
 
 [Unser Eintrag zu den Versandkostenreglungen.][versandkostenreglungen]
 
+---
+
 ## Gruppe
 
 Stellen Sie ein, welche Benutzergruppen für die Versandarten infrage kommen.
 
 Die Funktionalität ist identisch mit der der Versandreglung
 
+---
+
 ## Benutzer 
 
 Wenn Ihnen die Benutzergruppen nicht ausreichen können Sie hier auch einzelnen Benutzern die Versandart zugänglich machen. 
 
 Auch hier ist die Funktionalität identisch mit der der Versandreglung.
+
+---
 
 ## Zahlungsarten
 
