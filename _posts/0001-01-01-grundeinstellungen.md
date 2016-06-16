@@ -2,7 +2,7 @@
 layout: post
 title: Grundeinstellungen
 tags: erstbenutzung
-permalink: /gitgud/:title
+permalink: /erstbenutzung/:title
 ---
 
 + Index
