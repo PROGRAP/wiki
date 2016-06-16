@@ -74,7 +74,7 @@ Mehr dazu bei den [Versandkostenregeln] und [die erste Versandkostenregel].
 
 Benutzergruppen werden durch das linke Kästchen für die Versandart freigeschaltet.
 
-*Generell sollte man immer den Kunden auswählen. Den jeder der sich auf unserem Shopsystem registriert ist ein Kunde.*
+*Generell immer den Kunden auswählen. Wir empfehlen aber alles bis auf Blocked und Blacklist auszuwählen*
 
 ---
 
