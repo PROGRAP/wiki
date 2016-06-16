@@ -46,7 +46,7 @@ Der Zeitraum inder diese Versandart für den Kunden auswählbar ist.
 
 ## Bilder 
 
-Falls es Logo für diese Versandart gibt, kann man hier das Logo hochladen damit es dem Kunden angezeigt wird.
+Falls es ein Logo für diese Versandart gibt, kann man hier das Logo hochladen damit es dem Kunden angezeigt wird.
 
 ## Versandreglung
 
@@ -54,7 +54,7 @@ Versandregeln werden hier mit Versandarten verknüpft.
 
 Entweder suchen Sie über den Titel eine bestimmte Versandregel oder entscheiden sich dafür alle schon verknüpften/nicht verknüpften Versandregeln anzuzeigen.  
 
-Verknüpft wird durch, das setzen von Häkchen links von der Versandregel. 
+Verknüpft wird durch das Setzen von Häkchen links von der Versandregel. 
 
 [Unser Eintrag zu den Versandkostenreglungen.][versandkostenreglungen]
 
@@ -78,3 +78,4 @@ Genau wie bei den Versandregeln,Gruppe,Benutzer werden hier Häkchen für die Ve
 
 
 [versandkostenreglungen]: /wiki/versand-zahlung/versandkostenreglung
+
