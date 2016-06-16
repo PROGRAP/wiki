@@ -91,6 +91,7 @@ Da jeder Benutzer auch teil einer Benutzergruppe ist kann man hier ausnahmen fü
 Zahlungsarten werden durch das linke Kästchen für die Versandart freigeschaltet.
 
 Tipp: *Gewählt werden meist alle im Shop wirksamen Zahlungsarten.*
+
 ---
 
 Weiter geht es mit [den ersten Versandkostenregeln][Versandkostenregeln]. 
