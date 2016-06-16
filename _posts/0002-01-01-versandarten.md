@@ -22,9 +22,13 @@ Am Ende Ihrer Änderungen sollten Sie **speichern**.
 
 Nicht gespeicherte Veränderungen werden verworfen wenn sie den Editor verlassen.
 
+---
+
 ## Allgemein
 
 Hier setzen Sie die Versandart auf aktiv/inaktiv und editieren den Namen der Versandart.
+
+---
 
 ## Design 
 
