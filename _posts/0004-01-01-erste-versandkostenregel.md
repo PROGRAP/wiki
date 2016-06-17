@@ -49,6 +49,7 @@ Tipp: *Generell empfehlen wir hier die Versandkosten als absoluten Betrag einzus
 
 Auswahl wie oft und für welche Artikel die Regel angewandt wird.
 Für mehr Information siehe [Berechnungsregeln unter Versandkostenreglung][bere] 
+
 ---
 
 ## Design
