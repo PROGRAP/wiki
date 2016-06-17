@@ -45,7 +45,7 @@ Hier wird über den Betrag den der Kunde beim Checkout für den Versand bezahlt 
 
 Tipp: *Generell empfehlen wir hier die Versandkosten als absoluten Betrag einzusetzen.*
 
-### Berechnnungsregel
+### Berechnungsregel
 
 Auswahl wie oft und für welche Artikel die Regel angewandt wird.
 Für mehr Information siehe [Berechnungsregeln unter Versandkostenreglung][bere] 
