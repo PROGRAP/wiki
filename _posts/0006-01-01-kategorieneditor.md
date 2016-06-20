@@ -7,7 +7,7 @@ permalink: /artikel/:title
 
 Der Kategorien Editor editiert ,und erstellt wenn *NEU* ausgewählt wurde, Kategorien.
 
-##Allgemein
+## Allgemein
 
 ### Aktiv Regler
 
