@@ -5,6 +5,9 @@ tags: artikel
 permalink: /artikel/:title 
 ---
 
++ Index
+{:toc}
+
 Der Kategorien Editor editiert ,und erstellt wenn *NEU* ausgewählt wurde, Kategorien.
 
 ## Allgemein
