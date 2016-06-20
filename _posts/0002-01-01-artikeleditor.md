@@ -6,7 +6,7 @@ permalink: /artikel/:title
 ---
 
 + Index
-{:.toc}
+{:toc}
 
 Im Artikeleditor können Sie Artikel editieren oder neu erstellen.
 Vergessen Sie nicht den Artikel zu speichern wenn Sie fertig sind oder ihre Änderungen werden beim Verlassen der Seite verworfen.
