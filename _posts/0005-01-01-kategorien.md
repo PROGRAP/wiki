@@ -14,6 +14,8 @@ Beispiel: *Eine Frauen Handtasche könnte man unter den Kategorien der Handtasch
 
 Eine Übersicht aller Kategorien die im System eingetragen sind.
 
+Die Übersicht ist unter **Katalog => Kategorien** 
+
 Hier werden vorhandene Kategorien editiert oder neu erstellt, aktiv/inaktiv gesetzt und gelöscht.
 
 ### Aktivieren/Deaktivieren
