@@ -5,6 +5,9 @@ tags: artikel
 permalink: /artikel/:title
 ---
 
++ Index
+{:toc}
+
 Ein Artikel gehört zu einer oder mehreren Kategorien. Die Kategorien teilen die Artikel in 
 Gruppen mit selben Eigenschaften.
 
