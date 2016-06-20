@@ -4,7 +4,8 @@ title: Artikeleditor
 tags: artikel
 permalink: /artikel/:title
 ---
-+Index
+
++ Index
 {:.toc}
 
 Im Artikeleditor können Sie Artikel editieren oder neu erstellen.
