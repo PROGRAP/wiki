@@ -147,6 +147,7 @@ Sie verkaufen Ihre Produkte auch auf der Sumo Scout Plattform, dann tragen Sie d
 Der Link einer anderen Internetseite kann hier eingetragen werden. Sie können diese zum Beispiel nutzen, um auf die Website des Herstellers zu verweisen.
 
 ### Alternativer Ansprechpartner
+{:.no_toc}
 
 Legen Sie den Ansprechpartner fest, an welchen die Kunden ihre Anfrage-E-Mails richten können. Über einen direkten Ansprechpartner kann eine Beziehung zum Kunden aufgebaut werden. Gleichzeitig wird eine Art Firmentransparenz geschaffen, die das Vertrauen des Kunden positiv beeinflusst.
 
@@ -159,7 +160,7 @@ Legen Sie den Ansprechpartner fest, an welchen die Kunden ihre Anfrage-E-Mails r
 {:.no_toc}
 
 Fügen sie hier die URL eines YouTube-Videos ein um es auf der Artikelseite anzeigen zu lassen.
-Vergessen sie nicht das YouTube eigene ![Nutzungsbedingungen] hat.
+Vergessen sie nicht das YouTube eigene [Nutzungsbedingungen] hat.
 
 ### Google Shopping Kategorie
 {:.no_toc}
