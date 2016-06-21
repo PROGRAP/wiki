@@ -6,7 +6,7 @@ permalink: /artikel/:title
 ---
 
 + Index
-{:.toc}
+{:toc}
 
 ## Übersicht
 
