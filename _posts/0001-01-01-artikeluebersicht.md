@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Artikelübersicht
+title: Artikel
 tag: artikel
 permalink: /artikel/:title
 ---
+
++ Index
+{:.toc}
 
 ## Übersicht
 
@@ -30,13 +33,8 @@ Wenn sie einen Artikel löschen wollen drücken Sie auf den Mülleimer und best�
 
 ---
 
----
-layout: post
-title: Artikeleditor
-tags: artikel
----
-+Index
-{:.toc}
+# Artikel bearbeiten
+
 
 Im Artikeleditor können Sie Artikel editieren oder neu erstellen.
 Vergessen Sie nicht den Artikel zu speichern wenn Sie fertig sind oder ihre Änderungen werden beim Verlassen der Seite verworfen.
@@ -157,7 +155,6 @@ Wichtig für die [ElasticSearch] die den Rang errechnet.
 Hier können Sie verschiedene Eigenschaften für den Gutscheincode eingeben.
 
 ---
-# Artikel bearbeiten
 
 ## Preise
 
