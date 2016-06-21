@@ -1,3 +1,10 @@
+---
+layout: post
+title: Attribute
+tags: artikel
+permalink: /artikel/:title
+---
+
 + Index
 {:toc}
 
