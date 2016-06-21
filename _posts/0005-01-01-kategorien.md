@@ -30,7 +30,7 @@ Wenn sie einen Artikel löschen wollen drücken Sie auf den Mülleimer und best�
 
 ---
 
-# Artikel bearbeiten
+# Kategorien bearbeiten
 
 Der Kategorien Editor editiert ,und erstellt wenn *NEU* ausgewählt wurde, Kategorien.
 
