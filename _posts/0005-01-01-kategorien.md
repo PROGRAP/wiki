@@ -70,7 +70,7 @@ In der Kategorie-Hierarchie ist eine neue Kategorie immer Teil der Hauptkategori
 
 Bei den Unterkategorien wird die Kategorie einer anderen untergeordnet.
 
-Dabei kann eine Kategorie nur Unterkategorie *** einer *** Kategorie sein.
+Dabei kann eine Kategorie nur Unterkategorie ***einer*** Kategorie sein.
 Die Kategorie T-Shirts muss, wenn man diese sowohl für Frauen als auch Männer haben will, zweimal angelegt werden.
 
 ---
