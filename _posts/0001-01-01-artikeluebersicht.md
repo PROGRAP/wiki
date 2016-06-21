@@ -228,5 +228,27 @@ Artikel kann nicht Teil einer Sonderaktion sein.
 
 Versandkosten für diesen Artikel werden nicht dem Kunden berechnet.
 
+---
+
+## Variantendetails 
+
+Varianten werden benötigt wenn ein Artikel mehr als eine Variante besitzt. Durch Varianten kann man für einen Artikel mehrere Größen oder Formen zu verschiedenen Preisen angeboten werden, ohne jeweils einen eigenen Artikel anzulegen.
+
+Varianten werden über das Zahnrad im Fenster der Variantendetails erstellt.
+Nach dem klick auf das Zahnrad wird ein grauer Bereich angezeigt indem man die Variantennamen eingibt.
+Hinter den Varianten kommen dann die unterschiedlichen Werte.
+
+In der Liste mit den Varianten können die Preise individuell angepasst werden.
+
+***Hinweis:*** Generell erbt jede Variante die Werte des Artikels. D.h. ein schwarzer Schuh kostet wie der weiße Schuh, es sei der weiße Schuh wurde auf einen anderen wert gesetzt.
+
+---
+
+## Inventar
+
+Artikelnummern und Lagerbestände sollten hier Eingetragen werden.
+
+Das System benötigt den Lagerbestand und eine Artikelnummer.
+
 [Nutzungsbedingungen]: https://www.youtube.com/t/terms
 
