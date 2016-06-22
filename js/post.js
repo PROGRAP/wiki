@@ -1,4 +1,4 @@
-window.addEventListener('load', function(){
+window.addEventListener('change', function(){
   toc = document.getElementById('markdown-toc');
   console.log(toc);
   panel = document.getElementById('insert-toc');
