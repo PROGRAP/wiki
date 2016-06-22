@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hersteller
-tags: artikel
-permalink: /:tags/:title
+tags: katalog
+permalink: /katalog/:title
 ---
 
 + Index
