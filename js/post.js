@@ -3,7 +3,8 @@ window.addEventListener('load', function(){
   // console.log(toc);
   panel = document.getElementById('insert-toc');
   panel.appendChild(toc);
-  sticky.className = sticky.className.split(' disabled').join('');
+  if (toc.className.includes('disabled')){console.log('Disabled found')}
+  toc.className = toc.className.split(' disabled').join('');
 
   
   bar = document.getElementById("toc-panel");
