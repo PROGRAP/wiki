@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
   panel = document.getElementById('insert-toc');
   panel.appendChild(toc);
   if (toc.className.includes('disabled')){console.log('Disabled found')}
-  toc.className = toc.className.split(' disabled').join('');
+  toc.className = toc.className.split('disabled').join('');
 
   
   bar = document.getElementById("toc-panel");
