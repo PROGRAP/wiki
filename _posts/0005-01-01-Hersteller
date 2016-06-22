@@ -2,7 +2,7 @@
 layout: post
 title: Hersteller
 tags: artikel
-permalink: /:tags/:title
+permalink: /tags/:title
 ---
 
 + Index
