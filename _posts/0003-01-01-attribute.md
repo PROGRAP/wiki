@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Attribute
-tags: artikel
-permalink: /artikel/:title
+tags: katalog
+permalink: /katalog/:title
 ---
 
 + Index
