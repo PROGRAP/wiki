@@ -6,7 +6,7 @@ permalink: /katalog/:title
 ---
 
 + Index
-{:toc}
+{:toc .disabled}
 
 Unter Attribute werden Merkmale der Artikel eingetragen.
 
