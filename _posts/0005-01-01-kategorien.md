@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Kategorien
-tags: artikel
-permalink: /artikel/:title
+tags: katalog
+permalink: /katalog/:title
 ---
 
 Ein Artikel gehört zu einer oder mehreren Kategorien. Die Kategorien teilen die Artikel in 
