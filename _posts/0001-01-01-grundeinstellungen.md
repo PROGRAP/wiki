@@ -6,7 +6,7 @@ permalink: /erstbenutzung/:title
 ---
 
 + Index
-{:toc}{: .disabled}
+{:toc .disabled}
 
 Änderungen der Grundeinstellungen, sowie der Stammdaten, können mit den Schaltflächen *Einstellungen --> Grundeinstellungen* vorgenommen werden.
 
