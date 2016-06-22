@@ -115,10 +115,10 @@ title: getcore-Hilfecenter
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Oberfläche</div>
+            <div class="panel-heading panel-heading-core">Shopgestaltung</div>
             <div class="panel-body">
                   <ul class="no-decorations">
-                {% for post in site.tags.marketing reversed%}
+                {% for post in site.tags.gestaltung reversed%}
                 <li>
                     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 </li>
@@ -135,7 +135,7 @@ title: getcore-Hilfecenter
             <div class="panel-heading panel-heading-core">Hilfestellungen</div>
             <div class="panel-body">
                    <ul class="no-decorations">
-                {% for post in site.tags.marketing reversed%}
+                {% for post in site.tags.hilfe reversed%}
                 <li>
                     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 </li>
@@ -149,10 +149,10 @@ title: getcore-Hilfecenter
     <div class="col-md-4">
      
         <div class="panel index-panel">
-            <div class="panel-heading panel-heading-core">Marketing</div>
+            <div class="panel-heading panel-heading-core">Sonstiges</div>
             <div class="panel-body">
                 <ul class="no-decorations">
-                {% for post in site.tags.marketing reversed%}
+                {% for post in site.tags.sonstiges reversed%}
                    <li>
                        <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                    </li>
