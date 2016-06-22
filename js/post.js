@@ -1,8 +1,10 @@
-window.addEventListener('change', function(){
+window.addEventListener('load', function(){
   toc = document.getElementById('markdown-toc');
-  console.log(toc);
+  // console.log(toc);
   panel = document.getElementById('insert-toc');
   panel.appendChild(toc);
+  sticky.className = sticky.className.split(' disabled').join('');
+
   
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
@@ -33,7 +35,7 @@ document.addEventListener('scroll', function(){
   contentCoords = content.getBoundingClientRect();
   stickyCoords = sticky.getBoundingClientRect();
   widthToc = sticky.offsetWidth; 
-  console.log(contentCoords);
+  // console.log(contentCoords);
 
 
     
@@ -44,7 +46,7 @@ document.addEventListener('scroll', function(){
           sticky.className = sticky.className.split(' affix').join('');
           sticky.className = sticky.className + " affix"; 
           sticky.style = "top:30px; width:" + widthToc + "px;";
-          console.log(contentCoords);
+          // console.log(contentCoords);
           
         }else{
           
