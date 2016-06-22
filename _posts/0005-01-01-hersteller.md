@@ -6,7 +6,7 @@ permalink: /katalog/:title
 ---
 
 + Index
-{:toc}
+{:toc .disabled}
 
 
 Über Hersteller wird eine Übersicht aufgerufen. Diese listet alle Hersteller im System.
