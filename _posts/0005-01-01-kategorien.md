@@ -4,6 +4,9 @@ title: Kategorien
 tags: katalog
 permalink: /katalog/:title
 ---
++ Index
+{:toc .disabled}
+
 
 Ein Artikel gehört zu einer oder mehreren Kategorien. Die Kategorien teilen die Artikel in 
 Gruppen mit selben Eigenschaften.
