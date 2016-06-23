@@ -8,8 +8,9 @@ permalink: /hilfe/:title
 Getcore Techxicon
 
 ## A
-	Arbeitsbereich - Der Hauptteil des Admin in dem Sie schalten und walten.
-	Api
+    Arbeitsbereich - Der Hauptteil des Admin in dem Sie schalten und walten.
+
+    API - Eine Programierschnitstelle. Über diese können Entwickler auf Daten anderer Programme zugreifen.
 
 ---
 ## B
