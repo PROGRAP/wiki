@@ -9,7 +9,10 @@ Getcore Techxicon
 
 ## A
 
-    API - Eine Programierschnitstelle. Über diese können Entwickler auf Daten anderer Programme zugreifen.
+### API
+{:.no_toc}
+
+Eine Programierschnitstelle. Über diese können Entwickler auf Daten anderer Programme zugreifen.
 
 ---
 
