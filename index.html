@@ -35,8 +35,7 @@ title: getcore-Hilfecenter
                 </ul>
             </div>
         </div>
-        
-    </div>
+            </div>
     
     <div class="col-md-4">
      
@@ -46,7 +45,7 @@ title: getcore-Hilfecenter
                    <ul class="no-decorations">
                 {% for post in site.tags.katalog reversed%}
                 <li>
-                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
                 </ul>
@@ -66,7 +65,7 @@ title: getcore-Hilfecenter
                   <ul class="no-decorations">
                 {% for post in site.tags.versand_zahlung reversed%}
                 <li>
-                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
                 </ul>
@@ -83,7 +82,7 @@ title: getcore-Hilfecenter
                    <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
                 <li>
-                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
                 </ul>
@@ -100,7 +99,7 @@ title: getcore-Hilfecenter
                 <ul class="no-decorations">
                 {% for post in site.tags.marketing reversed%}
                    <li>
-                       <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                       <a href="{{ post.url }}">{{ post.title }}</a>
                    </li>
                 {% endfor %}
                 </ul>
@@ -120,7 +119,7 @@ title: getcore-Hilfecenter
                   <ul class="no-decorations">
                 {% for post in site.tags.gestaltung reversed%}
                 <li>
-                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
                 </ul>
@@ -137,7 +136,7 @@ title: getcore-Hilfecenter
                    <ul class="no-decorations">
                 {% for post in site.tags.hilfe reversed%}
                 <li>
-                    <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                 </li>
                 {% endfor %}
                 </ul>
@@ -154,7 +153,7 @@ title: getcore-Hilfecenter
                 <ul class="no-decorations">
                 {% for post in site.tags.sonstiges reversed%}
                    <li>
-                       <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
+                       <a href="{{ post.url }}">{{ post.title }}</a>
                    </li>
                 {% endfor %}
                 </ul>
