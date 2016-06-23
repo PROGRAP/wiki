@@ -7,6 +7,9 @@ permalink: /hilfe/:title
 
 Getcore Techxicon
 
++ Index
+{:toc .disabled}
+
 ## A
 
 ### API
