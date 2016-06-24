@@ -1,4 +1,4 @@
-# Core Wiki
+# Core Wiki/Helpdesk
 
-Check our wiki at <http://zmbgmbh.github.io/wiki/>
+Check our wiki at <http://help.getcore.io>
 
