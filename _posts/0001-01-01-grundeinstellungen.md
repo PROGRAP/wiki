@@ -14,6 +14,7 @@ permalink: /erstbenutzung/:title
 Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.**
 
 ![grundeinstellungen]
+{:.img-responsive .center-block}
 
 ------
 
