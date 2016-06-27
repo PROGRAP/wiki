@@ -17,7 +17,7 @@ Die Möglichkeit Amazon Product Advertising API zu verwenden gibt es auch, dafü
 
 Nachdem die Keys und IDs eingegeben sind muss noch die Artikel Information Zuweisung eingestellt werden.
 
- ## Die Artikel Information Zuweisung
+## Die Artikel Information Zuweisung
 
 Nun ist es Wichtig zu entscheiden welche Werte bei Amazon angezeigt werde.
 
@@ -33,7 +33,7 @@ Nach der Auswahl des entsprechenden Feldes wird ein Dropdown angezeigt in dem ei
 Dann werden die Namen aus dem Shopsystem für den Artikel verwendet anstatt der Amazon Werte.
 
 
-## Verlinken vorhandener Amazon Produkten mit den Produkten im Shop
+## Verlinken von Amazon mit dem Shop
 
 Für die Verlinkung von bestehenden Produkten schreiben Sie bitte unseren Support an.
 Unser Support ist unter folgender E-Mail zu erreichen: support@getcore.io
