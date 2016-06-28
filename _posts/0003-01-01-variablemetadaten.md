@@ -18,16 +18,17 @@ Nun haben Sie die Möglichkeit einen festen Text einzugeben, wie zum Beispiel: �
 In einigen Fällen bietet es sich an, dass sich Titel oder Beschreibungen anpassen, je nachdem welcher Artikel oder welche Kategorie aufgerufen wird. Um das zu erreichen müssen Sie Variablen verwenden.
 
 ## Variablen
-
-|		Variable		||   ||		    Bedeutung        	|
-|-----------------------||   ||-----------------------------|
-|%ARTICLE_MANUFACTURER%	||   ||Hersteller des Artikels	    |
-|%ARTICLE_TITLE%		||   ||Hersteller des Artikels	    |
-|%ARTICLE_TITLE%		||   ||Titel des Artikels	        |
-|%ARTICLE_PRICE%		||   ||Preis des Artikels	        |
-|%MANUFACTURER_TITLE%	||   ||Name des Herstellers	        |
-|%CATEGORY_TITLE%		||   ||Titel der Kategorie		    |
-
+|---
+|		Variable		|		    Bedeutung        	|
+|:-|:-
+|%ARTICLE_MANUFACTURER%	|Hersteller des Artikels	    
+|%ARTICLE_TITLE%		|Hersteller des Artikels	    
+|%ARTICLE_TITLE%		|Titel des Artikels	        
+|%ARTICLE_PRICE%		|Preis des Artikels	        
+|%MANUFACTURER_TITLE%	|Name des Herstellers	        
+|%CATEGORY_TITLE%		|Titel der Kategorie		    
+|==
+|
 
 Die Variablen können Sie natürlich auch mit normalem Text mischen. So können Sie jeden Seitentitel und jede Seitenbeschreibung individuell an Ihren Shop anpassen.
 
