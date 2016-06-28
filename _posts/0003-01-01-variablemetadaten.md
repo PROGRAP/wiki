@@ -5,8 +5,8 @@ tags: marketing
 permalink: /marketing/:title
 ---
 
-Hier wird eine Inhaltsangabe erstellt
-      {:toc .disabled}
++ Hier wird eine Inhaltsangabe erstellt
+{:toc .disabled}
 
 In den Einstellungen zu den variablen Metadaten können viele Bereiche des Shops personalisiert werden. Hierbei geht es um den Titel bestimmter Seiten oder deren Beschreibung.
 Um Titel oder Beschreibungen zu bearbeiten, gehen Sie unter
