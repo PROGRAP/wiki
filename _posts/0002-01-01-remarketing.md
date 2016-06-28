@@ -8,7 +8,7 @@ permalink: /marketing/:title
 Wenn ein Kunde den Shop verlässt und dann auf einer anderen Seite Werbung für den Shop sieht, wird von **Remarketing** gesprochen. Beim Remarketing geht es um die Rückgewinnung potenzieller Kunden die nicht den Checkout getätigt haben.
 Diese bekommen dann über fremde Webseiten Werbung, um den Einkauf fortzusetzen.
 
-![remarketing1]
+![remarketing1]{: .borderless}
 
 
 
