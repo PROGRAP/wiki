@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zahlungsarten
-tags: versand-zahlung
+tags: versand_zahlung
 permalink: /versand-zahlung/:title
 ---
 
