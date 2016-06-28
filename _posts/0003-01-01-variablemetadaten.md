@@ -18,6 +18,7 @@ Nun haben Sie die Möglichkeit einen festen Text einzugeben, wie zum Beispiel: �
 In einigen Fällen bietet es sich an, dass sich Titel oder Beschreibungen anpassen, je nachdem welcher Artikel oder welche Kategorie aufgerufen wird. Um das zu erreichen müssen Sie Variablen verwenden.
 
 ## Variablen
+
 |---
 |		Variable		|		    Bedeutung        	|
 |:-|:-
