@@ -43,4 +43,4 @@ Das Kreuz neben den Namen löscht selbige aus der Auflistung und im Eingabefeld 
 [zahlungsarten1]: /img/zahlung-versand/zahlungsarten.png
 [zahlungsarten2]: /img/zahlung-versand/einstellungen.png
 [zahlungsarten3]: /img/zahlung-versand/einstellungen2.png
-[zahlungsarten3]: /img/zahlung-versand/benutzergruppen.png
+[zahlungsarten4]: /img/zahlung-versand/benutzergruppen.png
