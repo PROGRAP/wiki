@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remarketing/Retargeting
-tags:marketing
+tags: marketing
 permalink: /marketing/:title
 ---
 
