@@ -19,14 +19,15 @@ In einigen Fällen bietet es sich an, dass sich Titel oder Beschreibungen anpass
 
 ## Variablen
 
-|		Variable		|		    Bedeutung        	|
-|-----------------------|-------------------------------|
-|%ARTICLE_MANUFACTURER%	||Hersteller des Artikels	|
-|%ARTICLE_TITLE%		||Hersteller des Artikels	|
+|		Variable		||		    Bedeutung        	|
+|-----------------------||-------------------------------|
+|%ARTICLE_MANUFACTURER%	||Hersteller des Artikels	    |
+|%ARTICLE_TITLE%		||Hersteller des Artikels	    |
 |%ARTICLE_TITLE%		||Titel des Artikels	        |
 |%ARTICLE_PRICE%		||Preis des Artikels	        |
-|%MANUFACTURER_TITLE%	||Name des Herstellers	    |
-|%CATEGORY_TITLE%		||Titel der Kategorie		|
+|%MANUFACTURER_TITLE%	||Name des Herstellers	        |
+|%CATEGORY_TITLE%		||Titel der Kategorie		    |
+
 
 Die Variablen können Sie natürlich auch mit normalem Text mischen. So können Sie jeden Seitentitel und jede Seitenbeschreibung individuell an Ihren Shop anpassen.
 
