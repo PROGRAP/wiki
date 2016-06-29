@@ -19,6 +19,8 @@ window.addEventListener('resize', function(){
   console.log('RESIZE')
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
+  content = document.getElementById("content");
+  panel = document.getElementById('insert-toc');
 
   if (bar.offsetHeight > window.innerHeight && !toc.className.includes('pre-scrollable')) {
     toc.className = toc.className + " pre-scrollable";
@@ -28,6 +30,9 @@ window.addEventListener('resize', function(){
 
   if (window.innerWidth <1000) {
       location.reload();
+      content.appendChild(toc);
+  }else {
+      panel.appendChild(toc);
   };
 
 }, true)
