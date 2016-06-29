@@ -3,9 +3,11 @@ window.addEventListener('load', function(){
   // console.log(toc);
   panel = document.getElementById('insert-toc');
   if (window.innerWidth <1000) {
+      console.log('A');
       location.reload();
       content.appendChild(toc);
   }else {
+      console.log('B');
       panel.appendChild(toc);
   };
   if (toc.className.includes('disabled')){console.log('Disabled found')}
@@ -34,8 +36,7 @@ window.addEventListener('resize', function(){
     toc.className = toc.className.split(' pre-scrollable').join('');
   };
 
-  if (window.innerWidth <1000) {
-      location.reload();
+  if (window.innerWidth < 1000) {
       content.appendChild(toc);
   }else {
       panel.appendChild(toc);
