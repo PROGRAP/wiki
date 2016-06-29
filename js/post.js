@@ -4,10 +4,12 @@ window.addEventListener('load', function(){
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
 
-  if (window.innerWidth <1000) {
+  panel.appendChild(toc);
+
+  if (window.innerWidth < 1000) {
       content.appendChild(bar);
   };
-  
+
   toc.className = toc.className.split('disabled').join('');
 
   if (bar.offsetHeight > window.innerHeight - 100 && !toc.className.includes('pre-scrollable')) {
