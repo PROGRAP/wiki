@@ -6,9 +6,8 @@ window.addEventListener('load', function(){
 
   if (window.innerWidth <1000) {
       content.appendChild(bar);
-  }else {
-      panel.appendChild(bar);
   };
+  
   toc.className = toc.className.split('disabled').join('');
 
   if (bar.offsetHeight > window.innerHeight - 100 && !toc.className.includes('pre-scrollable')) {
