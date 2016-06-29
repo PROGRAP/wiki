@@ -20,19 +20,19 @@ In einigen Fällen bietet es sich an, dass sich Titel oder Beschreibungen anpass
 ## Variablen
 
 |---
-|		Variable		|   |		    Bedeutung        	
+|		Variable		|{.umrandung}* * *|		    Bedeutung        	
 |:-|:-
-|%ARTICLE_MANUFACTURER%	|   |Hersteller des Artikels
+|%ARTICLE_MANUFACTURER%	|* * *|Hersteller des Artikels
 |---    
-|%ARTICLE_TITLE%		|   |Hersteller des Artikels
+|%ARTICLE_TITLE%		|* * *|Hersteller des Artikels
 |---	    
-|%ARTICLE_TITLE%		|   |Titel des Artikels
+|%ARTICLE_TITLE%		|* * *|Titel des Artikels
 |---	        
-|%ARTICLE_PRICE%		|   |Preis des Artikels
+|%ARTICLE_PRICE%		|* * *|Preis des Artikels
 |---	        
-|%MANUFACTURER_TITLE%	|   |Name des Herstellers
+|%MANUFACTURER_TITLE%	|* * *|Name des Herstellers
 |---	        
-|%CATEGORY_TITLE%		|   |Titel der Kategorie		    
+|%CATEGORY_TITLE%		|* * *|Titel der Kategorie		    
 |==
 |
 
