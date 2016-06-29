@@ -1,20 +1,15 @@
 window.addEventListener('load', function(){
   toc = document.getElementById('markdown-toc');
-  // console.log(toc);
   panel = document.getElementById('insert-toc');
-  if (window.innerWidth <1000) {
-      console.log('A');
-      content.appendChild(toc);
-  }else {
-      console.log('B');
-      panel.appendChild(toc);
-  };
-  if (toc.className.includes('disabled')){console.log('Disabled found')}
-  toc.className = toc.className.split('disabled').join('');
-
-
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
+
+  if (window.innerWidth <1000) {
+      content.appendChild(bar);
+  }else {
+      panel.appendChild(bar);
+  };
+  toc.className = toc.className.split('disabled').join('');
 
   if (bar.offsetHeight > window.innerHeight - 100 && !toc.className.includes('pre-scrollable')) {
     toc.className = toc.className + " pre-scrollable";
@@ -27,7 +22,6 @@ window.addEventListener('resize', function(){
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
   content = document.getElementById("content");
-  panel = document.getElementById('insert-toc');
 
   if (bar.offsetHeight > window.innerHeight && !toc.className.includes('pre-scrollable')) {
     toc.className = toc.className + " pre-scrollable";
@@ -36,9 +30,9 @@ window.addEventListener('resize', function(){
   };
 
   if (window.innerWidth < 1000) {
-      content.appendChild(toc);
+      content.appendChild(bar);
   }else {
-      panel.appendChild(toc);
+      panel.appendChild(bar);
   };
 
 }, true)
