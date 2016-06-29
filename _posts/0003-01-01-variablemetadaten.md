@@ -38,7 +38,6 @@ In einigen Fällen bietet es sich an, dass sich Titel oder Beschreibungen anpass
 Die Variablen können Sie natürlich auch mit normalem Text mischen. So können Sie jeden Seitentitel und jede Seitenbeschreibung individuell an Ihren Shop anpassen.
 
 
-
 Besipiele
 
 - auf der Artikel-Detailseite möchten Sie
