@@ -6,7 +6,7 @@ window.addEventListener('load', function(){
   if (toc.className.includes('disabled')){console.log('Disabled found')}
   toc.className = toc.className.split('disabled').join('');
 
-  
+
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
 
@@ -25,6 +25,11 @@ window.addEventListener('resize', function(){
   }else if(window.innerHeight > 650) {
     toc.className = toc.className.split(' pre-scrollable').join('');
   };
+
+  if (window.innerWidth <1000) {
+      location.reload();
+  };
+
 }, true)
 
 
@@ -35,28 +40,28 @@ document.addEventListener('scroll', function(){
   footerCoords = footer.getBoundingClientRect();
   contentCoords = content.getBoundingClientRect();
   stickyCoords = sticky.getBoundingClientRect();
-  widthToc = sticky.offsetWidth; 
+  widthToc = sticky.offsetWidth;
   // console.log(contentCoords);
 
 
-    
+
       sticky.className = sticky.className.split(' post-end').join('');
-      
+
         if (contentCoords.bottom <= 0 && window.innerWidth > 990) {
-          
+
           sticky.className = sticky.className.split(' affix').join('');
-          sticky.className = sticky.className + " affix"; 
+          sticky.className = sticky.className + " affix";
           sticky.style = "top:30px; width:" + widthToc + "px;";
           // console.log(contentCoords);
-          
+
         }else{
-          
+
           sticky.className = sticky.className.split(' affix').join('');
           sticky.style = "";
-          
+
         };
-        
 
 
-  
-},true) 
+
+
+},true)
