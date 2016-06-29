@@ -4,7 +4,6 @@ window.addEventListener('load', function(){
   panel = document.getElementById('insert-toc');
   if (window.innerWidth <1000) {
       console.log('A');
-      location.reload();
       content.appendChild(toc);
   }else {
       console.log('B');
