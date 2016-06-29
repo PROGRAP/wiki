@@ -2,7 +2,12 @@ window.addEventListener('load', function(){
   toc = document.getElementById('markdown-toc');
   // console.log(toc);
   panel = document.getElementById('insert-toc');
-  panel.appendChild(toc);
+  if (window.innerWidth <1000) {
+      location.reload();
+      content.appendChild(toc);
+  }else {
+      panel.appendChild(toc);
+  };
   if (toc.className.includes('disabled')){console.log('Disabled found')}
   toc.className = toc.className.split('disabled').join('');
 
@@ -13,6 +18,7 @@ window.addEventListener('load', function(){
   if (bar.offsetHeight > window.innerHeight - 100 && !toc.className.includes('pre-scrollable')) {
     toc.className = toc.className + " pre-scrollable";
   };
+
 },true)
 
 window.addEventListener('resize', function(){
