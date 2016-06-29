@@ -23,6 +23,8 @@ window.addEventListener('resize', function(){
   bar = document.getElementById("toc-panel");
   toc = document.getElementById("markdown-toc");
   content = document.getElementById("toc-responsive");
+  panel = document.getElementById('insert-toc');
+
 
   if (bar.offsetHeight > window.innerHeight && !toc.className.includes('pre-scrollable')) {
     toc.className = toc.className + " pre-scrollable";
