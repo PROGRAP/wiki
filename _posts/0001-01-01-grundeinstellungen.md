@@ -14,7 +14,6 @@ permalink: /erstbenutzung/:title
 Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.**
 
 ![grundeinstellungen]
-{:.img-responsive .center-block}
 
 ------
 
@@ -105,7 +104,7 @@ Bei erfolgreicher Registrierung, erhält Ihr Kunde eine E-Mail mit entsprechende
 
 Betreff einer E-Mail in der das Passwort wiederhergestellt wird.
 
-### jetzt versendet E-Mail Betreff 
+### jetzt versendet E-Mail Betreff
 {:.no_toc}
 
 Der angezeigte Betreff einer Versand-Mail.

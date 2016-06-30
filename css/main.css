@@ -13,7 +13,7 @@ footer{
 }
 
 .disabled {
-  display: none;  
+  display: none;
 }
 
 .index-panel {
@@ -34,6 +34,14 @@ footer{
 .content-area p img {
 border: 1px solid black;
 display: block;
+margin-right: auto;
+margin-left: auto;
+max-width: 100%;
+height: auto;
+}
+
+.content-area p .icon {
+display: inline;
 margin-right: auto;
 margin-left: auto;
 max-width: 100%;
