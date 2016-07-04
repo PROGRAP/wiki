@@ -6,6 +6,12 @@ permalink: /bestellungen/:title
 ---
 
 
++ Index
+{:toc .disabled}
+
+
+
+
 Nachdem der Kunde im Shop durch den Checkout ist, wird die Bestellung in einer Übersicht von Bestellungen angezeigt.
 
 

@@ -6,6 +6,10 @@ permalink: /multichannel/:title
 ---
 
 
++ Index
+{:toc .disabled}
+
+
 ***Zurzeit  müssen Artikel Varianten besitzen um mit Amazon verbunden zu werden***
 
 
@@ -59,8 +63,6 @@ Unser Support ist unter folgender E-Mail zu erreichen: *support@getcore.io*
 
 
 Einen einzelnen Artikel wird über die Artikel Bearbeitung verlinkt. Unter  *Katalog => Artikel => Artikel bearbeiten => Amazon* führt ein Wizard durch  die Verlinkung.
-
-
 
 
 

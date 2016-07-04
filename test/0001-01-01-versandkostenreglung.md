@@ -7,7 +7,7 @@ permalink: /versand-zahlung/:title
 
 
 + Index
-{:toc}
+{:toc .disabled}
 
 
 Die Versandkostenreglung berechnet nach denen von Ihnen gewählten Bedingungen den Versandpreis und die Versandart.
@@ -26,7 +26,7 @@ Ein Klick auf das Symbol der Hand wechselt den Status.
 ## Versandregeln
 
 
-Hier editieren oder erstellen Sie neue Versandkostenregelungen. 
+Hier editieren oder erstellen Sie neue Versandkostenregelungen.
 Damit Versandkostenregeln überhaupt greifen müssen diese mit Benutzergruppen, Versandarten und Länder gekoppelt werden.
 Sehen Sie dafür [HIER][Versandarten].
 
@@ -100,7 +100,7 @@ Bei aktivem Regler wird, wenn diese Regel greift, ***keine*** weitere Regel zur 
 ---
 
 
-## Design 
+## Design
 
 
 Hier stellen Sie unter anderen ein, von wann bis wann die Regel greift.
@@ -135,7 +135,7 @@ Um ein bestimmtes Land auszuwählen geben Sie den Namen im Suchfeld für Titel e
 Sie können aber Auch eine Liste mit allen Länder anzeigen lassen oder nur mit Ländern die zugewiesen/nicht zugewiesen sind. Dafür wählen Sie einfach das Kriterium im Suchfeld ganz links aus.
 
 
-Setzen Sie Häkchen für Länder die Sie verknüpfen wollen. 
+Setzen Sie Häkchen für Länder die Sie verknüpfen wollen.
 
 
 **Vergessen Sie nicht zu Übernehmen!**
