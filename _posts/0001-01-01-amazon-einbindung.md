@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Amazon Marketplace Einbindung
 tags: multichannel

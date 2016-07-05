@@ -1,11 +1,11 @@
-﻿---
+---
 layout: post
 title: Zahlungsarten
 tags: versand_zahlung
 permalink: /versand-zahlung/:title
 ---
 
-
+·.
 + Index
 {:toc .disabled}
 
