@@ -5,7 +5,6 @@ tags: versand_zahlung
 permalink: /versand-zahlung/:title
 ---
 
-·.
 + Index
 {:toc .disabled}
 
