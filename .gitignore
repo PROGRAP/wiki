@@ -7,3 +7,5 @@ client_secrets.json
 getGoogleDocs.py
 
 test/
+
+buildHelpdesk.sh
