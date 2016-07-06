@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bestellungen
+title: Preisanfragen
 tags: bestellungen
 permalink: /bestellungen/:title
 ---
@@ -8,6 +8,8 @@ permalink: /bestellungen/:title
 
 + Index
 {:toc .disabled}
+
+
 
 
 Nachdem der Kunde im Shop durch den Checkout ist, wird die Bestellung in einer Übersicht von Bestellungen angezeigt.
@@ -39,12 +41,3 @@ Es ist nun ersichtlich das bereits eine Rechnung/Versandschein/Storno etc. ausge
 
 
 Der Status ändert sich automatisch wenn die entsprechende Aktionen ausgeführt werden, kann jedoch auch manuell in der Übersicht verändert werden.
-
-
-## Bestelldaten
-
-
-Über die verschieden Buttons werden teils PDFs erstellt die als Lieferschein oder Rechnungen fungieren.
-
-
-Dafür einfach auf den Button klicken Formular ausfüllen und PDF ausgeben wählen.
