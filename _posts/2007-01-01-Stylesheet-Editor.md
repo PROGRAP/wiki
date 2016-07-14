@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Stylesheet Editor
 tags: marketing

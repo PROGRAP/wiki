@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Template Editor
 tags: marketing
