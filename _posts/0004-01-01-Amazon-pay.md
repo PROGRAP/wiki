@@ -23,7 +23,7 @@ Um Amazon Payments als Zahlungsart in Ihren Shop zu integrieren, wählen Sie zun
 
 
 Melden Sie sich zunächst mit Ihren Amazon Seller Daten auf folgender Website an 
-https://sellercentral-europe.amazon.com/gp/homepage.html?
+[sellercentral-europe.amazon.com](https://sellercentral-europe.amazon.com/gp/homepage.html?)
 Wenn Sie bereits registriert sind, können Sie aus dem Menü im Header einfach den Bereich „Amazon Payments (Produktionsansicht)“ wählen. Unter Integration -> MWS Access Keys können Sie benötigten Daten (Access Key, Client Id, Seller Id und Secret) abrufen und in die entsprechenden Felder im Shop eintragen. 
 Wenn Sie die Zahlungsmethode zuvor testen wollen, empfehlen wir Ihnen die Sandbox zu aktivieren. Setzen Sie dafür den Haken in den Admin Einstellungen der Zahlungsart und tragen Sie  die Daten aus dem Bereich „Amazon Payments (Sandbox-Ansicht)“ ein. 
 In beiden Fällen erscheint im Bestell-Checkout dann im Warenkorb der „Bezahlen mit Amazon“ Button, über welchen die Bestellung abgeschlossen werden kann. 
