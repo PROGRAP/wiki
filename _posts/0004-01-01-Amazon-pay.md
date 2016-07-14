@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Amazon Payments
+title: Amazon Pay
 tags: versand_zahlung
 permalink: /zahlung-versand/:title
 ---
