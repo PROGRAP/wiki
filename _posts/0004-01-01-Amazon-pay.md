@@ -19,7 +19,7 @@ Um Amazon Payments als Zahlungsart in Ihren Shop zu integrieren, wählen Sie zun
 
 
 
-## Wie erhalten ich die erforderlichen Daten?##
+## Wie erhalten ich die erforderlichen Daten?
 
 
 Melden Sie sich zunächst mit Ihren Amazon Seller Daten auf folgender Website an 
