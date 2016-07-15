@@ -57,13 +57,19 @@ Nach der Auswahl des entsprechenden Feldes wird ein Dropdown angezeigt in dem ei
 ## Die Artikel auf Amazon verbinden
 
 
-Die Artikel werden über die Artikel Übersicht verlinkt.
+Die Artikel werden über die Artikelverwaltung verlinkt.
 
 
 Dafür wählt man entsprechenden Artikel durch klicken auf das Kästchen aus und klickt auf das Amazon Symbol in der nun erscheinenden Toolbar an.
 
 
-Nun erscheint rechts ein Amazon Symbol welches ausgegraut ist. Dies bedeutet das der Artikel nun nach Amazon verlinkt wird. Sobald das Symbol nicht mehr ausgegraut ist , wurde der Artikel erfolgreich hochgeladen.
+Nun erscheint rechts ein Amazon Symbol welches ausgegraut ist. 
+
+
+Dies bedeutet das der Artikel nun nach Amazon verlinkt wird. 
+
+
+Sobald das Symbol nicht mehr ausgegraut ist , wurde der Artikel erfolgreich hochgeladen.
 
 
 
