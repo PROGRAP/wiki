@@ -19,18 +19,28 @@ Unter ***Einstellungen => Amazon Einstellungen*** wird die Implementierung von A
 Für die Einbindung von Amazon benötigt man verschiedenste IDs welche Amazon einem Händlerkonto zuweist.
 
 
+## Amazon API
+
+
 Die Amazon API wird unter Amazon API eingegeben.
 
 
+![Amazon API][img2]
 
 
 Wie man an die benötigten IDs  der Amazon API kommt sieht man hier : [Wie kommt man an die IDs ?][1]
+
+
+## Amazon Product Advertising API
 
 
 Die Möglichkeit Amazon Product Advertising API zu verwenden gibt es auch, dafür benötigt man die API-Keys von hier: [Product Advertising API][2]
 
 
 Diese IDs werden unter Amazon Product Advertising API eingegeben.
+
+
+![Amazon Product Advertising API][img3]
 
 
 Nachdem die Keys und IDs eingegeben sind muss noch die Artikel Information Zuweisung eingestellt werden.
@@ -81,3 +91,5 @@ Sobald das Symbol nicht mehr ausgegraut ist , wurde der Artikel erfolgreich hoch
 [1]: https://developer.amazonservices.de/gp/mws/faq.html
 [2]: https://partnernet.amazon.de/gp/advertising/api/detail/main.html
 [img1]: /img/multichannel/amazon_dropdown.png
+[img2]: /img/multichannel/amazon_api1.png
+[img3]: /img/multichannel/amazon_api2.png
