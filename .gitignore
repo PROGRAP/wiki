@@ -9,3 +9,5 @@ getGoogleDocs.py
 test/
 
 buildHelpdesk.sh
+
+mycreds.txt
