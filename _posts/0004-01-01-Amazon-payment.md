@@ -7,7 +7,7 @@ permalink: /zahlung-versand/:title
 
 
 + Index
-{:.toc .disabled}
+{:toc .disabled}
 
 
 ## Vorwort:
@@ -52,10 +52,18 @@ Sollte Amazon Payment hier nicht gelistet sein:
 4. Amazon Payment
 
 
-Um die API Daten zu hinterlegen auf **Aktivieren** klicken. Wenn Amazon Payment bereits aktiviert ist auf **Einstellungen** Klicken.
+Um die API Daten zu hinterlegen auf **Aktivieren** klicken.
+Wenn Amazon Payment bereits aktiviert ist auf **Einstellungen** Klicken.
+
+
+Es öffnet sich Folgender Dialog:
+
+![amzonpayment][5]
 
 
 Hier die 
+
+
 1. Acess Key
 2. Client ID
 3. Merchant/Sellser ID
@@ -72,4 +80,4 @@ Alle Weiteren Standardzahlungsarteneinstellungen befinden sich unter den API-Kon
 [2]:https://payments.amazon.de/help/201212150 
 [3]:https://sellercentral.amazon.de
 [4]:https://sellercentral-europe.amazon.com/gp/pyop/seller/mwsaccess/ref=py_pyopacc_dnav_home_?ld=APDELPADirect
-[5]: /img/amazonpayment.png
+[5]:/img/amazonpayment.png
