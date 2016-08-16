@@ -68,5 +68,5 @@ Funktionen auf der rechten Seite:
 [2]: /img/BlockGrid.png
 [3]: /img/TextEditor.png
 [4]: /img/15Zeilen.gif
-[5]: /img/BlöckePlatzieren.gif
+[5]: /img/BloeckePlatzieren.gif
 [6]: /img/TextEditor.gif
