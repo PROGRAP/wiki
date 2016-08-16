@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Content Management System
-tags: shopgestaltung
-permalink: /shopgestaltung/:title
+tags: gestaltung
+permalink: /gestaltung/:title
 ---
 
 
