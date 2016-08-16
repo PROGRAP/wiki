@@ -51,7 +51,7 @@ Bitte beachten:  Artikel ohne Varianten könnennicht abgeglichen werden.
 - Auswahl durch Dropdown
 
 
-![AmazonArtikelZuweisungBsp1][6]
+![ArtikelInformationZuweisungBsp1][6]
 
 
 ### Artikel Zuweisung
@@ -100,6 +100,6 @@ Bsp.:
 [3]: /img/AmazonAPI.png
 [4]: https://partnernet.amazon.de/gp/advertising/api/detail/main.html
 [5]: /img/AmazonProductAdvertisingAPI.png
-[6]: /im/AmazonArtikelZuweisungBsp1.png
+[6]: /im/ArtikelInformationZuweisungBsp1.png
 [7]: /img/AmazonArtikelZuweisung.png
 [8]: /img/AmazonArtikelZugewiesen.png
