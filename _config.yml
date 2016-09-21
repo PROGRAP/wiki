@@ -2,3 +2,5 @@ name: opaldes
 markdown: kramdown
 url: http://help.getcore.io/
 encoding: UTF-8
+gems:
+  - jekyll-sitemap
