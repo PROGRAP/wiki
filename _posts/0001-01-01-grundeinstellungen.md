@@ -172,7 +172,7 @@ Unter SEO oder auch ‘Search Engine Optimization’ finden Sie Einstellungen f�
 Auf die SEO gehen wir unter Marketing mehr ein.
 
 
-[grundeinstellungen]:/wiki/img/grundeinstellungen/grundeinstellungen.png
+[grundeinstellungen]:/img/grundeinstellungen/grundeinstellungen.png
 
 
 [shopeinstellungen1]: /wiki/img/grundeinstellungen/shopeinstellungen1.png
