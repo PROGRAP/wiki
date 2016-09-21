@@ -175,16 +175,16 @@ Auf die SEO gehen wir unter Marketing mehr ein.
 [grundeinstellungen]:/img/grundeinstellungen/grundeinstellungen.png
 
 
-[shopeinstellungen1]: /wiki/img/grundeinstellungen/shopeinstellungen1.png
+[shopeinstellungen1]: /img/grundeinstellungen/shopeinstellungen1.png
 
 
-[shopeinstellungen2]: /wiki/img/grundeinstellungen/shopeinstellungen2.png
+[shopeinstellungen2]: /img/grundeinstellungen/shopeinstellungen2.png
 
 
-[firmaeinstellungen]: /wiki/img/grundeinstellungen/firmaeinstellungen.png
+[firmaeinstellungen]: /img/grundeinstellungen/firmaeinstellungen.png
 
 
-[finanzeinstellungen]: /wiki/img/grundeinstellungen/finanzeinstellungen.png
+[finanzeinstellungen]: /img/grundeinstellungen/finanzeinstellungen.png
 
 
-[emailgrundeinstellungen]: /wiki/img/grundeinstellungen/emailgrundeinstellungen.png
+[emailgrundeinstellungen]: /img/grundeinstellungen/emailgrundeinstellungen.png
