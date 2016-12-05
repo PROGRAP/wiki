@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemaps: http://help.getcore.io/sitemap.xml
