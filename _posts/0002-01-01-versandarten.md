@@ -10,128 +10,37 @@ permalink: /versand-zahlung/:title
 {:toc .disabled}
 
 
-Hier sehen Sie eine Übersicht von Versandarten die Ihr Shop anbietet.
-Sie können sie über das Hand-Symbol den Status zwischen Aktiv/Inaktiv wechseln.
-Über den linken Stift können sie die Versandarten editieren und über den Mülleimer löschen.
+Unter dem Menüpunkt “Zahlung und Versand” werden die Einstellungen zu Zahlung und Versand bearbeitet. Bei “Versandarten” können verschiedene Versandarten eingetragen werden, wie zum Beispiel Standard-Versand, Express-Versand etc.
 
 
-Über den ***Neu*** Button können sie eine neue Versandart im Editor erstellen.
+## Versandart hinzufügen
 
 
-## Versandarteneditor
+1. Auf “Neue Versandart” und “Hinzufügen” klicken. 
+2. Unter Einstellungen einen Titel angeben. 
+3. Eine Sortierung angeben: 0 ist Standardversand, alle weiteren Zahlen sind nachgeordnet. 
+4. Optional ein Icon für die Versandart hochladen. 
+5. Auf Speichern klicken.
 
 
-Im Versandarteneditor editieren/erstellen Sie Versandarten.
+Nun kann eine Versandregel hinzugefügt werden.
 
 
-Am Ende Ihrer Änderungen sollten Sie **speichern**.
+-----
 
 
-Nicht gespeicherte Veränderungen werden verworfen wenn sie den Editor verlassen.
+## Versandregel hinzufügen
 
 
----
+1. Auf “Neue Versandregel” klicken.
+2. Eine Bedingung auswählen: Menge, Größe, Gewicht oder Preis.
+3. Bei Berechnungsregeln zwischen folgenden Optionen wählen: Einmal pro Warenkorb, Einmal pro unterschiedlichem Artikel, Für jeden Artikel
+4. Angeben, worauf sich die Versandregel bezieht, z. B. 2-4kg
+5. Bei Preisaufschlag/-abschlag den Versandpreis absolut oder prozentual angeben.
+6. Einen Zeitraum festlegen, in dem die Regel aktiv ist, sowie einen Text, der vorher und währenddessen angezeigt wird.
+7. Bei mehreren Regeln die Reihenfolge der Regelverarbeitung angeben.
+8. Weiter festlegen, ob die Versandregel im Frontend angezeigt wird, für welche Länder, Benutzer und Kategorien sie gilt und entsprechende Auswahlen treffen.
+9. Auf “Hinzufügen” klicken.
 
 
-## Allgemein
-
-
-Hier setzen Sie die Versandart auf aktiv/inaktiv und editieren den Namen der Versandart.
-
-
----
-
-
-## Design 
-
-
-Hier stellen sie das Erscheinungsbild der Versandart ein.
-
-
-### Sortierung 
-
-
-Hier entscheiden Sie an welcher Stelle der Kunde diese Versandart zu Gesicht bekommt.
-
-
-Der Zahlenbereich geht von -1000(höchste Priorität) bis 1000(Niedrigste Priorität). 
-
-
-### Beschreibung
-
-
-In der Beschreibung hinterlassen Sie für den Kunden Informationen für die Versandart.
-
-
-### Aktiv von/bis
-
-
-Der Zeitraum inder diese Versandart für den Kunden auswählbar ist.
-
-
----
-
-
-## Bilder 
-
-
-Falls es ein Logo für diese Versandart gibt, kann man hier das Logo hochladen damit es dem Kunden angezeigt wird.
-
-
----
-
-
-## Versandreglung
-
-
-Versandregeln werden hier mit Versandarten verknüpft.
-
-
-Entweder suchen Sie über den Titel eine bestimmte Versandregel oder entscheiden sich dafür alle schon verknüpften/nicht verknüpften Versandregeln anzuzeigen.  
-
-
-Verknüpft wird durch das Setzen von Häkchen links von der Versandregel. 
-
-
-[Unser Eintrag zu den Versandkostenreglungen.][versandkostenreglungen]
-
-
----
-
-
-## Gruppe
-
-
-Stellen Sie ein, welche Benutzergruppen für die Versandarten infrage kommen.
-
-
-Die Funktionalität ist identisch mit der der Versandreglung
-
-
----
-
-
-## Benutzer 
-
-
-Wenn Ihnen die Benutzergruppen nicht ausreichen können Sie hier auch einzelnen Benutzern die Versandart zugänglich machen. 
-
-
-Auch hier ist die Funktionalität identisch mit der der Versandreglung.
-
-
----
-
-
-## Zahlungsarten
-
-
-Verknüpfung der Zahlungsarten mit Ihrer Versandart.
-
-
-Genau wie bei den Versandregeln,Gruppe,Benutzer werden hier Häkchen für die Verknüpfungen gesetzt. 
-
-
-
-
-[versandkostenreglungen]: /wiki/versand-zahlung/versandkostenreglung
+Zu jeder Versandart können mehrere Versandregeln hinzugefügt werden.
