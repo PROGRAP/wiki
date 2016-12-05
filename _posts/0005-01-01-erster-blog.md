@@ -15,6 +15,8 @@ Anschließend unter CMS -> CMS auf NEU klicken.
 
 
 ## Eigenschaften
+
+
 1. Unter “Ist aktiviert” Beitrag veröffentlichen
 2. Titel eingeben
 3. Objektidentifikator wird automatisch generiert, kann aber auch bearbeitet werden.
@@ -28,12 +30,20 @@ Anschließend unter CMS -> CMS auf NEU klicken.
 
 
 --------
+
+
 ## Editor
+
+
 Hier wird der Inhalt des Beitrags eingegeben. Daraus kann eine Vorlage erstellt werden.
 
 
 ---------
+
+
 ## Bilder
+
+
 1. Datei Auswählen
 2. Upload klicken
 3. Das Bild mit dem Artikel verknüpfen
@@ -42,15 +52,27 @@ Hier wird der Inhalt des Beitrags eingegeben. Daraus kann eine Vorlage erstellt 
 
 
 ----------
+
+
 ## Artikel
+
+
 Hier werden verknüpfte Artikel angezeigt. Die Verknüpfungen können über BlogNG eingerichtet werden.
 
 
 ------------
+
+
 ## Kategorie
+
+
 Hier unbedingt die Blog-Kategorie auswählen, sonst kann der Beitrag nicht dargestellt werden.
 
 
 -------------
+
+
 ## SEO
+
+
 Hier können für Suchmaschinen relevante Informationen eingegeben werden, z. B. Seitentitel, Schlüsselwörter und Beschreibung für den HTML Kopfbereich. Außerdem festlegen, ob die URL geändert werden kann und gegebenenfalls eine suchmaschinenfreundliche URL eingeben.
