@@ -18,28 +18,24 @@ permalink: /katalog/:title
 Über *Neu* werden neue Hersteller hinzugefügt und über das Stift-Symbol der Einträge werden diese editiert.
 
 
-## Hersteller bearbeiten
+## Basis-Informationen
 
 
-Nach dem Klick auf dem Stift oder *Neu* wird ein Hersteller editiert oder angelegt.
+* Titel eingeben
+* Aktivieren / Deaktivieren
+* Gegebenenfalls als Premiumhersteller markieren
+* Kurzbeschreibung eingeben
+* Gegebenenfalls Oberes und Unteres CMS auswählen. Dadurch kann das Layout der Seite durch Ergänzungen angepasst werden.
+* Im Editorfeld eine längere Beschreibung eingeben
 
 
-### Basis Informationen
+## Icon
 
 
-Hier werden Name des Herstellers sowie eine Kurzbeschreibung etc. eingetragen.
+Icon für den Hersteller auswählen. Das Icon wird je nach Template bei einem Artikel angezeigt um die Zugehörigkeit zum Hersteller anzuzeigen.
 
 
-### Icon
+## SEO
 
 
-Das Icon wird je nach Template bei einem Artikel angezeigt um die Zugehörigkeit zum Hersteller anzuzeigen.
-
-
-### SEO
-
-
-Für mehr Infos sehen sie [SEO][1]
-
-
-[1]: /marketing/SEO
+Hier kann eine URL für den Hersteller eingegeben und gegebenenfalls fixiert werden.

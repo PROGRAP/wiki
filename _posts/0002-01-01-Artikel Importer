@@ -1,0 +1,54 @@
+﻿---
+layout: post
+title: Artikel Importer
+tags: multichannel
+permalink: /multichannel/:title
+---
+
+
++ Hier wird eine Inhaltsangabe erstellt
+{:toc}
+
+
+Über den Artikelimporter können Artikel über eine CSV Datei in den Katalog eingespeist werden. Bevor eine Datei hochgeladen werden kann, muss ein Importprofil angelegt werden.
+
+
+-----
+
+
+
+
+## Importprofil anlegen
+
+
+1. Unter Multichannel > Artikelimportprofile auf NEU klicken
+2. Titel eingeben und speichern.
+3. Je nach Dateivorlage gegebenenfalls weitere Optionen auswählen.
+
+
+Um die Funktionalität von Kategorien und Attributen nutzen zu können, ist es nötig einige der Post Prozess Plugins auszuwählen, darunter Kategoriesystem und Attributsystem. 
+
+
+Zu importierende Datei hochladen, um daraus die Profilfelder zu generieren. 
+
+
+### Profilfeldeditor
+
+
+Wenn eine Datei hochgeladen wurde, können nun die Felder den Variablen zugewiesen werden. Anderenfalls manuell neue Zeilen hinzufügen und Artikelfelder mit Dateifeldern verknüpfen.
+
+
+-----
+
+
+
+
+## Importdatei Hochladen
+
+
+1. Unter Multichannel > Artikelimporter auf “Importdatei hochladen” klicken.
+2. Datei auswählen und speichern
+3. Der Datei ein Artikelimportprofil zuweisen
+4. Gegebenenfalls “Nur aktualisieren” auswählen
+5. Gegebenenfalls “Bilder importieren” auswählen
+6. Unter Optionen Ausführen. Außerdem können hier Bilder heruntergeladen und die Datei gelöscht werden.

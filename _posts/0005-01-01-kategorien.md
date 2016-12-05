@@ -50,7 +50,7 @@ Wenn sie einen Artikel löschen wollen drücken Sie auf den Mülleimer und best�
 # Kategorien bearbeiten
 
 
-Der Kategorien Editor editiert ,und erstellt wenn *NEU* ausgewählt wurde, Kategorien.
+Der Kategorien Editor editiert und erstellt, wenn *NEU* ausgewählt wurde, Kategorien.
 
 
 ## Allgemein
@@ -71,10 +71,10 @@ Hinweis: *Dies kann auch über die [Übersicht][1] erfolgen.*
 Eine versteckte Kategorie wird im Frontend nicht angezeigt.
 
 
-### Titel/Kurz-/Lanbeschreibung
+### Titel/Kurz-/Langbeschreibung
 
 
-Der gewünschte Titel/Kurz-/Lanbeschreibung eintragen.
+Der gewünschte Titel/Kurz-/Langbeschreibung eintragen.
 
 
 ### Sortierreihenfolge
@@ -89,10 +89,7 @@ Die gewählte Zahl geht von 0 bis 9999, dabei ist 0 die erste und 9999 die letzt
 ### Oberes/Unteres CMS
 
 
-Das Layout der Kategorie kann durch Snippets bestimmt werden.
-
-
-Für weiter Information siehe [CMS][2].
+Das Layout der Kategorie kann durch Snippets bestimmt werden. Hier kann ausgewählt werden, welche über und unter dem Kategorieninhalt angezeigt werden sollen.
 
 
 ---
@@ -138,7 +135,18 @@ Invertiert die Sortierreihenfolge der Artikel in der derzeitigen Kategorie.
 Ordner aus denen die CMS Dateien für den Inhalt und das Menü gezogen werden.
 
 
-Mehr Informationen unter [CMS][2].
+### Inhalt
+
+
+Inhaltstyp, Vorlage und Schnellsortierung auswählen.
+
+
+### Hauptmenü
+
+
+Hier kann die Darstellung im Hauptmenü bearbeitet werden.
+
+
 
 
 ---
@@ -147,13 +155,7 @@ Mehr Informationen unter [CMS][2].
 ## Bilder
 
 
-Bilder für eine Kategorie werden hier eingefügt.
-
-
-### Banner
-
-
-Der  Banner wird als Großes Bild über den Artikeln der Kategorie angezeigt.
+Bilder für eine Kategorie werden hier eingefügt, z. B. Thumbnail, Icon und Aktionsicon.
 
 
 ---
@@ -163,12 +165,9 @@ Der  Banner wird als Großes Bild über den Artikeln der Kategorie angezeigt.
 
 
 Bei SEO gibt es einmal die SEO Grundeinstellungen und die Erweiterten-SEO Einstellungen.
-
-
+Grundeinstellungen sind Seo Titel Tag und Externer Link.
 Die Erweiterten-SEO Einstellungen können nur nach der Bestätigung und Speicherung der schon vorgenommenen Änderung erreicht werden.
-
-
-Für mehr Infos siehe [SEO][3].
+Konfiguriert werden können die URL und die Metadaten.
 
 
 ---
@@ -177,13 +176,12 @@ Für mehr Infos siehe [SEO][3].
 ## Artikel
 
 
-Das Verknüpfen von Artikeln mit der Kategorie erfolgt hier. 
+Hier werden die Artikel angezeigt, die über den Artikeleditor mit der Kategorie verknüpft wurden. 
 
 
 Die Artikel können auch im Artikeleditor verknüpft werden. 
 
 
-Mehr dazu beim [Artikeleditor][4].
 
 
 ---
@@ -192,20 +190,10 @@ Mehr dazu beim [Artikeleditor][4].
 ## Attributeditor  
 
 
-Das Verknüpfen von Attributen mit der Kategorie erfolgt hier. 
-
-
-Die Artikel können auch im Attributeditor verknüpft werden. 
-
-
-Mehr dazu beim [Attributeditor][5].
+Hier können die Kategorien mit Attributen verknüpft werden. Außerdem werden die Attribute angezeigt, die über den Attributeditor mit der Kategorie verknüpft wurden.
 
 
 ---
 
 
 [1]: /wiki/artikel/kategorien
-[2]: /wiki/comingsoon
-[3]: /wiki/comingsoon
-[4]: /wiki/artikel/artikeleditor
-[5]: /wiki/comingsoon

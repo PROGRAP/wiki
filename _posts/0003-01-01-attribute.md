@@ -26,61 +26,46 @@ Hier können Kunden auf einen Blick dann Informationen über den Artikel sehen.
 ---
 
 
+## Attribut anlegen / Bearbeiten
 
 
-# Attribute bearbeiten
+1. Auf New bzw. das Edit-Icon klicken
 
 
-## Basis Informationen
+### Basis-Informationen
 
 
-Allgemeine Informationen wie der Titel und Pre-/Postfixe werden hier eingetragen.
+Allgemeine Informationen wie der Titel, Pre-/Postfixe, sowie Trennzeichen für Dezimalzahlen und Tausenderstellen werden hier eingetragen. Außerdem kann ein Rich-Snippet-Typ ausgewählt werden.
 
 
-## Darstellung
+### Darstellung
 
 
-Darstellungoptionen, wie die maximal angezeigten Attribute werden hier eingestellt.
+Folgende Eingaben können hier getätigt werden: 
 
 
-### Filteroptionen
+* Sortierung für die Artikeldetailseite
+* Position
+* Filtertyp
+* Anzahl sichtbarer Filtereinträge
+* Icon
 
 
-Unter Filteroptionen wird eingestellt wie auf die Attribute zugegriffen wird.
+Außerdem können folgende Schalter aktiviert oder deaktiviert werden: 
 
 
-Ein *Intervall* stellt einen regelbaren Balken dar. In diesem kann man einen bestimmten Wertebereich abstecken, und Produkte die in diesem sind werden angezeigt.
+* Selektierte Filterwerte erneut als Buttonliste darstellen
+* Filterbox ist standardgemäß geschlossen
+* Icon für Filterattributwerte anzeigen (werden via Stylesheet gepflegt)
+* Nummern in der Slider Filterbox formatieren
+* Attribut ist für Prüfer editierbar
+* In der Artikelauswahl (Artikelauswahlliste, Artikelauswahlzeile auf der Startseite/Artikeldetailseite) anzeigen
+* Ist ein Klassenattribut
+* Variantentitel nicht zeigen
+* Display as button
 
 
-Der *Nicht filterbar* sorgt für eine Auswahl an Attributen, aus der immer nur eine aktiv sein kann.
+### Attributgruppen
 
 
-Die *Mehrauswahlbox* sorgt für eine Auswahl an Attributen, aus der eine beliebige Anzahl ausgewählt werden kann.
-
-
-### Position und Anzahl der Filtereinträgen
-
-
-Position bestimmt die Priorität des Attributs in der Attribute-Hierarchie.
--9999 ist die höchste Priorität und 9999 die kleinste.
-
-
-Unter Anzahl der Filtereinträge wird die anfänglich sichtbaren Einträge bestimmt.
-Alle Einträge die über dieser Anzahl liegen sind durch eine Scroll-Bar dennoch erreichbar.
-
-
-### Weiter Einstellungen
-
-
-Die unteren Knöpfe von links nach Rechts sorgen für Folgendes :
-
-
-Knopf 1 sorgt dafür, dass Ausgewählte Filtereinträge als Button über den Attributen gelistet werden.
-
-
-Knopf 2 sorgt dafür, dass die Filterliste von Anfang an ausgeklappt ist.
- 
-Knopf 3 sorgt dafür, dass die Filterliste um Icons erweitert werden.
-
-
----
+Außerdem kann eine Attributgruppe zugewiesen werden.
