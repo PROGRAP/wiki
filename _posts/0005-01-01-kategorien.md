@@ -62,7 +62,7 @@ Der Kategorien Editor editiert und erstellt, wenn *NEU* ausgewählt wurde, Kateg
 Regelt ob die Kategorie aktiv/inaktiv ist.
 
 
-Hinweis: *Dies kann auch über die [Übersicht][1] erfolgen.*
+Hinweis: *Dies kann auch über die Übersicht erfolgen.*
 
 
 ### Verstecken
@@ -194,6 +194,3 @@ Hier können die Kategorien mit Attributen verknüpft werden. Außerdem werden d
 
 
 ---
-
-
-[1]: /wiki/artikel/kategorien

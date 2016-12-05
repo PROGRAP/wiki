@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Der erste Benutzer
-tags: katalog
-permalink: /katalog/:title
+tags: erstbenutzung
+permalink: /erstbenutzung/:title
 ---
 
 
