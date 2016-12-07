@@ -14,6 +14,8 @@ permalink: /multichannel/:title
 
 
 -----
+
+
 ## CSV Format
 
 
@@ -49,6 +51,33 @@ Wenn eine Datei hochgeladen wurde, können nun die Felder den Variablen zugewies
 
 
 Mögliche Felder sind:
+
+
+| Artikelnummer | Pflichtfeld | ID des Artikels |
+| Variantennummer | Pflichtfeld, wenn Varianten vorhanden sind | muss der Artikelnummer des Vaters entsprechen |
+| EAN | freiwillig | European Article Number |
+| Artikelname | Pflichtfeld | Name des Artikels |
+| Kurzbeschreibung | freiwillig | Zeichenbegrenzter Beschreibungstext |
+| Artikelpreis | Pflichtfeld | Format in der Form 23,99 |
+| Hersteller | freiwillig | Angabe des Herstellers |
+| UVP | freiwillig | nötig für Rabatte, hier Originalpreis eingeben, im Feld Artikelpreis den reduzierten Preis eingeben |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+| First | Second | Third |
+
+
+
+
 
 
 
