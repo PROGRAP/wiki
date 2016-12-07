@@ -51,6 +51,8 @@ Wenn eine Datei hochgeladen wurde, können nun die Felder den Variablen zugewies
 
 
 Mögliche Felder sind:
+
+
 |-----------------+------------+----------------|
 | Artikelnummer | Pflichtfeld | ID des Artikels |
 |-----------------+------------+----------------|
