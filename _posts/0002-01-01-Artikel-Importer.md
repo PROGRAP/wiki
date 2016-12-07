@@ -51,134 +51,65 @@ Wenn eine Datei hochgeladen wurde, können nun die Felder den Variablen zugewies
 
 
 Mögliche Felder sind:
-
-
+|-----------------+------------+----------------|
 | Artikelnummer | Pflichtfeld | ID des Artikels |
+|-----------------+------------+----------------|
 | Variantennummer | Pflichtfeld, wenn Varianten vorhanden sind | muss der Artikelnummer des Vaters entsprechen |
+|-----------------+------------+----------------|
 | EAN | freiwillig | European Article Number |
+|-----------------+------------+----------------|
 | Artikelname | Pflichtfeld | Name des Artikels |
+|-----------------+------------+----------------|
 | Kurzbeschreibung | freiwillig | Zeichenbegrenzter Beschreibungstext |
+|-----------------+------------+----------------|
 | Artikelpreis | Pflichtfeld | Format in der Form 23,99 |
+|-----------------+------------+----------------|
 | Hersteller | freiwillig | Angabe des Herstellers |
+|-----------------+------------+----------------|
 | UVP | freiwillig | nötig für Rabatte, hier Originalpreis eingeben, im Feld Artikelpreis den reduzierten Preis eingeben |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-| First | Second | Third |
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-
-	Artikelnummer
-	Pflichtfeld
-	ID des Artikels
-	Variantennummer
-	Pflichtfeld, wenn Varianten vorhanden sind
-	muss der Artikelnummer des Vaters entsprechen
-	EAN
-	freiwillig
-	European Article Number
-	Artikelname
-	Pflichtfeld
-	Name des Artikels
-	Kurzbeschreibung
-	freiwillig
-	Zeichenbegrenzter Beschreibungstext
-	Artikelpreis
-	Pflichtfeld
-	Format in der Form 23,99
-	Hersteller
-	freiwillig
-	Angabe des Herstellers
-	UVP
-	kein Pflichtfeld
-	nötig für Rabatte, hier Originalpreis eingeben, im Feld Artikelpreis den reduzierten Preis eingeben
-	Thumbnail
-	freiwillig
-	kann aus 1. Artikelbild generiert werden
-	Bild1-12
-	freiwillig
-	Entweder Name des Bildes oder Bild-URL angeben
-	Kann gesucht werden
-	freiwillig
-	wird in der Shopsuche angezeigt, Standard 1
-	Lagerbestand
-	freiwillig
-	Anzahl des Lagerbestands, Standard -1
-	Lieferstatus
-	freiwillig
-	wie wird mit dem Artikel umgegangen, wenn der Bestand 0 ist
-	Info falls Artikel auf Lager
-	freiwillig
-	Text, der angezeigt wird, wenn der Artikel auf Lager ist
-	Info falls Artikel nicht auf Lager
-	freiwillig
-	Text, der angezeigt wird, wenn der Artikel nicht auf Lager ist
-	Variantentitel
-	Pflichtfeld, wenn Varianten gewählt wurden
-	Überschrift der Varianten in der Form z. B. Größe|Farbe
-	Varianten Option 1-6
-	Pflichtfeld, wenn Varianten gewählt wurden
-	Variantenwerte
-	Gewicht
-	freiwillig
-	zur Berechnung von Versandkosten
-	Breite
-	freiwillig
-	zur Berechnung von Versandkosten
-	Länge
-	freiwillig
-	zur Berechnung von Versandkosten
-	Höhe
-	freiwillig
-	zur Berechnung von Versandkosten
-	Hersteller Artikelnummer
-	freiwillig
-	für interne Logistik bei Nachbestellungen
-	Langbeschreibung
-	freiwillig
-	ausführliche Beschreibung, mit HTML
-	Erstellungsdatum
-	freiwillig
-	wenn nicht angegeben, wird aktuelles Datum gewählt
-	Spezielle MwST
-	freiwillig
-	Mehrwertsteuer
-	Minimale Lieferzeit
-	freiwillig
-	
-
-	Maximale Lieferzeit
-	freiwillig
-	
-
-	Lieferzeiteinheit
-	freiwillig
-	z. B. DAY
-	Kategorie
-	Pflicht, wenn Kategorien ausgewählt wurde
-	Angabe der Kategorie
-	
-
+|-----------------+------------+----------------|
+| Thumbnail | freiwillig | kann aus 1. Artikelbild generiert werden |
+|-----------------+------------+----------------|
+| Bild1-12 | freiwillig | Entweder Name des Bildes oder Bild-URL angeben |
+|-----------------+------------+----------------|
+| Kann gesucht werden | freiwillig | wird in der Shopsuche angezeigt, Standard 1 |
+|-----------------+------------+----------------|
+| Lagerbestand | freiwillig | Anzahl des Lagerbestands, Standard -1 |
+|-----------------+------------+----------------|
+| Lieferstatus | freiwillig | wie wird mit dem Artikel umgegangen, wenn der Bestand 0 ist |
+|-----------------+------------+----------------|
+| Info falls Artikel auf Lager | freiwillig | Text, der angezeigt wird, wenn der Artikel auf Lager ist |
+|-----------------+------------+----------------|
+| Info falls Artikel nicht auf Lager | freiwillig | Text, der angezeigt wird, wenn der Artikel nicht auf Lager ist |
+|-----------------+------------+----------------|
+| Variantentitel | Pflichtfeld, wenn Varianten gewählt wurden | Überschrift der Varianten in der Form z. B. \` Größe|Farbe \` |
+|-----------------+------------+----------------|
+| Varianten Option 1-6 | Pflichtfeld, wenn Varianten gewählt wurden | Variantenwerte |
+|-----------------+------------+----------------|
+| Gewicht | freiwillig | zur Berechnung von Versandkosten |
+|-----------------+------------+----------------|
+| Länge | freiwillig | zur Berechnung von Versandkosten |
+|-----------------+------------+----------------|
+| Breite | freiwillig | zur Berechnung von Versandkosten |
+|-----------------+------------+----------------|
+| Höhe | freiwillig | zur Berechnung von Versandkosten |
+|-----------------+------------+----------------|
+| Hersteller Artikelnummer | freiwillig | für interne Logistik bei Nachbestellungen |
+|-----------------+------------+----------------|
+| Langbeschreibung | freiwillig | ausführliche Beschreibung mit HTML |
+|-----------------+------------+----------------|
+| Erstellungsdatum | freiwillig | wenn nicht angegeben, wird aktuelles Datum gewählt |
+|-----------------+------------+----------------|
+| Spezielle MwST | freiwillig | Angabe einer speziellen Mehrwertsteuer |
+|-----------------+------------+----------------|
+| Minimale Lieferzeit | freiwillig | |
+|-----------------+------------+----------------|
+| Maximale Lieferzeit | freiwillig | |
+|-----------------+------------+----------------|
+| Lieferzeiteinheit | freiwillig | z.B. DAY |
+|-----------------+------------+----------------|
+| Kategorie | Pflicht, wenn Kategorien ausgewählt wurde | Angabe der Kategorie |
+|-----------------+------------+----------------|
 
 
 ### Bilder
