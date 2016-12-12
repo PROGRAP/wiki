@@ -164,7 +164,9 @@ Funktionen auf der rechten Seite:
 Für den Typ “Beitrag” können hier Bilder eingestellt werden. So können Thumbnails und Galleriebilder ausgewählt werden.
 
 
-##Artikel
+
+
+## Artikel
 
 
 Nur relevant für den Typ “Beitrag”: Im Blog werden zugewiesene Artikel unter dem Beitrag angezeigt.

@@ -26,7 +26,7 @@ Um ein neues Profil zu erstellen, unter Mutlichannel > Exportprofile auf Neu kli
 * Anzahl der zu exportierenden Felder bei “Spaltenanzahl” eingeben
 * Spaltentrenner auswählen (empfohlen Tabstop)
 * Spaltentexttrenner (empfohlen “) angeben
-* Dateiname und Dateiendung angeben
+* Dateiname und Dateiendung (txt oder csv) angeben
 * Auswählen, ob Kopfzeile geschrieben werden soll
 
 
