@@ -85,7 +85,7 @@ Hochladen des Logos der Versandart über klicken auf den Button.
 ## Versandkostenreglung
 
 
-Wieviele Produkte kommen infrage? Wie teuer ? Wie wird bezahlt ?
+Wieviele Produkte kommen infrage? Wie teuer? Wie wird bezahlt?
 Diese und andere Sachen werden im Bereich der Versandkostenregel entschieden.
 Das System ist in der Lage das Gewicht der Produkte zu addieren und dann die richtige Versandart auszuwählen.
 
@@ -94,9 +94,6 @@ Dafür benötigt man aber die richtige Versandregeln.
 
 
 Die Versandregeln werden durch ein Klick auf das linke Kästchen mit der Versandart verknüpft. 
-
-
-Mehr dazu bei den [Versandkostenregeln] und [die erste Versandkostenregel].
 
 
 ---
@@ -133,16 +130,3 @@ Zahlungsarten werden durch das linke Kästchen für die Versandart freigeschalte
 
 
 Tipp: *Gewählt werden meist alle im Shop wirksamen Zahlungsarten.*
-
-
----
-
-
-Weiter geht es mit [den ersten Versandkostenregeln][Versandkostenregeln]. 
-
-
-Und mehr Informationen für die Versandarten findert man [HIER][versandarten]
-
-
-[Versandkostenregeln]: /wiki/versand-zahlungen/versandkostenregelung
-[versandarten]: /wiki/versand-zahlungen/versandarten

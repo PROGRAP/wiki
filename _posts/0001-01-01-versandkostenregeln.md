@@ -28,7 +28,6 @@ Ein Klick auf das Symbol der Hand wechselt den Status.
 
 Hier editieren oder erstellen Sie neue Versandkostenregelungen.
 Damit Versandkostenregeln überhaupt greifen müssen diese mit Benutzergruppen, Versandarten und Länder gekoppelt werden.
-Sehen Sie dafür [HIER][Versandarten].
 
 
 ***Vergessen Sie nicht zu speichern!***
@@ -178,8 +177,6 @@ Auch hier wird wieder unsere Auswahlliste benutzt wie bei Länder/Gruppen/Benutz
 ---
 
 
-Damit sind Sie hier fertig und können direkt mit den [Versandarten] loslegen.
 
 
 [Länder]: #lnder
-[Versandarten]: /wiki/versand-zahlung/versandarten

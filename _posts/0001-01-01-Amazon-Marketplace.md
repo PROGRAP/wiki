@@ -37,6 +37,8 @@ Bitte beachten:  Artikel ohne Varianten können nicht abgeglichen werden.
 
 
 ### Amazon Product Advertising API
+
+
 - wird immer benötigt
 - benötigt wird: AccessKey; SecretKey; AssociateTag
 - Daten: [Amazon Produktdaten für Ihre Website][4]
@@ -46,6 +48,8 @@ Bitte beachten:  Artikel ohne Varianten können nicht abgeglichen werden.
 
 
 ### Artikel Information Zuweisung
+
+
 - wird benötigt um Artikel zu Amazon hochzuladen
 - benötigt wird: amazon_pattern_product_id = EAN; alle Felder die bei Amazon angezeigt werden sollen
 - Auswahl durch Dropdown
@@ -55,6 +59,8 @@ Bitte beachten:  Artikel ohne Varianten können nicht abgeglichen werden.
 
 
 ### Artikel Zuweisung
+
+
 - wird benötigt um Artikel zu Amazon hochzuladen
 1. zu verknüpfende Artikel auswählen
 2. Klick auf das Amazon-Symbol
@@ -100,6 +106,6 @@ Bsp.:
 [3]: /img/AmazonAPI.png
 [4]: https://partnernet.amazon.de/gp/advertising/api/detail/main.html
 [5]: /img/AmazonProductAdvertisingAPI.png
-[6]: /im/ArtikelInformationZuweisungBsp1.png
+[6]: /img/ArtikelInformationZuweisungBsp1.png
 [7]: /img/AmazonArtikelZuweisung.png
 [8]: /img/AmazonArtikelZugewiesen.png

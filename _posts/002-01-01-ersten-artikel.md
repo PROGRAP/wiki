@@ -5,7 +5,7 @@ tags: erstbenutzung
 ---
 
 
-+Index
++ Index
 {:toc}
 
 
@@ -64,10 +64,10 @@ Natürlich haben Sie noch viel mehr Optionen, die jedoch unseren Erst-Benutzungs
 ## Lagerbestand
 
 
-Natürlich wollen Sie verhindern das mehr bestellt wird als vorhanden ist.
+Natürlich wollen Sie verhindern, dass mehr bestellt wird als vorhanden ist.
 Setzen Sie den Lagerbestand einfach unter Inventar ein.
 Sie können dann entscheiden wie das System auf fehlenden Bestand reagiert.
-Manche wollen dann den Artikel nichtmehr angezeigt haben andere wollen, dass der Artikel als “Zurzeit nicht Lieferbar” angezeigt wird.
+Manche wollen dann den Artikel nicht mehr angezeigt haben, Andere wollen, dass der Artikel als “Zurzeit nicht Lieferbar” angezeigt wird.
 Egal für was Sie sich entscheiden den Lagerbestand müssen Sie angeben.
 
 

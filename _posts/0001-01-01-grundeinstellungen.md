@@ -16,7 +16,6 @@ tags: erstbenutzung
 Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werden. Nach einem erfolgreichen Speichern erscheint ein grüner Vermerk auf der oberen Bildschirmhälfte.**
 
 
-![grundeinstellungen]
 
 
 ------
@@ -28,7 +27,6 @@ Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werd
 Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
 
 
-![shopeinstellungen2]
 
 
 ### Aktiv
@@ -85,7 +83,6 @@ Die Nummer für die erste Bestellung in Ihrem Shop.(Nummer  > 0)
 Hier geben Sie die Informationen zu Ihrer Firma ein. Diese finden Kunden dann, unter Kontakt, im Footer.
 
 
-![firmaeinstellungen]
 
 
 ------
@@ -94,10 +91,9 @@ Hier geben Sie die Informationen zu Ihrer Firma ein. Diese finden Kunden dann, u
 ## Finanzeinstellungen
 
 
-Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen , ein.
+Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen, ein.
 
 
-![finanzeinstellungen]
 
 
 ------
@@ -109,7 +105,6 @@ Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen 
 Hier werden E-Mail Adressen, sowie Betreffzeilen für Passwortänderungen, Registrier- und Versandbestätigungen eingestellt.
 
 
-![emailgrundeinstellungen]
 
 
 ### Bestell E-Mail Reply
@@ -170,21 +165,3 @@ Auf die Einstellungen unter Konfiguration gehen wir an anderer Stelle ein.
 
 Unter SEO oder auch ‘Search Engine Optimization’ finden Sie Einstellungen für Suchmachinen, damit Ihr Shop über diese gefunden wird.  
 Auf die SEO gehen wir unter Marketing mehr ein.
-
-
-[grundeinstellungen]:/wiki/img/grundeinstellungen/grundeinstellungen.png
-
-
-[shopeinstellungen1]: /wiki/img/grundeinstellungen/shopeinstellungen1.png
-
-
-[shopeinstellungen2]: /wiki/img/grundeinstellungen/shopeinstellungen2.png
-
-
-[firmaeinstellungen]: /wiki/img/grundeinstellungen/firmaeinstellungen.png
-
-
-[finanzeinstellungen]: /wiki/img/grundeinstellungen/finanzeinstellungen.png
-
-
-[emailgrundeinstellungen]: /wiki/img/grundeinstellungen/emailgrundeinstellungen.png

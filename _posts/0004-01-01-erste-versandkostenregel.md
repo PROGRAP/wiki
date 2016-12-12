@@ -34,6 +34,8 @@ Dann kommen wir in den Versandkostenreglungeneditor.
 
 Im Editor werden Versandkostenreglungen erstellt/editiert.
 Wichtig: *Speichern! *
+
+
 ## Allgemein
 
 
@@ -67,7 +69,6 @@ Tipp: *Generell empfehlen wir hier die Versandkosten als absoluten Betrag einzus
 
 
 Auswahl wie oft und für welche Artikel die Regel angewandt wird.
-Für mehr Information siehe [Berechnungsregeln unter Versandkostenreglung][bere] 
 
 
 ---
@@ -98,6 +99,3 @@ Wichtig: **Speichern nicht vergessen!**
 
 
 ---
-
-
-[bere]: /wiki/versand-zahlung/versandkostenreglung#berechnungsregeln
