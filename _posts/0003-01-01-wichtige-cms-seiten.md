@@ -76,6 +76,12 @@ Text, der unter dem Warenkorb angezeigt wird
 Text, der nach erfolgreichem Bestellvorgang angezeigt wird
 
 
+### footercontactbox 1-5
+
+
+Hier kann der Inhalt der einzelnen Footer-Blöcke bearbeitet werden
+
+
 ## E-Mails
 
 
