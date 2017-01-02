@@ -59,7 +59,7 @@ Hinweis: IMMER speichern, bevor Zeilen hinzugefügt oder entfernt werden.
 Mögliche Felder sind:
 
 
-<table>
+<table style=”border-style:solid;border-width:1px;”>
  <tr>
    <td>Artikelnummer</td>
     <td>Pflichtfeld</td>
@@ -237,7 +237,7 @@ Bei Bildern kann entweder nur der Dateiname des Bildes angegeben werden, das dan
 ### Varianten
 
 
-<table>
+<table style=”border-style:solid;border-width:1px;”>
  <tr>
    <th>Artikelnummer</th>
     <th>Variantennummer</th>
@@ -306,3 +306,180 @@ Sowohl Varianten als auch Vaterartikel brauchen Bilder.
 
 
 ### Dimensionen / Grundpreis
+
+
+Die Spalte Frontend dient nur der Veranschaulichung und muss nicht angegeben werden.
+
+
+<table style=”border-style:solid;border-width:1px;”>
+ <tr>
+   <th>Artikelnummer</th>
+   <th>Titel</th>
+   <th>Preis</th>
+   <th>Menge</th>
+   <th>Einheit</th>
+   <th>Sepz. Einheit</th>
+   <th>Frontend*</th>
+ </tr>
+ <tr>
+   <td>0001</td>
+   <td>T-Shirt</td>
+   <td>20</td>
+   <td>2</td>
+   <td>_UNIT_PIECE</td>
+   <td></td>
+   <td>10€/Stück</td>
+ </tr>
+ <tr>
+   <td>0002</td>
+   <td>Erde</td>
+   <td>10</td>
+   <td>5</td>
+   <td>_UNIT_KG</td>
+   <td></td>
+   <td>2€/kg</td>
+ </tr>
+ <tr>
+   <td>0003</td>
+   <td>Futter</td>
+   <td>10</td>
+   <td>10</td>
+   <td>_UNIT_G</td>
+   <td></td>
+   <td>1€/kg</td>
+ </tr>
+ <tr>
+   <td>0004</td>
+   <td>Benzin</td>
+   <td>20</td>
+   <td>15</td>
+   <td>_UNIT_L</td>
+   <td></td>
+   <td>1,33€/l</td>
+ </tr>
+ <tr>
+   <td>0005</td>
+   <td>Creme</td>
+   <td>15</td>
+   <td>50</td>
+   <td>_UNIT_ML</td>
+   <td></td>
+   <td>0,3€/ml</td>
+ </tr>
+ <tr>
+   <td>0006</td>
+   <td>Saure Schlange</td>
+   <td>0.5</td>
+   <td>10</td>
+   <td>_UNIT_CM</td>
+   <td></td>
+   <td>0,05€/cm</td>
+ </tr>
+ <tr>
+   <td>0007</td>
+   <td>Bleistiftmine</td>
+   <td>0.2</td>
+   <td>10</td>
+   <td>_UNIT_MM</td>
+   <td></td>
+   <td>0,02€/mm</td>
+ </tr>
+ <tr>
+   <td>0008</td>
+   <td>Tapete</td>
+   <td>15</td>
+   <td>1</td>
+   <td>_UNIT_M</td>
+   <td></td>
+   <td>15€/m</td>
+ </tr>
+ <tr>
+   <td>0009</td>
+   <td>Teppich</td>
+   <td>25</td>
+   <td>5</td>
+   <td>_UNIT_M2</td>
+   <td></td>
+   <td>5€/m2</td>
+ </tr>
+ <tr>
+   <td>0010</td>
+   <td>Kies</td>
+   <td>60</td>
+   <td>4</td>
+   <td>_UNIT_M3</td>
+   <td></td>
+   <td>15€/m3</td>
+ </tr>
+ <tr>
+   <td>0011</td>
+   <td>Werkzeug</td>
+   <td>120</td>
+   <td>6</td>
+   <td>_UNIT_ITEM</td>
+   <td></td>
+   <td>20€/Teil</td>
+ </tr>
+ <tr>
+   <td>0012</td>
+   <td>Schokolade</td>
+   <td>2</td>
+   <td>5</td>
+   <td></td>
+   <td>100g</td>
+   <td>0,4€/100g</td>
+ </tr>
+</table>
+
+
+- das System berechnet den Grundpreis immer für 1 Einheit
+- bei einer *Speziellen Einheit* (zB. 100g) *muss die Menge* so *angepasst werden* (zB. 1g=100g)
+
+
+### Verpflichtende Artikel
+
+
+<table  style=”border-style:solid;border-width:1px;”>
+  <tr>
+    <th>Artnum</th>
+    <th>ID</th>
+    <th>Titel</th>
+    <th>Preis</th>
+    <th>Werbung</th>
+    <th>Sitemap</th>
+    <th>Sichtbar</th>
+    <th>Suchbar</th>
+    <th>k. Export</th>
+    <th>Bundle</th>
+  </tr>
+  <tr>
+    <td>0001</td>
+    <td></td>
+    <td>Batterie</td>
+    <td>50</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>P-001</td>
+  </tr>
+  <tr>
+    <td>P-001</td>
+    <td>P-001</td>
+    <td>Batteriepfan</td>
+    <td>7,50</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+</table>
+
+
+- in diesem Beispiel wird beim Kauf der “Batterie” (0001) immer auch der “Batteriepfand” (P-001) mit in den Warenkorb gelegt
+- “Batteriepfand” hat keine Werbeportalfreigabe, wird nicht auf Sitemaps oder in CSVs exportiert und ist nicht such- oder sichtbar
+- “Bundle” ist in diesem Fall die ID des Pflichtartikels (Batteriepfand)
+- empfohlen wird die Definition der ID des Pflichtartikels, da diese sonst vom System generiert wird

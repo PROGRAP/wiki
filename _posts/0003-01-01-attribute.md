@@ -71,6 +71,9 @@ Außerdem können folgende Schalter aktiviert oder deaktiviert werden:
 Außerdem kann eine Attributgruppe zugewiesen werden.
 
 
+-----
+
+
 ## Klassenattribute
 
 
