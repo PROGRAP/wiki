@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Spracheditor
-tags: marketing
-permalink: /marketing/:title
+tags: gestaltung
+permalink: /gestaltung/:title
 ---
 
 

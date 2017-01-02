@@ -69,3 +69,31 @@ Außerdem können folgende Schalter aktiviert oder deaktiviert werden:
 
 
 Außerdem kann eine Attributgruppe zugewiesen werden.
+
+
+## Klassenattribute
+
+
+Mit Klassenattributen kann mittels Stellvertreter nach einem Attributwert gesucht werden. So kann z. B. nach 6, 7 oder 8 (Stellvertreterwert) gesucht werden, mit dem Ergebnis “XL” (Attributwert).
+
+
+Bitte beachten: Um dieses Feature zu nutzen muss eine extra Suchleiste eingebaut werden, da dieses Feature nicht mit der normalen Suche funktioniert.
+
+
+### Einrichtung
+
+
+1. dem Core Support-Team Bescheid geben, dass dieses Feature genutzt werden soll
+2. das Core Support-Team schaltet dieses Feature frei
+3. die entsprechenden Attribute unter Katalog -> Attribute -> Attribut auswählen als Klassenattribut markieren
+4. Daten importieren
+
+
+Attribute, auf deren Werte mithilfe von Stellvertreterwerten verwiesen werden soll, müssen vor dem Import erstellt werden. Außerdem müssen bereits alle Werte mindestens einmal gepflegt sein.
+
+
+### Beschreibung
+
+
+1. über das extra Suchfeld Stellvertreterwert eingeben
+2. Ergebnisse mit Attributwerten werden angezeigt

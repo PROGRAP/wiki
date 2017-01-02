@@ -10,7 +10,10 @@ permalink: /multichannel/:title
 {:toc}
 
 
-Über den Artikelimporter können Artikel über eine CSV Datei in den Katalog eingespeist werden. Bevor eine Datei hochgeladen werden kann, muss ein Importprofil angelegt werden.
+Über den Artikelimporter können große Artikelmengen über eine CSV Datei in den Katalog eingespeist werden. Bevor eine Datei hochgeladen werden kann, muss ein Importprofil angelegt werden.
+
+
+Bitte beachten: Kategorien, Hersteller, Bestellungen und Kunden können ggf mit Artikeln verknüpft, jedoch nicht mit allen Facetten importiert werden.
 
 
 -----
@@ -50,68 +53,157 @@ Zu importierende Datei hochladen, um daraus die Profilfelder zu generieren.
 Wenn eine Datei hochgeladen wurde, können nun die Felder den Variablen zugewiesen werden. Andernfalls manuell neue Zeilen hinzufügen und Artikelfelder mit Dateifeldern verknüpfen.
 
 
+Hinweis: IMMER speichern, bevor Zeilen hinzugefügt oder entfernt werden.
+
+
 Mögliche Felder sind:
 
 
-|-----------------+------------+----------------|
-| Artikelnummer | Pflichtfeld | ID des Artikels |
-|-----------------+------------+----------------|
-| Variantennummer | Pflichtfeld, wenn Varianten vorhanden sind | muss der Artikelnummer des Vaters entsprechen |
-|-----------------+------------+----------------|
-| EAN | freiwillig | European Article Number |
-|-----------------+------------+----------------|
-| Artikelname | Pflichtfeld | Name des Artikels |
-|-----------------+------------+----------------|
-| Kurzbeschreibung | freiwillig | Zeichenbegrenzter Beschreibungstext |
-|-----------------+------------+----------------|
-| Artikelpreis | Pflichtfeld | Format in der Form 23,99 |
-|-----------------+------------+----------------|
-| Hersteller | freiwillig | Angabe des Herstellers |
-|-----------------+------------+----------------|
-| UVP | freiwillig | nötig für Rabatte, hier Originalpreis eingeben, im Feld Artikelpreis den reduzierten Preis eingeben |
-|-----------------+------------+----------------|
-| Thumbnail | freiwillig | kann aus 1. Artikelbild generiert werden |
-|-----------------+------------+----------------|
-| Bild1-12 | freiwillig | Entweder Name des Bildes oder Bild-URL angeben |
-|-----------------+------------+----------------|
-| Kann gesucht werden | freiwillig | wird in der Shopsuche angezeigt, Standard 1 |
-|-----------------+------------+----------------|
-| Lagerbestand | freiwillig | Anzahl des Lagerbestands, Standard -1 |
-|-----------------+------------+----------------|
-| Lieferstatus | freiwillig | wie wird mit dem Artikel umgegangen, wenn der Bestand 0 ist |
-|-----------------+------------+----------------|
-| Info falls Artikel auf Lager | freiwillig | Text, der angezeigt wird, wenn der Artikel auf Lager ist |
-|-----------------+------------+----------------|
-| Info falls Artikel nicht auf Lager | freiwillig | Text, der angezeigt wird, wenn der Artikel nicht auf Lager ist |
-|-----------------+------------+----------------|
-| Variantentitel | Pflichtfeld, wenn Varianten gewählt wurden | Überschrift der Varianten in der Form z. B. \` Größe|Farbe \` |
-|-----------------+------------+----------------|
-| Varianten Option 1-6 | Pflichtfeld, wenn Varianten gewählt wurden | Variantenwerte |
-|-----------------+------------+----------------|
-| Gewicht | freiwillig | zur Berechnung von Versandkosten |
-|-----------------+------------+----------------|
-| Länge | freiwillig | zur Berechnung von Versandkosten |
-|-----------------+------------+----------------|
-| Breite | freiwillig | zur Berechnung von Versandkosten |
-|-----------------+------------+----------------|
-| Höhe | freiwillig | zur Berechnung von Versandkosten |
-|-----------------+------------+----------------|
-| Hersteller Artikelnummer | freiwillig | für interne Logistik bei Nachbestellungen |
-|-----------------+------------+----------------|
-| Langbeschreibung | freiwillig | ausführliche Beschreibung mit HTML |
-|-----------------+------------+----------------|
-| Erstellungsdatum | freiwillig | wenn nicht angegeben, wird aktuelles Datum gewählt |
-|-----------------+------------+----------------|
-| Spezielle MwST | freiwillig | Angabe einer speziellen Mehrwertsteuer |
-|-----------------+------------+----------------|
-| Minimale Lieferzeit | freiwillig | |
-|-----------------+------------+----------------|
-| Maximale Lieferzeit | freiwillig | |
-|-----------------+------------+----------------|
-| Lieferzeiteinheit | freiwillig | z.B. DAY |
-|-----------------+------------+----------------|
-| Kategorie | Pflicht, wenn Kategorien ausgewählt wurde | Angabe der Kategorie |
-|-----------------+------------+----------------|
+<table>
+ <tr>
+   <td>Artikelnummer</td>
+    <td>Pflichtfeld</td>
+    <td>ID des Artikels</td>
+ </tr>
+<tr>
+   <td>Variantennummer</td>
+    <td>Pflichtfeld, wenn Varianten vorhanden sind</td>
+    <td>muss der Artikelnummer des Vaters entsprechen</td>
+ </tr>
+<tr>
+   <td>EAN</td>
+    <td>freiwillig</td>
+    <td>European Article Number</td>
+ </tr>
+<tr>
+   <td>Artikelname</td>
+    <td>Pflichtfeld</td>
+    <td>Name des Artikels</td>
+ </tr>
+<tr>
+   <td>Kurzbeschreibung</td>
+    <td>freiwillig</td>
+    <td>Zeichenbegrenzter Beschreibungstext</td>
+ </tr><tr>
+   <td>Artikelpreis</td>
+    <td>Pflichtfeld</td>
+    <td>Format in der Form 23,99</td>
+ </tr>
+<tr>
+   <td>Hersteller</td>
+    <td>freiwillig</td>
+    <td>Angabe des Herstellers</td>
+ </tr>
+<tr>
+   <td>UVP</td>
+    <td>freiwillig</td>
+    <td>nötig für Rabatte, hier Originalpreis eingeben, im Feld Artikelpreis den reduzierten Preis eingeben</td>
+ </tr>
+<tr>
+   <td>Thumbnail</td>
+    <td>freiwillig</td>
+    <td>kann aus 1. Artikelbild generiert werden</td>
+ </tr>
+<tr>
+   <td>Bild1-12 </td>
+    <td>freiwillig</td>
+    <td>Entweder Name des Bildes oder Bild-URL angeben</td>
+ </tr>
+<tr>
+   <td> Kann gesucht werden</td>
+    <td>freiwillig</td>
+    <td>wird in der Shopsuche angezeigt, Standard 1 </td>
+ </tr>
+<tr>
+   <td>Lagerbestand</td>
+    <td>freiwillig</td>
+    <td>Anzahl des Lagerbestands, Standard -1</td>
+ </tr>
+<tr>
+   <td>Lieferstatus</td>
+    <td>freiwillig</td>
+    <td>wie wird mit dem Artikel umgegangen, wenn der Bestand 0 ist </td>
+ </tr>
+<tr>
+   <td>Info falls Artikel auf Lager</td>
+    <td>freiwillig</td>
+    <td>Text, der angezeigt wird, wenn der Artikel auf Lager ist</td>
+ </tr>
+<tr>
+   <td> Info falls Artikel nicht auf Lager </td>
+    <td>freiwillig</td>
+    <td>Text, der angezeigt wird, wenn der Artikel nicht auf Lager ist</td>
+ </tr>
+<tr>
+   <td>Variantentitel</td>
+    <td>Pflichtfeld, wenn Varianten gewählt wurden</td>
+    <td>Überschrift der Varianten in der Form z. B. \` Größe|Farbe \`</td>
+ </tr>
+<tr>
+   <td>Varianten Option 1-6 </td>
+    <td>Pflichtfeld, wenn Varianten gewählt wurden</td>
+    <td>Variantenwerte</td>
+ </tr>
+<tr>
+   <td>Gewicht</td>
+    <td>freiwillig</td>
+    <td> zur Berechnung von Versandkosten</td>
+ </tr>
+<tr>
+   <td>Länge</td>
+    <td>freiwillig</td>
+    <td>zur Berechnung von Versandkosten</td>
+ </tr>
+<tr>
+   <td>Breite</td>
+    <td>freiwillig</td>
+    <td>zur Berechnung von Versandkosten</td>
+ </tr>
+<tr>
+   <td>Höhe</td>
+    <td>freiwillig</td>
+    <td>zur Berechnung von Versandkosten</td>
+ </tr>
+<tr>
+   <td>Hersteller Artikelnummer</td>
+    <td>freiwillig</td>
+    <td>für interne Logistik bei Nachbestellungen</td>
+ </tr>
+<tr>
+   <td>Langbeschreibung</td>
+    <td>freiwillig</td>
+    <td>ausführliche Beschreibung mit HTML</td>
+ </tr>
+<tr>
+   <td>Erstellungsdatum</td>
+    <td>freiwillig</td>
+    <td>wenn nicht angegeben, wird aktuelles Datum gewählt</td>
+ </tr><tr>
+   <td>Spezielle MwST</td>
+    <td>freiwillig</td>
+    <td>Angabe einer speziellen Mehrwertsteuer</td>
+ </tr><tr>
+   <td>Minimale Lieferzeit </td>
+    <td>freiwillig</td>
+    <td></td>
+ </tr><tr>
+   <td>Maximale Lieferzeit</td>
+    <td>freiwillig</td>
+    <td></td>
+ </tr>
+<tr>
+   <td>Lieferzeiteinheit</td>
+    <td>freiwillig</td>
+    <td>z.B. DAY</td>
+ </tr>
+<tr>
+   <td>Kategorie</td>
+    <td>Pflicht, wenn Kategorien ausgewählt wurde</td>
+    <td>Angabe der Kategorie</td>
+ </tr>
+</table>
+
+
 
 
 ### Bilder
@@ -134,3 +226,83 @@ Bei Bildern kann entweder nur der Dateiname des Bildes angegeben werden, das dan
 4. Gegebenenfalls “Nur aktualisieren” auswählen
 5. Gegebenenfalls “Bilder importieren” auswählen
 6. Unter Optionen Ausführen. Außerdem können hier Bilder heruntergeladen und die Datei gelöscht werden.
+
+
+-------
+
+
+## Besondere Artikel
+
+
+### Varianten
+
+
+<table>
+ <tr>
+   <th>Artikelnummer</th>
+    <th>Variantennummer</th>
+    <th>Titel</th>
+    <th>Variantenoption 1</th>
+    <th>Variantenoption 2</th>
+    <th>Variantenname</th>
+ </tr>
+<tr>
+    <td>0001</td>
+    <td>0001</td>
+    <td>Artikel</td>
+    <td></td>
+    <td></td>
+    <td>Größe|Farbe</td>
+</tr>
+<tr>
+    <td>0002</td>
+    <td>0001</td>
+    <td>Artikel groß</td>
+    <td>groß</td>
+    <td>rot</td>
+    <td>Größe|Farbe</td>
+</tr>
+<tr>
+    <td>0003</td>
+    <td>0001</td>
+    <td>Artikel klein</td>
+    <td>klein</td>
+    <td>rot</td>
+    <td>Größe|Farbe</td>
+</tr>
+<tr>
+    <td>0004</td>
+    <td>0001</td>
+    <td>Artikel groß</td>
+    <td>groß</td>
+    <td>gelb</td>
+    <td>Größe|Farbe</td>
+</tr>
+<tr>
+    <td>0005</td>
+    <td>0001</td>
+    <td>Artikel klein</td>
+    <td>klein</td>
+    <td>gelb</td>
+    <td>Größe|Farbe</td>
+</tr>
+<tr>
+    <td>0006</td>
+    <td>0006</td>
+    <td>Testartikel</td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
+
+
+
+
+In diesem Beispiel sind die *Artikel 0002 - 0005 Varianten des Artikels 0001*. Der Artikel 0006 gehört nicht dazu. Wird Artikel 0001 aufgerufen, kann die Größe und die Farbe gewählt werden.
+
+
+Sowohl Varianten als auch Vaterartikel brauchen Bilder.
+
+
+### Dimensionen / Grundpreis

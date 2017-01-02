@@ -16,94 +16,124 @@ Bevor die volle Funktionalität des Online-Shops genutzt werden kann, müssen fo
 ## Seiten
 
 
-### oximpressum - Impressum
+### Impressum
 
 
 Seite auf der das Impressum angezeigt wird
+Identifizierungsschlüssel: oximpressum
+Beitragstyp: Snippet
 
 
-### oxrightofwithdrawal - Widerrufsbelehrung
+### Widerrufsbelehrung
 
 
 Seite mit der Widerrufsbelehrung
+Identifizierungsschlüssel: oxrightofwithdrawal
+Beitragstyp: Snippet
 
 
-### zmbaboutus - Über uns
+### Über uns
 
 
 “Über uns”-Seite
+Identifizierungsschlüssel: zmbaboutus
+Beitragstyp: Oberer Menüeintrag
 
 
-### oxorderinfo - Wie bestellen?
+### Wie bestellen?
 
 
 Auf dieser Seite erhält der Kunde Informationen zum Bestellvorgang 
+Identifizierungsschlüssel: oxorderinfo
+Beitragstyp: Snippet
 
 
-### oxagb - AGB
+### AGB
 
 
 Seite mit den AGB
+Identifizierungsschlüssel: oxagb
+Beitragstyp: Snippet
 
 
-### servicemenu2 - Häufige Fragen (FAQ)
+### Häufige Fragen (FAQ)
 
 
 Seite auf der häufige Kundenfragen beantwortet werden
+Identifizierungsschlüssel: servicemenu2
+Beitragstyp: Snippet
 
 
-### oxdeliveryinfo - Versand und Kosten
+### Versand und Kosten
 
 
 Seite mit Informationen zu Versand und Kosten
+Identifizierungsschlüssel: oxdeliveryinfo
+Beitragstyp: Snippet
 
 
-### oxsecurityinfo - Datenschutz
+###  Datenschutz
 
 
 Seite mit Informationen zum Datenschutz
+Identifizierungsschlüssel: oxsecurityinfo
+Beitragstyp: Snippet
 
 
-### zmbbasketsummarydelivery - Warenkorb 
+###  Basket Summary Delivery 
 
 
 Text, der unter dem Warenkorb angezeigt wird
+Identifizierungsschlüssel: zmbbasketsummarydelivery
+Beitragstyp: Snippet
 
 
-### ZMBCORE_CHECKOUT_THANKYOU
+### Thank you page
 
 
 Text, der nach erfolgreichem Bestellvorgang angezeigt wird
+Identifizierungsschlüssel: ZMBCORE_CHECKOUT_THANKYOU
+Beitragstyp: Snippet
 
 
-### footercontactbox 1-5
+### Footer
 
 
 Hier kann der Inhalt der einzelnen Footer-Blöcke bearbeitet werden
+Identifizierungsschlüssel: footercontactbox 1-5
+Beitragstyp: Snippet
 
 
 ## E-Mails
 
 
-### oxnewsletteremail - Newsletteremail
+### Newsletter
 
 
 Email, die versandt wird, wenn Newslettererhalt aktiviert wird
+Identifizierungsschlüssel: oxnewsletteremail
+Beitragstyp: Snippet
 
 
-### oxuserorderemail - Bestellbestätigung
+###  Ihre Bestellung
 
 
 Email, in der die Bestellung bestätigt wird
+Identifizierungsschlüssel: oxuserorderemail
+Beitragstyp: Snippet
 
 
-### oxuserorderemailend - Bestellbestätigung Teil 2
+###  Ihre Bestellung Abschluss
 
 
 Text, der in der Bestellbestätigungsemail nach den bestellten Produkten angezeigt wird
+Identifizierungsschlüssel: oxuserorderemailend
+Beitragstyp: Snippet
 
 
-### oxemailfooter
+### E-Mail Fußtext
 
 
 Footer für alle Emails. Sollte Kontaktinformationen enthalten.
+Identifizierungsschlüssel: oxemailfooter
+Beitragstyp: Snippet

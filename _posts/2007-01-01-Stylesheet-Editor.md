@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Stylesheet Editor
-tags: marketing
-permalink: /marketing/:title
+tags: gestaltung
+permalink: /gestaltung/:title
 ---
 
 
