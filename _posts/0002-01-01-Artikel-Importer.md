@@ -137,7 +137,7 @@ Mögliche Felder sind:
 <tr>
    <td>Variantentitel</td>
     <td>Pflichtfeld, wenn Varianten gewählt wurden</td>
-    <td>Überschrift der Varianten in der Form z. B. \` Größe|Farbe \`</td>
+    <td>Überschrift der Varianten in der Form z. B. Größe|Farbe </td>
  </tr>
 <tr>
    <td>Varianten Option 1-6 </td>
@@ -467,7 +467,7 @@ Die Spalte Frontend dient nur der Veranschaulichung und muss nicht angegeben wer
   <tr>
     <td>P-001</td>
     <td>P-001</td>
-    <td>Batteriepfan</td>
+    <td>Batteriepfand</td>
     <td>7,50</td>
     <td>0</td>
     <td>0</td>
