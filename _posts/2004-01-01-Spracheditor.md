@@ -15,7 +15,11 @@ permalink: /gestaltung/:title
 Einige Einstellungen die nicht unter CMS editiert werden können, können im Spracheditor bearbeitet werden. Darunter sind einige Buttons, die im Shop vorkommen.
 
 
+
+
  ## Übersicht
+
+
 
 
 - ![Neu][1]{:.icon}: Neue Sprachkonstante erstellen

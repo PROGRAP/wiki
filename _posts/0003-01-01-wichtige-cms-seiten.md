@@ -20,7 +20,11 @@ Bevor die volle Funktionalität des Online-Shops genutzt werden kann, müssen fo
 
 
 Seite auf der das Impressum angezeigt wird
+
+
 Identifizierungsschlüssel: oximpressum
+
+
 Beitragstyp: Snippet
 
 
@@ -28,7 +32,11 @@ Beitragstyp: Snippet
 
 
 Seite mit der Widerrufsbelehrung
+
+
 Identifizierungsschlüssel: oxrightofwithdrawal
+
+
 Beitragstyp: Snippet
 
 
@@ -36,7 +44,11 @@ Beitragstyp: Snippet
 
 
 “Über uns”-Seite
+
+
 Identifizierungsschlüssel: zmbaboutus
+
+
 Beitragstyp: Oberer Menüeintrag
 
 
@@ -44,7 +56,11 @@ Beitragstyp: Oberer Menüeintrag
 
 
 Auf dieser Seite erhält der Kunde Informationen zum Bestellvorgang 
+
+
 Identifizierungsschlüssel: oxorderinfo
+
+
 Beitragstyp: Snippet
 
 
@@ -52,7 +68,11 @@ Beitragstyp: Snippet
 
 
 Seite mit den AGB
+
+
 Identifizierungsschlüssel: oxagb
+
+
 Beitragstyp: Snippet
 
 
@@ -60,7 +80,11 @@ Beitragstyp: Snippet
 
 
 Seite auf der häufige Kundenfragen beantwortet werden
+
+
 Identifizierungsschlüssel: servicemenu2
+
+
 Beitragstyp: Snippet
 
 
@@ -68,7 +92,11 @@ Beitragstyp: Snippet
 
 
 Seite mit Informationen zu Versand und Kosten
+
+
 Identifizierungsschlüssel: oxdeliveryinfo
+
+
 Beitragstyp: Snippet
 
 
@@ -76,7 +104,11 @@ Beitragstyp: Snippet
 
 
 Seite mit Informationen zum Datenschutz
+
+
 Identifizierungsschlüssel: oxsecurityinfo
+
+
 Beitragstyp: Snippet
 
 
@@ -84,7 +116,11 @@ Beitragstyp: Snippet
 
 
 Text, der unter dem Warenkorb angezeigt wird
+
+
 Identifizierungsschlüssel: zmbbasketsummarydelivery
+
+
 Beitragstyp: Snippet
 
 
@@ -92,7 +128,47 @@ Beitragstyp: Snippet
 
 
 Text, der nach erfolgreichem Bestellvorgang angezeigt wird
+
+
 Identifizierungsschlüssel: ZMBCORE_CHECKOUT_THANKYOU
+
+
+Beitragstyp: Snippet
+
+
+### Passwort vergessen
+
+
+Ergänzung zum Text, der angezeigt wird, wenn der Kunde sein Passwort vergessen hat
+
+
+Identifizierungsschlüssel: oxforgotpwd
+
+
+Beitragstyp: Snippet
+
+
+### Seite nicht gefunden
+
+
+Seite, die angezeigt wird, wenn ein fehlerhafter Link geklickt wurde
+
+
+Identifizierungsschlüssel: PAGE_NOT_FOUND
+
+
+Beitragstyp: Snippet
+
+
+### Newsletter-Info
+
+
+Seite, auf der Kunden sich für den Newsletter eintragen können
+
+
+Identifizierungsschlüssel: oxnewstlerinfo
+
+
 Beitragstyp: Snippet
 
 
@@ -100,7 +176,11 @@ Beitragstyp: Snippet
 
 
 Hier kann der Inhalt der einzelnen Footer-Blöcke bearbeitet werden
+
+
 Identifizierungsschlüssel: footercontactbox 1-5
+
+
 Beitragstyp: Snippet
 
 
@@ -111,7 +191,11 @@ Beitragstyp: Snippet
 
 
 Email, die versandt wird, wenn Newslettererhalt aktiviert wird
+
+
 Identifizierungsschlüssel: oxnewsletteremail
+
+
 Beitragstyp: Snippet
 
 
@@ -119,7 +203,11 @@ Beitragstyp: Snippet
 
 
 Email, in der die Bestellung bestätigt wird
+
+
 Identifizierungsschlüssel: oxuserorderemail
+
+
 Beitragstyp: Snippet
 
 
@@ -127,7 +215,11 @@ Beitragstyp: Snippet
 
 
 Text, der in der Bestellbestätigungsemail nach den bestellten Produkten angezeigt wird
+
+
 Identifizierungsschlüssel: oxuserorderemailend
+
+
 Beitragstyp: Snippet
 
 
@@ -135,5 +227,9 @@ Beitragstyp: Snippet
 
 
 Footer für alle Emails. Sollte Kontaktinformationen enthalten.
+
+
 Identifizierungsschlüssel: oxemailfooter
+
+
 Beitragstyp: Snippet

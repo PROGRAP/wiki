@@ -59,7 +59,7 @@ Hinweis: IMMER speichern, bevor Zeilen hinzugefügt oder entfernt werden.
 Mögliche Felder sind:
 
 
-<table>
+<table  class="table">
  <tr>
    <td>Artikelnummer</td>
     <td>Pflichtfeld</td>
@@ -237,7 +237,7 @@ Bei Bildern kann entweder nur der Dateiname des Bildes angegeben werden, das dan
 ### Varianten
 
 
-<table>
+<table  class="table">
  <tr>
    <th>Artikelnummer</th>
     <th>Variantennummer</th>
@@ -311,7 +311,7 @@ Sowohl Varianten als auch Vaterartikel brauchen Bilder.
 Die Spalte Frontend dient nur der Veranschaulichung und muss nicht angegeben werden.
 
 
-<table>
+<table  class="table">
  <tr>
    <th>Artikelnummer</th>
    <th>Titel</th>
@@ -439,7 +439,7 @@ Die Spalte Frontend dient nur der Veranschaulichung und muss nicht angegeben wer
 ### Verpflichtende Artikel
 
 
-<table>
+<table  class="table">
   <tr>
     <th>Artnum</th>
     <th>ID</th>
