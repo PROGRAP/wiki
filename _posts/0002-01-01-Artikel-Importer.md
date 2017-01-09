@@ -63,13 +63,40 @@ Mögliche Felder sind:
  <tr>
    <td>Artikelnummer</td>
     <td>Pflichtfeld</td>
-    <td>ID des Artikels</td>
+    <td>ID des Artikels, die im Frontend zu sehen ist</td>
+ </tr>
+ <tr>
+   <td>oxid</td>
+    <td>freiwillig</td>
+    <td>ID des Artikels, die NICHT im Frontend zu sehen ist</td>
+ </tr>
+ <tr>
+   <td>oxparentid</td>
+    <td>freiwillig</td>
+    <td>ID des Vaterartikels</td>
  </tr>
 <tr>
    <td>Variantennummer</td>
     <td>Pflichtfeld, wenn Varianten vorhanden sind</td>
     <td>muss der Artikelnummer des Vaters entsprechen</td>
  </tr>
+ <tr>
+   <td>Aktiv</td>
+    <td>freiwillig</td>
+    <td>ist aktiv</td>
+ </tr>
+ <tr>
+   <td>oxactivefrom</td>
+    <td>freiwillig</td>
+    <td>aktiv ab einem Zeitpunkt</td>
+ </tr>
+ <tr>
+   <td>oxactiveto</td>
+    <td>freiwillig</td>
+    <td>aktiv bis zu einem Zeitpunkt</td>
+ </tr>
+
+
 <tr>
    <td>EAN</td>
     <td>freiwillig</td>
@@ -83,11 +110,23 @@ Mögliche Felder sind:
 <tr>
    <td>Kurzbeschreibung</td>
     <td>freiwillig</td>
-    <td>Zeichenbegrenzter Beschreibungstext</td>
- </tr><tr>
+    <td>Begrenzter Beschreibungstext (255 Zeichen)</td>
+ </tr>
+<tr>
+   <td>oxlongdesc</td>
+    <td>freiwillig</td>
+    <td>ausführliche Beschreibung inkl. HTML</td>
+ </tr>
+
+<tr>
    <td>Artikelpreis</td>
     <td>Pflichtfeld</td>
     <td>Format in der Form 23,99</td>
+ </tr>
+ <tr>
+   <td>Einkaufspreis</td>
+    <td>freiwillig</td>
+    <td>Preis des Artikels beim Erwerb</td>
  </tr>
 <tr>
    <td>Hersteller</td>
@@ -125,6 +164,27 @@ Mögliche Felder sind:
     <td>wie wird mit dem Artikel umgegangen, wenn der Bestand 0 ist </td>
  </tr>
 <tr>
+   <td>Mindestbestellmenge</td>
+    <td>freiwillig</td>
+    <td>Menge, die mindestens in den Warenkorb gelegt werden muss, damit der Artikel kaufbar ist</td>
+ </tr>
+
+ <tr>
+   <td>Mengeneinheit</td>
+    <td>freiwillig</td>
+    <td>Grundpreis, Einheit des Artikels</td>
+ </tr>
+<tr>
+   <td>Menge je Einheit</td>
+    <td>freiwillig</td>
+    <td>Grundpreis, Menge des Artikels, bezogen auf die Einheit, z. B. 5</td>
+ </tr>
+<tr>
+   <td>oxdistean</td>
+    <td>freiwillig</td>
+    <td>Grundpreis, spezielle Einheit, z. B. 100g</td>
+ </tr>
+<tr>
    <td>Info falls Artikel auf Lager</td>
     <td>freiwillig</td>
     <td>Text, der angezeigt wird, wenn der Artikel auf Lager ist</td>
@@ -133,17 +193,28 @@ Mögliche Felder sind:
    <td> Info falls Artikel nicht auf Lager </td>
     <td>freiwillig</td>
     <td>Text, der angezeigt wird, wenn der Artikel nicht auf Lager ist</td>
+ </tr><tr>
+   <td>Wieder lieferbar am </td>
+    <td>freiwillig</td>
+    <td>Datum, wann Artikel wieder verfügbar ist</td>
  </tr>
+
 <tr>
    <td>Variantentitel</td>
     <td>Pflichtfeld, wenn Varianten gewählt wurden</td>
-    <td>Überschrift der Varianten in der Form z. B. Größe|Farbe </td>
+    <td>Überschrift der Varianten in der Form z. B. Größe | Farbe </td>
  </tr>
 <tr>
    <td>Varianten Option 1-6 </td>
     <td>Pflichtfeld, wenn Varianten gewählt wurden</td>
-    <td>Variantenwerte</td>
+    <td>Variantenwerte, z. B. XL, rot</td>
  </tr>
+<tr>
+   <td>versandkostenfrei</td>
+    <td>freiwillig</td>
+    <td>Artikel grundsätzlich als versandkostenfrei markieren</td>
+ </tr>
+
 <tr>
    <td>Gewicht</td>
     <td>freiwillig</td>
@@ -181,7 +252,7 @@ Mögliche Felder sind:
  </tr><tr>
    <td>Spezielle MwST</td>
     <td>freiwillig</td>
-    <td>Angabe einer speziellen Mehrwertsteuer</td>
+    <td>Angabe einer Mehrwertsteuer, die von 19% abweicht</td>
  </tr><tr>
    <td>Minimale Lieferzeit </td>
     <td>freiwillig</td>
@@ -201,6 +272,52 @@ Mögliche Felder sind:
     <td>Pflicht, wenn Kategorien ausgewählt wurde</td>
     <td>Angabe der Kategorie</td>
  </tr>
+<tr>
+   <td>Attribute: Farbe</td>
+    <td>freiwillig</td>
+    <td>Eigenschaften des Artikels nach denen gefiltert werden kann, müssen vorher im Backend erstellt werden</td>
+ </tr>
+
+<tr>
+   <td>Externe URL</td>
+    <td>freiwillig</td>
+    <td>URL außerhalb des Shops, auf die der Artikel weiterleitet</td>
+ </tr><tr>
+   <td>oxinsert</td>
+    <td>freiwillig</td>
+    <td>Datum, an welchem Artikel in den Shop kam, wichtig für Elastic Search</td>
+ </tr><tr>
+   <td>oxtimestamp</td>
+    <td>freiwillig</td>
+    <td>Zeitstempel</td>
+ </tr>
+<tr>
+   <td>oxbundleid</td>
+    <td>freiwillig</td>
+    <td>verpflichtende Artikel, oxid des Pflichtartikels</td>
+ </tr>
+<tr>
+   <td>Werbeportalfreigabe</td>
+    <td>freiwillig</td>
+    <td>Artikel ist für weitere Portale zugelassen</td>
+ </tr><tr>
+   <td>Artikel wird in Übersicht angezeigt</td>
+    <td>freiwillig</td>
+    <td>Artikel wird in der Übersicht angezeigt</td>
+ </tr>
+<tr>
+   <td>Nicht via Dataunifier exportieren</td>
+    <td>freiwillig</td>
+    <td>Artikel wird nicht exportiert</td>
+ </tr>
+<tr>
+   <td>Zur Sitemap exportieren</td>
+    <td>freiwillig</td>
+    <td>Artikel wird in Sitemap exportiert</td>
+ </tr>
+
+
+
 </table>
 
 

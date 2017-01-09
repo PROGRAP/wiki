@@ -214,7 +214,7 @@ Beitragstyp: Snippet
 ###  Ihre Bestellung Abschluss
 
 
-Text, der in der Bestellbestätigungsemail nach den bestellten Produkten angezeigt wird
+Text, der in der Bestellbestätigungsemail nach den bestellten Produkten angezeigt wird; sollte die Widerrufserklärung enthalten
 
 
 Identifizierungsschlüssel: oxuserorderemailend
