@@ -1,14 +1,6 @@
 _site/
 
-quickstart.py
-
-client_secrets.json
-
-getGoogleDocs.py
-
 test/
-
-buildHelpdesk.sh
 
 mycreds.txt
 
