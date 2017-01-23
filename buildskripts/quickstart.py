@@ -50,7 +50,8 @@ mimetypes = {
     'application/vnd.google-apps.document': 'text/plain',
     'image/gif': "image/gif",
     'image/png': "image/png",
-    'image/jpg': "image/jpg"
+    'image/jpg': "image/jpg",
+    'video/webm': "video/webm",
 
     # etc.
 }

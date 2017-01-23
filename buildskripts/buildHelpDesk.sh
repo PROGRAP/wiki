@@ -43,6 +43,16 @@ for file in * ;do
     fi
 done
 
+for file in * ;do
+    fname=$(basename "$file")
+    if [[ $fname == *\.webm ]]
+        then
+            echo "an image gets put into to img folder \n "
+            mv  ./$fname ../img
+    fi
+done
+
+
 echo "looking through the downloaded data"
 
 for file in * ;do
