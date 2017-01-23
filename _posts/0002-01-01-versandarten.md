@@ -46,9 +46,4 @@ Nun kann eine Versandregel hinzugefügt werden.
 Zu jeder Versandart können mehrere Versandregeln hinzugefügt werden.
 
 
-![shipping_rules][1]
-
-
-
-
-[1]:/img/shipping_rules.webm
+<video> <source src="/img/shipping_rules.webm" type="video/webm"> </video>
