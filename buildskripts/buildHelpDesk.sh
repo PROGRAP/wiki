@@ -3,7 +3,7 @@
 
 echo "Starting the buildHelpDesk script"
 echo "cleaning the working directory..."
-cd  /Users/zmb/MainDir/zmbCORE/workspace/jeremy/wiki/_posts/
+cd  ../_posts/
 for file in * ;do
     fname=$(basename "$file")
     if [[ $fname == *\.md ]]
@@ -14,7 +14,7 @@ for file in * ;do
 done
 
 # run my python import script
-python quickstart.py
+python ../buildskripts/quickstart.py
 
 for file in * ;do
     fname=$(basename "$file")
@@ -72,10 +72,7 @@ git checkout gh-pages
 git add -A
 
 #commit changes
-git commit -m "Update from" # Add Timestamp
+git commit -m "Build"
 
 #push changes
-
 git push
-
-cd /Users/zmb/MainDir/zmbCORE
