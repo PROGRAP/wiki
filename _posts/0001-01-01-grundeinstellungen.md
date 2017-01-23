@@ -2,6 +2,7 @@
 layout: post
 title: Grundeinstellungen
 tags: erstbenutzung
+permalink: /erstbenutzung/:title
 ---
 
 
@@ -24,7 +25,7 @@ Nach jedem Eintrag und bei Änderungen der Einstellungen sollte gespeichert werd
 ## Shopeinstellungen
 
 
-Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
+Hier werden die Grundeinstellungen für den Shop vorgenommen.
 
 
 
@@ -36,7 +37,7 @@ Hier werden die Grundeinstellungen für ihren Shop vorgenommen.
 Hier wird ihr Shop online/offline gesetzt.
 
 
-Wenn der Regler inaktiv gesetzt ist wird jedem der Ihren Shop besucht nur gezeigt, dass dieser offline ist.
+Wenn der Regler inaktiv gesetzt ist, wird jedem der den Shop besucht nur gezeigt, dass dieser offline ist.
 
 
 ### Demo Shop Login
@@ -57,7 +58,7 @@ Hier wird der Shopname gewählt.
 {:.no_toc}
 
 
-Setzen sie hier Ihre Url für den Shop ein.
+Hier die Url für den Shop einsetzen.
 
 
 ### Info E-Mail
@@ -71,7 +72,7 @@ Die E-Mail Adresse die für den Support angezeigt wird.
 {:.no_toc}
 
 
-Die Nummer für die erste Bestellung in Ihrem Shop.(Nummer  > 0)
+Die Nummer für die erste Bestellung in Ihrem Shop. (Nummer muss größer 0 sein.)
 
 
 ------
@@ -80,7 +81,7 @@ Die Nummer für die erste Bestellung in Ihrem Shop.(Nummer  > 0)
 ## Firmaeinstellungen
 
 
-Hier geben Sie die Informationen zu Ihrer Firma ein. Diese finden Kunden dann, unter Kontakt, im Footer.
+Hier geben Sie die Informationen zu Ihrer Firma ein, darunter Firmenname, Adresse und Kontaktmöglichkeiten. Diese finden Kunden dann unter Kontakt im Footer.
 
 
 
@@ -91,7 +92,7 @@ Hier geben Sie die Informationen zu Ihrer Firma ein. Diese finden Kunden dann, u
 ## Finanzeinstellungen
 
 
-Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen, ein.
+Geben Sie hier die Bankdaten für das Konto, welches Sie für den Shop benutzen, ein: Bankname, BLZ, Kontonummer, IBAN, BIC, aber auch die Umsatzsteuer-ID, Steuernummer, HRB und zuständiges Amtsgericht.
 
 
 
@@ -153,7 +154,7 @@ Der angezeigte Betreff einer Versand-Mail.
 
 
 ## Konfiguration
-Allgemeine Grundeinstellungen von Suchfunktionen, Lager, Artikeln, Kundenbestellungen und -Konten, sowie Möglichkeiten zur Bearbeitung der Netto- und Bruttopreisen.
+Allgemeine Grundeinstellungen von Suchfunktionen, Lager, Artikeln, Kundenbestellungen und -Konten, sowie Möglichkeiten zur Bearbeitung der Netto- und Bruttopreise.
 Auf die Einstellungen unter Konfiguration gehen wir an anderer Stelle ein.
 
 
@@ -163,5 +164,5 @@ Auf die Einstellungen unter Konfiguration gehen wir an anderer Stelle ein.
 ## SEO
 
 
-Unter SEO oder auch ‘Search Engine Optimization’ finden Sie Einstellungen für Suchmachinen, damit Ihr Shop über diese gefunden wird.  
+Unter SEO oder auch ‘Search Engine Optimization’ finden Sie Einstellungen für Suchmaschinen, damit Ihr Shop über diese gefunden wird.  
 Auf die SEO gehen wir unter Marketing mehr ein.

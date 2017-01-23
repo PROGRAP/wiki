@@ -184,6 +184,9 @@ Identifizierungsschlüssel: footercontactbox 1-5
 Beitragstyp: Snippet
 
 
+-----------
+
+
 ## E-Mails
 
 
@@ -194,6 +197,18 @@ Email, die versandt wird, wenn Newslettererhalt aktiviert wird
 
 
 Identifizierungsschlüssel: oxnewsletteremail
+
+
+Beitragstyp: Snippet
+
+
+### Passwort Vergessen
+
+
+Email, die versandt wird, wenn der Benutzer sein Passwort vergessen hat
+
+
+Identifizierungsschlüssel: oxupdatepassinfoemail
 
 
 Beitragstyp: Snippet

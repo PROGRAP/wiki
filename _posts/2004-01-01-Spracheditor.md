@@ -32,14 +32,16 @@ Einige Einstellungen die nicht unter CMS editiert werden können, können im Spr
 - Option: ![Stift][2]{:.icon}
 
 
+
+
 ## Bearbeitung
+
+
 
 
 - Deutsch: gewünschte deutsche Bezeichnung eintragen
 - Englisch: gewünschte englische Bezeichnung eintragen
 - Speichern
-
-
 
 
 
