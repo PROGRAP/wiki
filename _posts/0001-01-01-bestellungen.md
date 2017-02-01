@@ -10,41 +10,52 @@ permalink: /bestellungen/:title
 {:toc .disabled}
 
 
-Nachdem der Kunde im Shop durch den Checkout ist, wird die Bestellung in einer Übersicht von Bestellungen angezeigt.
-
-
-Hier kann der Bestellungsstatus sowie andere Werte direkt editiert werden. 
-
-
-Nach der Markierung der Bestellung kann über das Aktions-Menü oben auf alle Aktionen zugegriffen werden, die auch über den Editieren-Knopf zugänglich gemacht werden.
+Nachdem der Kunde im Shop durch den Checkout ist, wird die Bestellung in einer Übersicht von Bestellungen angezeigt. Durch einen Klick auf **Bestellungen >> Bestellungen** im Backend gelangt man dorthin. Hier kann der Bestellungsstatus sowie andere Werte direkt editiert werden. 
 
 
 ## Eine Bestellung editieren 
 
 
-Nach dem das Editieren Fenster geöffnet wurde, kann bei einem bestellten Artikel die Anzahl verändert werden.
+### Icons
 
 
-Desweiteren kann über das Pluszeichen in der rechten oberen Ecke ein weiterer Artikel über die Artikelnummer hinzugefügt werden.
+Wird eine Bestellung ausgewählt, erscheint ein rosa Band, auf dem verschiedene Icons angezeigt werden.
 
 
-## Bestellungssatus
+![Bestellungen]
 
 
-Die unteren Aktionen in den Bestellungsdetails sind mit den Aktionen in der Übersicht identisch.
+Über diese 8 Icons kann 
 
 
-Nachdem eine Aktion ausgewählt wurde wird sie aus der Leiste entfernt und Updatet den Status.
-Es ist nun ersichtlich das bereits eine Rechnung/Versandschein/Storno etc. ausgeführt wurde.
+1. eine Rechnung erstellt werden, 
+2. die Bestellung storniert werden,
+3. ein Lieferschein erstellt werden,
+4. die Bestellung als bezahlt markiert werden,
+5. die Bestellung versendet werden,
+6. ein DHL Versandlabel angefordert werden,
+7. ein Trackingcode eingegeben werden und
+8. der Bestellstatus aktualisiert werden.
 
 
-Der Status ändert sich automatisch wenn die entsprechende Aktionen ausgeführt werden, kann jedoch auch manuell in der Übersicht verändert werden.
+Der Bestellstatus ändert sich automatisch, wenn Aktionen durchgeführt werden, kann aber auch manuell verändert werden.
 
 
-## Bestelldaten
+### Edititeren-Fenster
 
 
-Über die verschieden Buttons werden teils PDFs erstellt die als Lieferschein oder Rechnungen fungieren.
+Ein Klick auf den Stift hinter der Bestellung öffnet das Editieren-Fenster. Dort werden alle Bestelldaten in einer Übersicht angezeigt: die bestellten Artikel, die Rechnungs- und Lieferadresse, sowie der Aktivitätsverlauf der Bestellung.
 
 
-Dafür einfach auf den Button klicken Formular ausfüllen und PDF ausgeben wählen.
+Ganz oben neben der Bestellnummer findet sich der Bestellstatus, der auch direkt verändert werden kann. Über das + auf der rechten Seite können weitere Artikel zu der Bestellung hinzugefügt werden. Auch die Benutzerdaten lassen sich direkt an dieser Stelle bearbeiten.
+
+
+Der Aktivitätsverlauf zeigt an, wann die Bestellung aufgegeben wurde, wann das Versandlabel gedruckt wurde, wann die Rechnung gedruckt wurde, wann der Tracking Code hinzugefügt wurde, wann die Bestellung storniert wurde und wann der Lieferschein gedruckt wurde.
+
+
+Alle diese Aktivitäten können an dieser Stelle auch direkt durchgeführt bzw. bearbeitet werden. 
+
+
+
+
+[Bestellungen]: /img/Bestellungen.png
