@@ -44,18 +44,23 @@ Der Bestellstatus ändert sich automatisch, wenn Aktionen durchgeführt werden, 
 ### Edititeren-Fenster
 
 
-Ein Klick auf den Stift hinter der Bestellung öffnet das Editieren-Fenster. Dort werden alle Bestelldaten in einer Übersicht angezeigt: die bestellten Artikel, die Rechnungs- und Lieferadresse, sowie der Aktivitätsverlauf der Bestellung.
+Ein Klick auf den Stift hinter der Bestellung öffnet das Editieren-Fenster. Dort werden alle Bestelldaten in einer Übersicht angezeigt: die bestellten Artikel, die Rechnungs- und Lieferadresse, der Kundenkommentar, sowie der Aktivitätsverlauf der Bestellung.
 
 
-Ganz oben neben der Bestellnummer findet sich der Bestellstatus, der auch direkt verändert werden kann. Über das + auf der rechten Seite können weitere Artikel zu der Bestellung hinzugefügt werden. Auch die Benutzerdaten lassen sich direkt an dieser Stelle bearbeiten.
 
 
-Der Aktivitätsverlauf zeigt an, wann die Bestellung aufgegeben wurde, wann das Versandlabel gedruckt wurde, wann die Rechnung gedruckt wurde, wann der Tracking Code hinzugefügt wurde, wann die Bestellung storniert wurde und wann der Lieferschein gedruckt wurde.
+![BestellungBearbeiten]
+Ganz oben neben der Bestellnummer findet sich der Bestellstatus, der auch direkt verändert werden kann. Über das + auf der rechten Seite können weitere Artikel zu der Bestellung hinzugefügt werden. 
 
 
-Alle diese Aktivitäten können an dieser Stelle auch direkt durchgeführt bzw. bearbeitet werden. 
+Auch die Benutzerdaten auf der rechten Seite lassen sich an dieser Stelle bearbeiten. Außerdem kommt man durch einen Klick auf das pinke Icon direkt zur Benutzerverwaltung und kann alle Benutzerinformationen editieren.
 
 
+Der Aktivitätsverlauf unter der Bestellung zeigt an, wann die Bestellung aufgegeben wurde, wann das Versandlabel gedruckt wurde, wann die Rechnung gedruckt wurde, wann der Tracking Code hinzugefügt wurde, wann die Bestellung storniert wurde und wann der Lieferschein gedruckt wurde.
+
+
+Alle diese Aktivitäten können an dieser Stelle auch direkt durchgeführt bzw. bearbeitet werden: Entweder über die unten aufgeführten Icons oder direkt über den Textlink.
 
 
 [Bestellungen]: /img/Bestellungen.png
+[BestellungBearbeiten]: /img/BestellungBearbeiten.png
