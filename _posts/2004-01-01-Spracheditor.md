@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Spracheditor
-tags: gestaltung
-permalink: /gestaltung/:title
+tags: cms
+permalink: /cms/:title
 ---
 
 
