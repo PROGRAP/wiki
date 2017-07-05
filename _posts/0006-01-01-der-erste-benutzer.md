@@ -10,7 +10,7 @@ permalink: /erstbenutzung/:title
 {:toc}
 
 
-Unter Benutzer können die Benutzer und Benutzergruppen verwaltet werden. Um einen Benutzer anzulegen, unter Benutzer auf NEW klicken.
+Unter Benutzer können die Benutzer und Benutzergruppen verwaltet werden. Um einen Benutzer anzulegen, im **Hauptmenü** unter **Benutzer** auf NEW klicken.
 
 
 Nun können Kontakt- und Firmendaten eingegeben werden. Auf der rechten Seite findet sich eine Karte, dort wird auch die Lieferadresse angezeigt. 

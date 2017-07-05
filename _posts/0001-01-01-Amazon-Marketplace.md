@@ -13,7 +13,7 @@ permalink: /multichannel/:title
 ## Vorwort:
 
 
-Mit der Amazonschnittstelle können **Bestellungen und Artikel verknüpft** und **synchronisiert** werden.
+Mit der Amazonschnittstelle im Hauptmenü unter ** Einstellungen > Amazon** können **Bestellungen und Artikel verknüpft** und **synchronisiert** werden.
 Bitte beachten:  Artikel ohne Varianten können nicht abgeglichen werden.
 
 

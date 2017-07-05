@@ -9,6 +9,9 @@ tags: erstbenutzung
 {:toc}
 
 
+Die Artikel befinden sich im Hauptmenü unter **Katalog > Artikel**
+
+
 Bevor man den ersten Artikel erstellt muss man sich fragen was zu einem Artikel generell gehört.
 Generell hat ein Artikel :
 
@@ -41,7 +44,7 @@ Und bis auf die Bezeichnung und den Preis nimmt unser System ihnen die Aufgabe f
 
 
 Generell versteht man unter Bezeichnung den Name unter dem man den Artikel findet oder wie er umgangssprachlich genannt wird.
-Jedoch gehört zur Bezeichnung auch die systemeinterne Artikelnummer oder die europäische Artikelnummer (EAN).
+Jedoch gehört zur Bezeichnung auch die systeminterne Artikelnummer oder die europäische Artikelnummer (EAN).
 Kunden aus ganz Europa können dann über die EAN das Produkt auch auf Ihrer Seite finden.
 
 
@@ -52,10 +55,10 @@ Kunden aus ganz Europa können dann über die EAN das Produkt auch auf Ihrer Sei
 
 
 Unter Artikelpreis können sie einen absoluten Betrag eingeben.
-Das System interpretiert das immer als Euro und errechnet basierend darauf die anderen Währungen für Ihr Shop.
+Das System interpretiert das immer als Euro und errechnet basierend darauf die anderen Währungen für Ihren Shop.
 
 
-Natürlich haben Sie noch viel mehr Optionen, die jedoch unseren Erst-Benutzungs Beitrag sprengen würde. Staffelpreis, Versandkosten, Konfigurierbare Artikel, Meterware, Kiloware nur um einige zu nennen.
+Natürlich haben Sie noch viel mehr Optionen, die jedoch unseren Erst-Benutzungs Beitrag sprengen würden. Staffelpreis, Versandkosten, Konfigurierbare Artikel, Meterware, Kiloware nur um einige zu nennen.
 
 
 ---

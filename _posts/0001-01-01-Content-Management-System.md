@@ -22,6 +22,10 @@ Ein ansprechendes Design ist mit dem Content Management System realisierbar. Res
 ## Einrichtung
 
 
+Das Content Management System befindet sich im Hauptmenü unter **CMS > CMS**
+Folgende Schritte sind nötig, um eine neue Seite zu erstellen:
+
+
 1. Klicken auf “Neu”
 2. Titel eingeben (öffentlich sichtbar)
 3. Editor per Dropdown auswählen (BlockGrid oder Texteditor)

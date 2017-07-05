@@ -10,8 +10,8 @@ permalink: /erstbenutzung/:title
 {:toc}
 
 
-Um einen Blog-Beitrag erstellen zu können, muss zuvor unter Katalog -> Kategorien eine Kategorie für die Blogartikel angelegt werden, z. B. die Kategorie “Blog”
-Anschließend unter CMS -> CMS auf NEU klicken.
+Um einen Blog-Beitrag erstellen zu können, muss zuvor im Hauptmenü unter **Katalog -> Kategorien** eine Kategorie für die Blogartikel angelegt werden, z. B. die Kategorie “Blog”
+Anschließend im Hauptmenü unter **CMS -> CMS** auf NEU klicken.
 
 
 ## Eigenschaften

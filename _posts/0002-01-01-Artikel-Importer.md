@@ -10,7 +10,7 @@ permalink: /multichannel/:title
 {:toc}
 
 
-Über den Artikelimporter können große Artikelmengen über eine CSV Datei in den Katalog eingespeist werden. Bevor eine Datei hochgeladen werden kann, muss ein Importprofil angelegt werden.
+Über den Artikelimporter können große Artikelmengen über eine CSV Datei in den Katalog eingespeist werden. Zu finden ist er im Hauptmenü unter **Multichannel > Artikel Importer** Bevor eine Datei hochgeladen werden kann, muss unter **Multichannel > Artikel Importprofile** ein Importprofil angelegt werden.
 
 
 Bitte beachten: Kategorien, Hersteller, Bestellungen und Kunden können ggf mit Artikeln verknüpft, jedoch nicht mit allen Facetten importiert werden.

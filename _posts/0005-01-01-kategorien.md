@@ -20,7 +20,7 @@ Beispiel: *Eine Frauen Handtasche könnte man unter den Kategorien der Handtasch
 ## Kategorien Übersicht
 
 
-Eine Übersicht aller Kategorien die im System eingetragen sind.
+Eine Übersicht aller Kategorien die im System eingetragen sind, findet sich im Hauptmenü unter **Katalog > Kategorien**
 
 
 Hier werden vorhandene Kategorien editiert oder neu erstellt, aktiv/inaktiv gesetzt und gelöscht.
@@ -114,7 +114,7 @@ Die Kategorie T-Shirts muss, wenn man diese sowohl für Frauen als auch Männer 
 ## Design
 
 
-Hier werden Optionen zum ändern des Layouts der Kategorie ansicht
+Hier befinden sich Optionen zum Ändern des Layouts der Kategorieansicht
 
 
 ### Slider von Blogeinträgen anzeigen 
@@ -176,10 +176,11 @@ Konfiguriert werden können die URL und die Metadaten.
 ## Artikel
 
 
-Hier werden die Artikel angezeigt, die über den Artikeleditor mit der Kategorie verknüpft wurden. 
+Hier werden die Artikel angezeigt, die über den Artikeleditor mit der Kategorie verknüpft wurden. Ein Klick auf “Ist verknüpft” öffnet die Filteroptionen. Dort kann ausgewählt werden, welche Artikel angezeigt werden sollen. 
+Klickt man auf “Nicht zugewiesen” oder “Alle” werden die entsprechenden Artikel angezeigt und können der Kategorie mittels Häkchen und dem obligatorischen Klick auf Übernehmen zugewiesen werden. In der letzten Spalte “Position” kann eine Sortierung eingerichtet werden. Die Artikel werden dann in der Ansicht entsprechend der Nummerierung dargestellt. Artikel 1 als erstes, Artikel 2 als zweites usw.
 
 
-Die Artikel können auch im Artikeleditor verknüpft werden. 
+Artikel können auch im **Artikeleditor** mit den Kategorien verknüpft werden. Dies erfolgt über den Menüpunkt “Kategorien”. Dort können die entsprechenden Kategorien ausgewählt werden, zu denen der Artikel hinzugefügt werden soll.
 
 
 

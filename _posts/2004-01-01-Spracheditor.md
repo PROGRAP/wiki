@@ -10,6 +10,7 @@ permalink: /cms/:title
 {:toc}
 
 
+Der Spracheditor befindet sich im Hauptmenü unter **CMS > Spracheditor**
 
 
 Einige Einstellungen die nicht unter CMS editiert werden können, können im Spracheditor bearbeitet werden. Darunter sind einige Buttons, die im Shop vorkommen.

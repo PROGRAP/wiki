@@ -12,7 +12,7 @@ permalink: /katalog/:title
 
 
 
-Über Hersteller wird eine Übersicht aufgerufen. Diese listet alle Hersteller im System.
+Über das Hauptmenü **Katalog > Hersteller** wird eine Übersicht aufgerufen. Diese listet alle Hersteller im System.
 
 
 Über *Neu* werden neue Hersteller hinzugefügt und über das Stift-Symbol der Einträge werden diese editiert.

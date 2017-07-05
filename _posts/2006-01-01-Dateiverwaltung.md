@@ -12,7 +12,7 @@ permalink: /cms/:title
 
 
 
-In der Dateiverwaltung sind alle Dateien, welche sich im Shop befinden, zu finden. Sie können verwaltet, ersetzt oder ergänzt werden. 
+In der Dateiverwaltung unter **CMS > Dateiverwaltung** sind alle Dateien, welche sich im Shop befinden, zu finden. Sie können verwaltet, ersetzt oder ergänzt werden. 
 
 
 ## Übersicht

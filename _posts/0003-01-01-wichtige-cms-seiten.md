@@ -10,7 +10,7 @@ permalink: /cms/:title
 {:toc}
 
 
-Bevor die volle Funktionalität des Online-Shops genutzt werden kann, müssen folgende CMS-Seiten editiert werden.
+Bevor die volle Funktionalität des Online-Shops genutzt werden kann, müssen folgende CMS-Seiten editiert werden. Das Content Management System befindet sich im Hauptmenü unter **CMS > CMS**
 
 
 ## Seiten

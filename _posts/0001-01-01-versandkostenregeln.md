@@ -16,10 +16,8 @@ Die Versandkostenreglung berechnet nach denen von Ihnen gewählten Bedingungen d
 ## Versandregelübersicht
 
 
-In der Übersicht sehen Sie alle bereits verfügbaren Regeln und sehen ob diese aktiv/inaktiv sind.
+In der Übersicht im Hauptmenü unter **Zahlung und Versand > Versandkostenregelung** sehen Sie alle bereits verfügbaren Regeln und sehen ob diese aktiv/inaktiv sind.
 Ein Klick auf das Symbol der Hand wechselt den Status.
-
-
 Über den Stift können Sie die Regel editieren und über den Mülleimer löschen.
 
 
@@ -30,7 +28,7 @@ Hier editieren oder erstellen Sie neue Versandkostenregelungen.
 Damit Versandkostenregeln überhaupt greifen müssen diese mit Benutzergruppen, Versandarten und Länder gekoppelt werden.
 
 
-***Vergessen Sie nicht zu speichern!***
+***Nicht vergessen zu speichern!***
 
 
 ## Allgemein
@@ -46,32 +44,32 @@ Dies können Sie auch später in der Versandregelübersicht machen.
 ## Regeln
 
 
-Hier stellen Sie ein wann diese Regel greift und wie Sie auf den Warenkorb gerechnet wird.
+Hier stellen Sie ein, wann diese Regel greift und wie sie auf den Warenkorb gerechnet wird.
 
 
 ### Bedingung
 
 
-Die Bedingung gibt die Einheit an die bei der Berechnung betrachtet wird.
+Die Bedingung gibt die Einheit an, die bei der Berechnung betrachtet wird.
 
 
 ### >= und <=
 
 
-Das Symbol***(>=)*** steht für den Wert der erreicht werden muss damit die Regel greift.
-Das andere Symbol***(<=)*** steht für den Wert der nicht überschritten werden darf damit die Regel noch gilt.
+Das Symbol ***>=*** (größer gleich) steht für den Wert der erreicht werden muss damit die Regel greift.
+Das andere Symbol*** <= *** (kleiner gleich) steht für den Wert der nicht überschritten werden darf damit die Regel noch gilt.
 
 
 ### Preisaufschlag/-abschlag und Typ
 
 
 Geben Sie hier den absoluten oder den prozentualen Wert ein.
-Danach müssen die noch dem System sagen ob er den Wert als Prozentzahl oder Währung berechnen soll.
+Danach müssen Sie noch dem System sagen ob er den Wert als Prozentzahl oder Währung berechnen soll.
 
 
-|ABS| ---=--- | absoluten Wert|
+|ABS| = | absoluter Wert|
 |                                      |
-|perc| ---=--- | Prozentwert     |  
+|perc| = | Prozentwert     |  
 |||
 
 
@@ -102,7 +100,7 @@ Bei aktivem Regler wird, wenn diese Regel greift, ***keine*** weitere Regel zur 
 ## Design
 
 
-Hier stellen Sie unter anderen ein, von wann bis wann die Regel greift.
+Hier stellen Sie unter anderem ein, von wann bis wann die Regel greift.
 
 
 ### Aktiv von/Aktiv bis
@@ -134,7 +132,7 @@ Um ein bestimmtes Land auszuwählen geben Sie den Namen im Suchfeld für Titel e
 Sie können aber Auch eine Liste mit allen Länder anzeigen lassen oder nur mit Ländern die zugewiesen/nicht zugewiesen sind. Dafür wählen Sie einfach das Kriterium im Suchfeld ganz links aus.
 
 
-Setzen Sie Häkchen für Länder die Sie verknüpfen wollen.
+Setzen Sie Häkchen für Länder, die Sie verknüpfen wollen.
 
 
 **Vergessen Sie nicht zu Übernehmen!**
@@ -159,7 +157,7 @@ Die Auswahl verhält sich ähnlich wie bei den Ländern.
 
 
 Hier können Sie einzelne Benutzer für die Versandkostenregel bestimmen
-Und auch hier wählen Sie nach dem Prinzip der [Länder].
+Und auch hier wählen Sie nach dem Prinzip der Länder.
 
 
 ---
@@ -175,8 +173,3 @@ Auch hier wird wieder unsere Auswahlliste benutzt wie bei Länder/Gruppen/Benutz
 
 
 ---
-
-
-
-
-[Länder]: #lnder

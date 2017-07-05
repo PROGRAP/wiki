@@ -12,7 +12,7 @@ permalink: /cms/:title
 
 
 
-Im Stylesheet Editor können Layoutanpassungen mithilfe von CSS vorgenommen werden. Mit der Nutzung des Editors wird zugestimmt, dass im Falle von Fehlern im Layout kein support von Seiten der zmb GmbH erwartet werden kann!
+Im Hauptmenü unter **CMS > Stylesheet Editor** können Layoutanpassungen mithilfe von CSS vorgenommen werden. Mit der Nutzung des Editors wird zugestimmt, dass im Falle von Fehlern im Layout kein Support von Seiten der zmb GmbH erwartet werden kann!
 
 
 

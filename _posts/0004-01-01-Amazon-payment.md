@@ -35,7 +35,7 @@ Weitere Informationen und Hilfestellungen zur Registration:
 
 
 ### Konfigurieren der Amazon Schnittstelle im Core:
-Amazon payment befindet sich unter:
+Amazon Payment befindet sich unter:
 
 
 1. Zahlung und Versand

@@ -12,4 +12,4 @@ permalink: /bestellungen/:title
 
 
 
-Wenn die Option Preisvorschläge für die Kunden im Frontend aktiviert ist, kann man hier die eingegangenen Preisanfragen sehen und bearbeiten.
+Wenn die Option Preisvorschläge für die Kunden im Frontend aktiviert ist, kann man im Hauptmenü unter **Bestellungen > Preisvorschläge** die eingegangenen Preisanfragen sehen und bearbeiten.

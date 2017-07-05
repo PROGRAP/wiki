@@ -10,7 +10,7 @@ permalink: /katalog/:title
 {:toc .disabled}
 
 
-Unter Attribute werden Merkmale der Artikel eingetragen.
+Im Hauptmenü unter **Katalog > Attribute** werden Merkmale der Artikel eingetragen.
 
 
 In der Übersicht im Shop kann man dann Artikel anhand der Attribute auswählen.

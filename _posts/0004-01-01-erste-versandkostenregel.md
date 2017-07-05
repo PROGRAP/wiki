@@ -21,7 +21,7 @@ Dabei bestimmt die Versandkostenreglung die Bedingung damit eine bestimmte Versa
 ## Versandkostenreglungen
 
 
-Unter Zahlung und Versand => Versandkostenreglungen ist die Liste mit allen Versandkostenreglungen aufgeführt.
+Im Hauptmenü unter **Zahlung und Versand => Versandkostenreglungen** ist die Liste mit allen Versandkostenreglungen aufgeführt.
 Da wir eine Neue anlegen wollen müssen wir oben auf Neu klicken.
 Dann kommen wir in den Versandkostenreglungeneditor.
 
