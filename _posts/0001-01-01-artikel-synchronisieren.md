@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Artikel Synchronisieren
-tags: weclapp,
+tags: weclapp
 permalink: /weclapp/:title
 ---
 
