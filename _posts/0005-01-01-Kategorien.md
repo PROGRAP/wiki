@@ -1,119 +1,197 @@
 ---
 layout: post
-title: Kategorien konfigurieren
-tags: gestaltung
-permalink: /gestaltung/:title
+title: Kategorien
+tags: katalog
+permalink: /katalog/:title
+---
++ Index
+{:toc .disabled}
+
+
+
+
+Ein Artikel gehört zu einer oder mehreren Kategorien. Die Kategorien teilen die Artikel in 
+Gruppen mit selben Eigenschaften.
+
+
+Beispiel: *Eine Frauen Handtasche könnte man unter den Kategorien der Handtaschen finden als auch unter Frauen.*
+
+
+## Kategorien Übersicht
+
+
+Eine Übersicht aller Kategorien die im System eingetragen sind, findet sich im Hauptmenü unter **Katalog > Kategorien**
+
+
+Hier werden vorhandene Kategorien editiert oder neu erstellt, aktiv/inaktiv gesetzt und gelöscht.
+
+
+### Aktivieren/Deaktivieren
+
+
+Das Daumenhoch-/Daumenrunter-Symbol zeigt ob die Kategorie aktiv/inaktiv ist.
+
+
+### Editieren
+
+
+Der Stift führt sie zum “Artikeleditor” wo Sie den Artikel editieren können.
+
+
+### Löschen 
+
+
+Wenn sie einen Artikel löschen wollen drücken Sie auf den Mülleimer und bestätigen im neuen Fenster, dass Sie wirklich den Artikel löschen wollen.
+
+
 ---
 
 
-+ Hier wird eine Inhaltsangabe erstellt
-{:toc}
+# Kategorien bearbeiten
 
 
-Unter **Einstellungen >> Visuell >> Kategorien Konfigurieren** lassen sich Einstellungen für die Kategorie-Ansicht vornehmen.
+Der Kategorien Editor editiert und erstellt, wenn *NEU* ausgewählt wurde, Kategorien.
 
 
-![Kategorien]
+## Allgemein
 
 
-## Einstellungen
+### Aktiv Regler
 
 
-### Article Listing Page Settings
+Regelt ob die Kategorie aktiv/inaktiv ist.
 
 
-![Listing-Page]
+Hinweis: *Dies kann auch über die Übersicht erfolgen.*
 
 
-Hier lässt sich einstellen, wieviel Elemente in der Seiten-Navigation der Kategorie-Ansicht angezeigt werden sollen: oben, unten und für mobile Geräte oben. So sieht das dann aus:
+### Verstecken
 
 
-![Elements]
+Eine versteckte Kategorie wird im Frontend nicht angezeigt.
 
 
+### Titel/Kurz-/Langbeschreibung
 
 
-### ZmbArticleListLayer
+Der gewünschte Titel/Kurz-/Langbeschreibung eintragen.
 
 
-Die Vorschau-Ansicht, die angezeigt wird, wenn der Kunde mit seiner Maus über einem Artikel verweilt, kann hier konfiguriert werden.
+### Sortierreihenfolge
 
 
-Es kann ausgewählt werden, ob das Bild vom Hauptprodukt zusammen mit den Variantenbildern angezeigt werden soll. Außerdem kann entschieden werden, ob Varianten-Bilder angezeigt werden sollen und ob eine kurze Beschreibung angezeigt werden soll.
+Die Sortierreihenfolge gibt die Position der Kategorie an.
 
 
-Es lässt sich der Index des Bildes angeben, das ausgewählt werden soll. Wird hier nichts eingegeben, wird das Feature dadurch deaktiviert. 
+Die gewählte Zahl geht von 0 bis 9999, dabei ist 0 die erste und 9999 die letzte Position.
 
 
-Auf der rechten Seite befindet sich die Option “Varianten Gruppen Index”, die angibt, in welcher Gruppierung die Variantenbilder ausgegeben werden sollen. Mittels Schalter lässt sich diese Gruppierung aktivieren und deaktivieren. Der Varianten Gruppen Index wird auch benötigt, um die Variantenauswahl zu gruppieren.
+### Oberes/Unteres CMS
 
 
-Zum Schluss wird eine Zeitangabe benötigt: Mit wieviel Millisekunden Verzögerung soll das Pop-Up angezeigt werden? 
+Das Layout der Kategorie kann durch Snippets bestimmt werden. Hier kann ausgewählt werden, welche über und unter dem Kategorieninhalt angezeigt werden sollen.
 
 
-![Popup]
+---
 
 
-So sieht die Vorschau-Ansicht aus.
+## Unterkategorien 
 
 
-### ZmbArticleLists
+In der Kategorie-Hierarchie ist eine neue Kategorie immer Teil der Hauptkategorien.
 
 
-Hier können Einstellungen vorgenommen werden, für den Fall dass die Kategorieansicht nach Herstellern aufgeschlüsselt wird. 
+Bei den Unterkategorien wird die Kategorie einer anderen untergeordnet.
 
 
-Zunächst einmal kann man das Feature aktivieren und deaktivieren. Anschließend lässt sich auswählen, ob die Kurzbeschreibung des Artikels angezeigt werden soll. Die URL kann deaktiviert werden für Hersteller, die keine Produkte enthalten. 
+Dabei kann eine Kategorie nur Unterkategorie ***einer*** Kategorie sein.
+Die Kategorie T-Shirts muss, wenn man diese sowohl für Frauen als auch Männer haben will, zweimal angelegt werden.
 
 
-Außerdem kann ausgewählt werden, ob Bestseller Artikel oben angezeigt werden sollen und ob leere Hersteller angezeigt werden sollen oder nicht.
+---
 
 
-Schließlich lässt sich noch angeben, wieviele Items in einer Reihe angezeigt und wieviele Kategorie Artikel Bestseller in einer Box angezeigt werden sollen.
+## Design
 
 
-### ZmbHyperzoom
+Hier befinden sich Optionen zum Ändern des Layouts der Kategorieansicht
 
 
-Dieses Feature aktiviert in der Artikel-Detailansicht die Option sich eine sehr starke Vergrößerung des Artikelbilds anzusehen. Funktioniert nur, wenn das Bild in einer entsprechenden Auflösung vorhanden ist.
+### Slider von Blogeinträgen anzeigen 
 
 
-### ZmbPricePercentReduce
+Zeigt Blogeinträge in einem Slider an.
 
 
-Mit diesem Feature wird neben den Artikelbildern angezeigt, um wieviel Prozent diese reduziert sind. Es lässt sich hier an- und ausschalten.
+### Absteigende Reihenfolge
 
 
-### ZmbShowCategoryTree
+Invertiert die Sortierreihenfolge der Artikel in der derzeitigen Kategorie.
 
 
-Der Kategorienbaum wird standardmäßig auf der linken Seite angezeigt. Hier lässt sich diese Anzeige aktivieren und deaktivieren. Außerdem kann man einstellen, ob Unterkategorien angezeigt werden sollen, ob der Kategorienbaum standardmäßig angezeigt werden soll und ob die aktive Kategorie immer oben angezeigt werden soll.
+### Ordner
 
 
-![Katbaum]
+Ordner aus denen die CMS Dateien für den Inhalt und das Menü gezogen werden.
 
 
-### Einstellungen für die Artikel Übersicht
+### Inhalt
 
 
-Hier finden sich die Einstellungen für die Darstellung der einzelnen Artikel in der Kategorien-Übersicht. Hier lässt sich einstellen, ob Angaben zur Verfügbarkeit des Artikels, zum Hersteller und zu den Varianten angezeigt werden sollen. 
+Inhaltstyp, Vorlage und Schnellsortierung auswählen.
 
 
-Außerdem kann man die Artikel-Schnellansicht aktivieren und zwischen PopUp und Inline Dropdown auswählen. Es lässt sich desweiteren einstellen, wie die Schnellansicht aufgerufen werden soll, durch einen Klick auf einen Button oder direkt über den Artikel. Zu klären ist außerdem, was geschehen soll, wenn der Kunde den Artikel aus der Schnellansicht zum Warenkorb hinzugefügt hat. Soll eine Weiterleitung zur Artikeldetailseite erfolgen oder soll der Kunde auf der Kategorienseite bleiben?
+### Hauptmenü
 
 
-![Dropdown]
+Hier kann die Darstellung im Hauptmenü bearbeitet werden.
 
 
-So sieht die Schnellansicht als Inline Dropdown aus.
 
 
-Die Kategorienbeschreibung lässt sich zudem in der Sidebar ein- oder ausblenden. 
+---
 
 
-[Kategorien]: /img/Kategorien.png
-[Listing-Page]: /img/Listing-Page.png
-[Elements]: /img/Elements.png
-[Popup]: /img/Popup.png
-[Katbaum]: /img/Katbaum.png
-[Dropdown]: /img/Dropdown.png
+## Bilder
+
+
+Bilder für eine Kategorie werden hier eingefügt, z. B. Thumbnail, Icon und Aktionsicon.
+
+
+---
+
+
+## SEO 
+
+
+Bei SEO gibt es einmal die SEO Grundeinstellungen und die Erweiterten-SEO Einstellungen.
+Grundeinstellungen sind Seo Titel Tag und Externer Link.
+Die Erweiterten-SEO Einstellungen können nur nach der Bestätigung und Speicherung der schon vorgenommenen Änderung erreicht werden.
+Konfiguriert werden können die URL und die Metadaten.
+
+
+---
+
+
+## Artikel
+
+
+Hier werden die Artikel angezeigt, die über den Artikeleditor mit der Kategorie verknüpft wurden. Ein Klick auf “Ist verknüpft” öffnet die Filteroptionen. Dort kann ausgewählt werden, welche Artikel angezeigt werden sollen. 
+Klickt man auf “Nicht zugewiesen” oder “Alle” werden die entsprechenden Artikel angezeigt und können der Kategorie mittels Häkchen und dem obligatorischen Klick auf Übernehmen zugewiesen werden. In der letzten Spalte “Position” kann eine Sortierung eingerichtet werden. Die Artikel werden dann in der Ansicht entsprechend der Nummerierung dargestellt. Artikel 1 als erstes, Artikel 2 als zweites usw.
+
+
+Artikel können auch im **Artikeleditor** mit den Kategorien verknüpft werden. Dies erfolgt über den Menüpunkt “Kategorien”. Dort können die entsprechenden Kategorien ausgewählt werden, zu denen der Artikel hinzugefügt werden soll.
+
+
+
+
+---
+
+
+## Attributeditor  
+
+
+Hier können die Kategorien mit Attributen verknüpft werden. Außerdem werden die Attribute angezeigt, die über den Attributeditor mit der Kategorie verknüpft wurden.
+
+
+---
